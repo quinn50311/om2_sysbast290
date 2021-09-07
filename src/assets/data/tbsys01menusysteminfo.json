@@ -1,0 +1,294 @@
+{
+  "row": [
+    {
+      "SYSTEMID": "fop",
+      "LOCATIONNO": "1",
+      "MODULENAMEEN": "期貨帳務後台管理系統",
+      "MODULENAMETW": "期貨帳務後台管理系統",
+      "_id": "1",
+      "PROGRAMHEAD": [
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopbas",
+          "LOCATIONNO": "1",
+          "PROGRAMGROUPNAMEEN": "基本資料維護(en)",
+          "PROGRAMGROUPNAMETW": "基本資料維護",
+          "_id": "1"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopcus",
+          "LOCATIONNO": "2",
+          "PROGRAMGROUPNAMEEN": "客戶管理作業(en)",
+          "PROGRAMGROUPNAMETW": "客戶管理作業",
+          "_id": "2"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopbnk",
+          "LOCATIONNO": "3",
+          "PROGRAMGROUPNAMEEN": "銀行管理作業(en)",
+          "PROGRAMGROUPNAMETW": "銀行管理作業",
+          "_id": "3"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopomn",
+          "LOCATIONNO": "4",
+          "PROGRAMGROUPNAMEEN": "綜合帳戶作業(en)",
+          "PROGRAMGROUPNAMETW": "綜合帳戶作業",
+          "_id": "4"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopaeo",
+          "LOCATIONNO": "5",
+          "PROGRAMGROUPNAMEEN": "營業員管理(en)",
+          "PROGRAMGROUPNAMETW": "營業員管理",
+          "_id": "5"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "foptrd",
+          "LOCATIONNO": "6",
+          "PROGRAMGROUPNAMEEN": "交易管理(en)",
+          "PROGRAMGROUPNAMETW": "交易管理",
+          "_id": "6"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopmos",
+          "LOCATIONNO": "7",
+          "PROGRAMGROUPNAMEEN": "盤中異動(en)",
+          "PROGRAMGROUPNAMETW": "盤中異動",
+          "_id": "7"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopinq",
+          "LOCATIONNO": "8",
+          "PROGRAMGROUPNAMEEN": "盤後查詢作業(en)",
+          "PROGRAMGROUPNAMETW": "盤後查詢作業",
+          "_id": "8"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopmts",
+          "LOCATIONNO": "9",
+          "PROGRAMGROUPNAMEEN": "MTS作業(en)",
+          "PROGRAMGROUPNAMETW": "MTS作業",
+          "_id": "9"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopcfm",
+          "LOCATIONNO": "10",
+          "PROGRAMGROUPNAMEEN": "代結算作業(en)",
+          "PROGRAMGROUPNAMETW": "代結算作業",
+          "_id": "10"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopbrk",
+          "LOCATIONNO": "11",
+          "PROGRAMGROUPNAMEEN": "上手管理作業(en)",
+          "PROGRAMGROUPNAMETW": "上手管理作業",
+          "_id": "11"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "foptns",
+          "LOCATIONNO": "12",
+          "PROGRAMGROUPNAMEEN": "RTMC,轉檔相關作業(en)",
+          "PROGRAMGROUPNAMETW": "RTMC,轉檔相關作業",
+          "_id": "12"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "foprpt",
+          "LOCATIONNO": "13",
+          "PROGRAMGROUPNAMEEN": "報表查詢作業(en)",
+          "PROGRAMGROUPNAMETW": "報表查詢作業",
+          "_id": "13"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopset",
+          "LOCATIONNO": "14",
+          "PROGRAMGROUPNAMEEN": "到期交割作業(en)",
+          "PROGRAMGROUPNAMETW": "到期交割作業",
+          "_id": "14"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopqfi",
+          "LOCATIONNO": "15",
+          "PROGRAMGROUPNAMEEN": "台盤外資作業(en)",
+          "PROGRAMGROUPNAMETW": "台盤外資作業",
+          "_id": "15"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopspn",
+          "LOCATIONNO": "16",
+          "PROGRAMGROUPNAMEEN": "台盤SPAN(en)",
+          "PROGRAMGROUPNAMETW": "台盤SPAN",
+          "_id": "16"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "foppos",
+          "LOCATIONNO": "17",
+          "PROGRAMGROUPNAMEEN": "核帳作業(en)",
+          "PROGRAMGROUPNAMETW": "核帳作業",
+          "_id": "17"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopmtn",
+          "LOCATIONNO": "18",
+          "PROGRAMGROUPNAMEEN": "月結作業(en)",
+          "PROGRAMGROUPNAMETW": "月結作業",
+          "_id": "18"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopdxg",
+          "LOCATIONNO": "19",
+          "PROGRAMGROUPNAMEEN": "界面傳輸作業(en)",
+          "PROGRAMGROUPNAMETW": "界面傳輸作業",
+          "_id": "19"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopint",
+          "LOCATIONNO": "20",
+          "PROGRAMGROUPNAMEEN": "利息作業(en)",
+          "PROGRAMGROUPNAMETW": "利息作業",
+          "_id": "20"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopbnd",
+          "LOCATIONNO": "21",
+          "PROGRAMGROUPNAMEEN": "公債作業(en)",
+          "PROGRAMGROUPNAMETW": "公債作業",
+          "_id": "21"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopstk",
+          "LOCATIONNO": "22",
+          "PROGRAMGROUPNAMEEN": "有價證券抵繳(en)",
+          "PROGRAMGROUPNAMETW": "有價證券抵繳",
+          "_id": "22"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "fopsys",
+          "LOCATIONNO": "23",
+          "PROGRAMGROUPNAMEEN": "系統管理(en)",
+          "PROGRAMGROUPNAMETW": "系統管理",
+          "_id": "23"
+        },
+        {
+          "SYSTEMID": "fop",
+          "PROGRAMGROUPID": "foptmp",
+          "LOCATIONNO": "24",
+          "PROGRAMGROUPNAMEEN": "開發測試(en)",
+          "PROGRAMGROUPNAMETW": "開發測試",
+          "_id": "24"
+        }
+      ]
+    },
+    {
+      "SYSTEMID": "sys",
+      "LOCATIONNO": "2",
+      "MODULENAMEEN": "SYS",
+      "MODULENAMETW": "系統資料",
+      "_id": "2",
+      "PROGRAMHEAD": [
+        {
+          "SYSTEMID": "sys",
+          "PROGRAMGROUPID": "sysstm",
+          "LOCATIONNO": "1",
+          "PROGRAMGROUPNAMEEN": "BasicData",
+          "PROGRAMGROUPNAMETW": "系統基本維護",
+          "_id": "25"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysbas",
+            "LOCATIONNO": "2",
+            "PROGRAMGROUPNAMEEN": "BasicData",
+            "PROGRAMGROUPNAMETW": "基本資料維護",
+            "_id": "26"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "syssec",
+            "LOCATIONNO": "3",
+            "PROGRAMGROUPNAMEEN": "Security",
+            "PROGRAMGROUPNAMETW": "系統安控維護",
+            "_id": "27"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysapv2",
+            "LOCATIONNO": "4",
+            "PROGRAMGROUPNAMEEN": "ApprovalBeta",
+            "PROGRAMGROUPNAMETW": "覆核管理二代",
+            "_id": "28"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysroc",
+            "LOCATIONNO": "5",
+            "PROGRAMGROUPNAMEEN": "ReportOutputCenter",
+            "PROGRAMGROUPNAMETW": "報表輸出中心",
+            "_id": "29"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysutl",
+            "LOCATIONNO": "6",
+            "PROGRAMGROUPNAMEEN": "Tool",
+            "PROGRAMGROUPNAMETW": "系統管理工具",
+            "_id": "30"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysdxg",
+            "LOCATIONNO": "7",
+            "PROGRAMGROUPNAMEEN": "DataExchange",
+            "PROGRAMGROUPNAMETW": "資料交換中心",
+            "_id": "31"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "syswsc",
+            "LOCATIONNO": "8",
+            "PROGRAMGROUPNAMEEN": "JobFlow",
+            "PROGRAMGROUPNAMETW": "工作排程中心",
+            "_id": "32"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysmnt",
+            "LOCATIONNO": "9",
+            "PROGRAMGROUPNAMEEN": "Monitor",
+            "PROGRAMGROUPNAMETW": "系統監控管理",
+            "_id": "33"
+        },
+        {
+            "SYSTEMID": "sys",
+            "PROGRAMGROUPID": "sysitr",
+            "LOCATIONNO": "10",
+            "PROGRAMGROUPNAMEEN": "IT Report",
+            "PROGRAMGROUPNAMETW": "IT報表",
+            "_id": "34"
+        }
+      ]
+    }
+  ]
+}

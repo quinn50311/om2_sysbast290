@@ -1,0 +1,137 @@
+{
+    "queryField": [
+        {
+            "name": "systemid",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統資料代碼"
+                },
+                {
+                    "title": "en_US",
+                    "text": "System ID"
+                }
+            ]
+        },
+        {
+            "name": "productcode",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "產品代碼"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Product Code"
+                }
+            ]
+        }
+    ],
+    "tableField": [
+        {
+            "name": "systemid",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統資料代碼",
+                    "columnWidth": "80"
+                },
+                {
+                    "title": "en_US",
+                    "text": "System ID",
+                    "columnWidth": "105"
+                }
+            ]
+        },
+        {
+            "name": "productcode",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "產品代碼",
+                    "columnWidth": "80"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Product Code",
+                    "columnWidth": "125"
+                }
+            ]
+        },
+        {
+            "name": "parmgroup",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數群組",
+                    "columnWidth": "100"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Group",
+                    "columnWidth": "115"
+                }
+            ]
+        },
+        {
+            "name": "parmname",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數名稱",
+                    "columnWidth": "140"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Name",
+                    "columnWidth": "140"
+                }
+            ]
+        },
+        {
+            "name": "parmdesc",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數描述",
+                    "columnWidth": "180"
+                },
+                {
+                    "_title": "en_US",
+                    "__text": "Parm Desc",
+                    "_columnWidth": "180"
+                }
+            ]
+        },
+        {
+            "name": "parmvalue",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數值",
+                    "columnWidth": "280"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Value",
+                    "columnWidth": "280"
+                }
+            ]
+        },
+        {
+            "name": "lastupdate",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "修改時間",
+                    "columnWidth": "130"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Last Update",
+                    "columnWidth": "130"
+                }
+            ]
+        }
+    ]
+}

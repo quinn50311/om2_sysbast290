@@ -1,0 +1,2596 @@
+{
+    "row": [
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr343",
+            "LOCATIONNO": "343",
+            "_id": "1"
+        },
+        {
+            "PROGRAMGROUPID": "foptmp",
+            "PROGRAMID": "foptest999",
+            "LOCATIONNO": "1",
+            "_id": "2"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "sysbast290",
+            "LOCATIONNO": "1",
+            "_id": "3"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "syspmst210",
+            "LOCATIONNO": "2",
+            "_id": "4"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "sysprmt210",
+            "LOCATIONNO": "3",
+            "_id": "5"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "sysprmt220",
+            "LOCATIONNO": "4",
+            "_id": "6"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "syssvmg210",
+            "LOCATIONNO": "5",
+            "_id": "7"
+        },
+        {
+            "PROGRAMGROUPID": "sysstm",
+            "PROGRAMID": "fopbast821",
+            "LOCATIONNO": "6",
+            "_id": "8"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi120",
+            "LOCATIONNO": "120",
+            "_id": "9"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "fopbast280",
+            "LOCATIONNO": "280",
+            "_id": "10"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast285",
+            "LOCATIONNO": "285",
+            "_id": "11"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdp650",
+            "LOCATIONNO": "650",
+            "_id": "12"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdr601",
+            "LOCATIONNO": "600",
+            "_id": "13"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr325",
+            "LOCATIONNO": "325",
+            "_id": "14"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr340",
+            "LOCATIONNO": "340",
+            "_id": "15"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr326",
+            "LOCATIONNO": "326",
+            "_id": "16"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr327",
+            "LOCATIONNO": "327",
+            "_id": "17"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr329",
+            "LOCATIONNO": "329",
+            "_id": "18"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr463",
+            "LOCATIONNO": "463",
+            "_id": "19"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr464",
+            "LOCATIONNO": "464",
+            "_id": "20"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr342",
+            "LOCATIONNO": "342",
+            "_id": "21"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr341",
+            "LOCATIONNO": "341",
+            "_id": "22"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr032",
+            "LOCATIONNO": "32",
+            "_id": "23"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr324",
+            "LOCATIONNO": "324",
+            "_id": "24"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdr600",
+            "LOCATIONNO": "1",
+            "_id": "25"
+        },
+        {
+            "PROGRAMGROUPID": "fopfmos",
+            "PROGRAMID": "foptrdi840",
+            "LOCATIONNO": "40",
+            "_id": "26"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdp600",
+            "LOCATIONNO": "2",
+            "_id": "27"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdp610",
+            "LOCATIONNO": "3",
+            "_id": "28"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdp630",
+            "LOCATIONNO": "4",
+            "_id": "29"
+        },
+        {
+            "PROGRAMGROUPID": "fopset",
+            "PROGRAMID": "foptrdp640",
+            "LOCATIONNO": "5",
+            "_id": "30"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast525",
+            "LOCATIONNO": "525",
+            "_id": "31"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "fopbast820",
+            "LOCATIONNO": "1",
+            "_id": "32"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast210",
+            "LOCATIONNO": "2",
+            "_id": "33"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast261",
+            "LOCATIONNO": "3",
+            "_id": "34"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr331",
+            "LOCATIONNO": "331",
+            "_id": "35"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr332",
+            "LOCATIONNO": "332",
+            "_id": "36"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr333",
+            "LOCATIONNO": "333",
+            "_id": "37"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr334",
+            "LOCATIONNO": "334",
+            "_id": "38"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi130",
+            "LOCATIONNO": "130",
+            "_id": "39"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi140",
+            "LOCATIONNO": "140",
+            "_id": "40"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast280",
+            "LOCATIONNO": "4",
+            "_id": "41"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast230",
+            "LOCATIONNO": "5",
+            "_id": "42"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast320",
+            "LOCATIONNO": "6",
+            "_id": "43"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "syscsnt210",
+            "LOCATIONNO": "7",
+            "_id": "44"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysprmt240",
+            "LOCATIONNO": "8",
+            "_id": "45"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast270",
+            "LOCATIONNO": "9",
+            "_id": "46"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysmsgt010",
+            "LOCATIONNO": "10",
+            "_id": "47"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast250",
+            "LOCATIONNO": "11",
+            "_id": "48"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast251",
+            "LOCATIONNO": "12",
+            "_id": "49"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysssmt010",
+            "LOCATIONNO": "13",
+            "_id": "50"
+        },
+        {
+            "PROGRAMGROUPID": "sysbas",
+            "PROGRAMID": "sysbast330",
+            "LOCATIONNO": "14",
+            "_id": "51"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasi820",
+            "LOCATIONNO": "1",
+            "_id": "52"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopproc800",
+            "LOCATIONNO": "2",
+            "_id": "53"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasp800",
+            "LOCATIONNO": "3",
+            "_id": "54"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast810",
+            "LOCATIONNO": "4",
+            "_id": "55"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasr810",
+            "LOCATIONNO": "5",
+            "_id": "56"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasp810",
+            "LOCATIONNO": "6",
+            "_id": "57"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasi810",
+            "LOCATIONNO": "7",
+            "_id": "58"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast811",
+            "LOCATIONNO": "8",
+            "_id": "59"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast820",
+            "LOCATIONNO": "9",
+            "_id": "60"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasr820",
+            "LOCATIONNO": "10",
+            "_id": "61"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast825",
+            "LOCATIONNO": "11",
+            "_id": "62"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast826",
+            "LOCATIONNO": "12",
+            "_id": "63"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast827",
+            "LOCATIONNO": "13",
+            "_id": "64"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast830",
+            "LOCATIONNO": "14",
+            "_id": "65"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast840",
+            "LOCATIONNO": "15",
+            "_id": "66"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast845",
+            "LOCATIONNO": "16",
+            "_id": "67"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast850",
+            "LOCATIONNO": "17",
+            "_id": "68"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbasi850",
+            "LOCATIONNO": "18",
+            "_id": "69"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast851",
+            "LOCATIONNO": "19",
+            "_id": "70"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast880",
+            "LOCATIONNO": "20",
+            "_id": "71"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast881",
+            "LOCATIONNO": "21",
+            "_id": "72"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast890",
+            "LOCATIONNO": "22",
+            "_id": "73"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fopbast925",
+            "LOCATIONNO": "23",
+            "_id": "74"
+        },
+        {
+            "PROGRAMGROUPID": "fopsys",
+            "PROGRAMID": "fophelp010",
+            "LOCATIONNO": "24",
+            "_id": "75"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi110",
+            "LOCATIONNO": "110",
+            "_id": "76"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr323",
+            "LOCATIONNO": "323",
+            "_id": "77"
+        },
+        {
+            "PROGRAMGROUPID": "sysapv2",
+            "PROGRAMID": "sysapvt220",
+            "LOCATIONNO": "3",
+            "_id": "78"
+        },
+        {
+            "PROGRAMGROUPID": "sysapv2",
+            "PROGRAMID": "sysapvt230",
+            "LOCATIONNO": "4",
+            "_id": "79"
+        },
+        {
+            "PROGRAMGROUPID": "sysapv2",
+            "PROGRAMID": "sysapvt240",
+            "LOCATIONNO": "5",
+            "_id": "80"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct210",
+            "LOCATIONNO": "1",
+            "_id": "81"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct230",
+            "LOCATIONNO": "2",
+            "_id": "82"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct240",
+            "LOCATIONNO": "3",
+            "_id": "83"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct250",
+            "LOCATIONNO": "4",
+            "_id": "84"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct260",
+            "LOCATIONNO": "5",
+            "_id": "85"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct270",
+            "LOCATIONNO": "6",
+            "_id": "86"
+        },
+        {
+            "PROGRAMGROUPID": "sysroc",
+            "PROGRAMID": "sysroct280",
+            "LOCATIONNO": "7",
+            "_id": "87"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysutlt230",
+            "LOCATIONNO": "1",
+            "_id": "88"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysdvct010",
+            "LOCATIONNO": "2",
+            "_id": "89"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysbast340",
+            "LOCATIONNO": "3",
+            "_id": "90"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysutlt210",
+            "LOCATIONNO": "4",
+            "_id": "91"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysutlt220",
+            "LOCATIONNO": "5",
+            "_id": "92"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysrptt010",
+            "LOCATIONNO": "6",
+            "_id": "93"
+        },
+        {
+            "PROGRAMGROUPID": "sysutl",
+            "PROGRAMID": "sysdqmt010",
+            "LOCATIONNO": "7",
+            "_id": "94"
+        },
+        {
+            "PROGRAMGROUPID": "sysdxg",
+            "PROGRAMID": "sysdxgt210",
+            "LOCATIONNO": "1",
+            "_id": "95"
+        },
+        {
+            "PROGRAMGROUPID": "sysdxg",
+            "PROGRAMID": "sysdxgt220",
+            "LOCATIONNO": "2",
+            "_id": "96"
+        },
+        {
+            "PROGRAMGROUPID": "sysdxg",
+            "PROGRAMID": "sysdxgt060",
+            "LOCATIONNO": "3",
+            "_id": "97"
+        },
+        {
+            "PROGRAMGROUPID": "sysdxg",
+            "PROGRAMID": "sysdxgt050",
+            "LOCATIONNO": "4",
+            "_id": "98"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct200",
+            "LOCATIONNO": "1",
+            "_id": "99"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct210",
+            "LOCATIONNO": "2",
+            "_id": "100"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct220",
+            "LOCATIONNO": "3",
+            "_id": "101"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct030",
+            "LOCATIONNO": "4",
+            "_id": "102"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct240",
+            "LOCATIONNO": "5",
+            "_id": "103"
+        },
+        {
+            "PROGRAMGROUPID": "syswsc",
+            "PROGRAMID": "syswsct250",
+            "LOCATIONNO": "6",
+            "_id": "104"
+        },
+        {
+            "PROGRAMGROUPID": "sysmnt",
+            "PROGRAMID": "sysmntt010",
+            "LOCATIONNO": "1",
+            "_id": "105"
+        },
+        {
+            "PROGRAMGROUPID": "sysmnt",
+            "PROGRAMID": "sysmntt020",
+            "LOCATIONNO": "2",
+            "_id": "106"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syssecr010",
+            "LOCATIONNO": "1",
+            "_id": "107"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syssecr020",
+            "LOCATIONNO": "2",
+            "_id": "108"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syssecr030",
+            "LOCATIONNO": "3",
+            "_id": "109"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syssecr040",
+            "LOCATIONNO": "4",
+            "_id": "110"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "sysadtr010",
+            "LOCATIONNO": "5",
+            "_id": "111"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "sysadtr020",
+            "LOCATIONNO": "6",
+            "_id": "112"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syssecr050",
+            "LOCATIONNO": "7",
+            "_id": "113"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "sysmsgr060",
+            "LOCATIONNO": "8",
+            "_id": "114"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syslogr010",
+            "LOCATIONNO": "9",
+            "_id": "115"
+        },
+        {
+            "PROGRAMGROUPID": "sysitr",
+            "PROGRAMID": "syslogr020",
+            "LOCATIONNO": "10",
+            "_id": "116"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast010",
+            "LOCATIONNO": "1",
+            "_id": "117"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast020",
+            "LOCATIONNO": "2",
+            "_id": "118"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasp030",
+            "LOCATIONNO": "3",
+            "_id": "119"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast030",
+            "LOCATIONNO": "4",
+            "_id": "120"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast040",
+            "LOCATIONNO": "5",
+            "_id": "121"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast045",
+            "LOCATIONNO": "6",
+            "_id": "122"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast050",
+            "LOCATIONNO": "7",
+            "_id": "123"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast060",
+            "LOCATIONNO": "8",
+            "_id": "124"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast080",
+            "LOCATIONNO": "9",
+            "_id": "125"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast090",
+            "LOCATIONNO": "10",
+            "_id": "126"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast091",
+            "LOCATIONNO": "11",
+            "_id": "127"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast092",
+            "LOCATIONNO": "12",
+            "_id": "128"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast093",
+            "LOCATIONNO": "13",
+            "_id": "129"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast100",
+            "LOCATIONNO": "14",
+            "_id": "130"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast110",
+            "LOCATIONNO": "15",
+            "_id": "131"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasr120",
+            "LOCATIONNO": "16",
+            "_id": "132"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasp120",
+            "LOCATIONNO": "17",
+            "_id": "133"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast120",
+            "LOCATIONNO": "18",
+            "_id": "134"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast130",
+            "LOCATIONNO": "19",
+            "_id": "135"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast140",
+            "LOCATIONNO": "20",
+            "_id": "136"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasp140",
+            "LOCATIONNO": "21",
+            "_id": "137"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast150",
+            "LOCATIONNO": "22",
+            "_id": "138"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasp150",
+            "LOCATIONNO": "23",
+            "_id": "139"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast160",
+            "LOCATIONNO": "24",
+            "_id": "140"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast170",
+            "LOCATIONNO": "25",
+            "_id": "141"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast180",
+            "LOCATIONNO": "26",
+            "_id": "142"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast190",
+            "LOCATIONNO": "27",
+            "_id": "143"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast220",
+            "LOCATIONNO": "28",
+            "_id": "144"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast240",
+            "LOCATIONNO": "29",
+            "_id": "145"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast250",
+            "LOCATIONNO": "30",
+            "_id": "146"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast430",
+            "LOCATIONNO": "31",
+            "_id": "147"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast440",
+            "LOCATIONNO": "32",
+            "_id": "148"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast860",
+            "LOCATIONNO": "33",
+            "_id": "149"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast910",
+            "LOCATIONNO": "34",
+            "_id": "150"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbast920",
+            "LOCATIONNO": "35",
+            "_id": "151"
+        },
+        {
+            "PROGRAMGROUPID": "fopbas",
+            "PROGRAMID": "fopbasp199",
+            "LOCATIONNO": "36",
+            "_id": "152"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbasr510",
+            "LOCATIONNO": "1",
+            "_id": "153"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbasi510",
+            "LOCATIONNO": "2",
+            "_id": "154"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast510",
+            "LOCATIONNO": "3",
+            "_id": "155"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast520",
+            "LOCATIONNO": "4",
+            "_id": "156"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbasr520",
+            "LOCATIONNO": "5",
+            "_id": "157"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbasr530",
+            "LOCATIONNO": "6",
+            "_id": "158"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbasp530",
+            "LOCATIONNO": "7",
+            "_id": "159"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast530",
+            "LOCATIONNO": "8",
+            "_id": "160"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast540",
+            "LOCATIONNO": "9",
+            "_id": "161"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast545",
+            "LOCATIONNO": "10",
+            "_id": "162"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast550",
+            "LOCATIONNO": "11",
+            "_id": "163"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast560",
+            "LOCATIONNO": "12",
+            "_id": "164"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast565",
+            "LOCATIONNO": "13",
+            "_id": "165"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast570",
+            "LOCATIONNO": "14",
+            "_id": "166"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast580",
+            "LOCATIONNO": "15",
+            "_id": "167"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast590",
+            "LOCATIONNO": "16",
+            "_id": "168"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast600",
+            "LOCATIONNO": "17",
+            "_id": "169"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast620",
+            "LOCATIONNO": "18",
+            "_id": "170"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast730",
+            "LOCATIONNO": "19",
+            "_id": "171"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast740",
+            "LOCATIONNO": "20",
+            "_id": "172"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast870",
+            "LOCATIONNO": "21",
+            "_id": "173"
+        },
+        {
+            "PROGRAMGROUPID": "fopcus",
+            "PROGRAMID": "fopbast875",
+            "LOCATIONNO": "22",
+            "_id": "174"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasi300",
+            "LOCATIONNO": "1",
+            "_id": "175"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast300",
+            "LOCATIONNO": "2",
+            "_id": "176"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasp310",
+            "LOCATIONNO": "3",
+            "_id": "177"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr310",
+            "LOCATIONNO": "4",
+            "_id": "178"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast310",
+            "LOCATIONNO": "5",
+            "_id": "179"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast315",
+            "LOCATIONNO": "6",
+            "_id": "180"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr315",
+            "LOCATIONNO": "7",
+            "_id": "181"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast316",
+            "LOCATIONNO": "8",
+            "_id": "182"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr320",
+            "LOCATIONNO": "9",
+            "_id": "183"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast320",
+            "LOCATIONNO": "10",
+            "_id": "184"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast330",
+            "LOCATIONNO": "11",
+            "_id": "185"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr330",
+            "LOCATIONNO": "12",
+            "_id": "186"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr331",
+            "LOCATIONNO": "13",
+            "_id": "187"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr340",
+            "LOCATIONNO": "14",
+            "_id": "188"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast350",
+            "LOCATIONNO": "15",
+            "_id": "189"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr350",
+            "LOCATIONNO": "16",
+            "_id": "190"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbast360",
+            "LOCATIONNO": "17",
+            "_id": "191"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnk",
+            "PROGRAMID": "fopbasr360",
+            "LOCATIONNO": "18",
+            "_id": "192"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "fopbasr313",
+            "LOCATIONNO": "1",
+            "_id": "193"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "foprptr600",
+            "LOCATIONNO": "2",
+            "_id": "194"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "fopmtsp600",
+            "LOCATIONNO": "3",
+            "_id": "195"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "fopbast610",
+            "LOCATIONNO": "4",
+            "_id": "196"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "foprptr610",
+            "LOCATIONNO": "5",
+            "_id": "197"
+        },
+        {
+            "PROGRAMGROUPID": "fopomn",
+            "PROGRAMID": "foprptr620",
+            "LOCATIONNO": "6",
+            "_id": "198"
+        },
+        {
+            "PROGRAMGROUPID": "fopaeo",
+            "PROGRAMID": "fopbast710",
+            "LOCATIONNO": "1",
+            "_id": "199"
+        },
+        {
+            "PROGRAMGROUPID": "fopaeo",
+            "PROGRAMID": "fopbast720",
+            "LOCATIONNO": "2",
+            "_id": "200"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi010",
+            "LOCATIONNO": "1",
+            "_id": "201"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdr010",
+            "LOCATIONNO": "2",
+            "_id": "202"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdt010",
+            "LOCATIONNO": "3",
+            "_id": "203"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi020",
+            "LOCATIONNO": "4",
+            "_id": "204"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdr020",
+            "LOCATIONNO": "5",
+            "_id": "205"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdt020",
+            "LOCATIONNO": "6",
+            "_id": "206"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi030",
+            "LOCATIONNO": "7",
+            "_id": "207"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi031",
+            "LOCATIONNO": "8",
+            "_id": "208"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi032",
+            "LOCATIONNO": "9",
+            "_id": "209"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi040",
+            "LOCATIONNO": "10",
+            "_id": "210"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi050",
+            "LOCATIONNO": "11",
+            "_id": "211"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi055",
+            "LOCATIONNO": "12",
+            "_id": "212"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi056",
+            "LOCATIONNO": "13",
+            "_id": "213"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi060",
+            "LOCATIONNO": "14",
+            "_id": "214"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi065",
+            "LOCATIONNO": "15",
+            "_id": "215"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi066",
+            "LOCATIONNO": "16",
+            "_id": "216"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foprptr075",
+            "LOCATIONNO": "17",
+            "_id": "217"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi080",
+            "LOCATIONNO": "18",
+            "_id": "218"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi090",
+            "LOCATIONNO": "19",
+            "_id": "219"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi210",
+            "LOCATIONNO": "20",
+            "_id": "220"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi220",
+            "LOCATIONNO": "21",
+            "_id": "221"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi230",
+            "LOCATIONNO": "22",
+            "_id": "222"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi231",
+            "LOCATIONNO": "23",
+            "_id": "223"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi232",
+            "LOCATIONNO": "24",
+            "_id": "224"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi240",
+            "LOCATIONNO": "25",
+            "_id": "225"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi250",
+            "LOCATIONNO": "26",
+            "_id": "226"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi255",
+            "LOCATIONNO": "27",
+            "_id": "227"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi260",
+            "LOCATIONNO": "28",
+            "_id": "228"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi290",
+            "LOCATIONNO": "29",
+            "_id": "229"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi310",
+            "LOCATIONNO": "30",
+            "_id": "230"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdp500",
+            "LOCATIONNO": "31",
+            "_id": "231"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdp700",
+            "LOCATIONNO": "32",
+            "_id": "232"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdr710",
+            "LOCATIONNO": "33",
+            "_id": "233"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdp710",
+            "LOCATIONNO": "34",
+            "_id": "234"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr510",
+            "LOCATIONNO": "1",
+            "_id": "235"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdp510",
+            "LOCATIONNO": "2",
+            "_id": "236"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr511",
+            "LOCATIONNO": "3",
+            "_id": "237"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdp512",
+            "LOCATIONNO": "4",
+            "_id": "238"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr512",
+            "LOCATIONNO": "5",
+            "_id": "239"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr513",
+            "LOCATIONNO": "6",
+            "_id": "240"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdt515",
+            "LOCATIONNO": "7",
+            "_id": "241"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr515",
+            "LOCATIONNO": "8",
+            "_id": "242"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr520",
+            "LOCATIONNO": "9",
+            "_id": "243"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdp520",
+            "LOCATIONNO": "10",
+            "_id": "244"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr530",
+            "LOCATIONNO": "11",
+            "_id": "245"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdp530",
+            "LOCATIONNO": "12",
+            "_id": "246"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdp540",
+            "LOCATIONNO": "13",
+            "_id": "247"
+        },
+        {
+            "PROGRAMGROUPID": "fopmos",
+            "PROGRAMID": "foptrdr540",
+            "LOCATIONNO": "14",
+            "_id": "248"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsaj01",
+            "LOCATIONNO": "1",
+            "_id": "249"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtst001",
+            "LOCATIONNO": "2",
+            "_id": "250"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsp100",
+            "LOCATIONNO": "3",
+            "_id": "251"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtspc10",
+            "LOCATIONNO": "4",
+            "_id": "252"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsp110",
+            "LOCATIONNO": "5",
+            "_id": "253"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsp130",
+            "LOCATIONNO": "6",
+            "_id": "254"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsp120",
+            "LOCATIONNO": "7",
+            "_id": "255"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "fopmtsi010",
+            "LOCATIONNO": "8",
+            "_id": "256"
+        },
+        {
+            "PROGRAMGROUPID": "fopmts",
+            "PROGRAMID": "foptrdi330",
+            "LOCATIONNO": "9",
+            "_id": "257"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopbast055",
+            "LOCATIONNO": "1",
+            "_id": "258"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foprptr196",
+            "LOCATIONNO": "2",
+            "_id": "259"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopposr310",
+            "LOCATIONNO": "3",
+            "_id": "260"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi320",
+            "LOCATIONNO": "4",
+            "_id": "261"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopposr330",
+            "LOCATIONNO": "5",
+            "_id": "262"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopposr331",
+            "LOCATIONNO": "6",
+            "_id": "263"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi340",
+            "LOCATIONNO": "7",
+            "_id": "264"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi355",
+            "LOCATIONNO": "8",
+            "_id": "265"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi356",
+            "LOCATIONNO": "9",
+            "_id": "266"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopbast411",
+            "LOCATIONNO": "10",
+            "_id": "267"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi420",
+            "LOCATIONNO": "11",
+            "_id": "268"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopbast421",
+            "LOCATIONNO": "12",
+            "_id": "269"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi430",
+            "LOCATIONNO": "13",
+            "_id": "270"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi440",
+            "LOCATIONNO": "14",
+            "_id": "271"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi455",
+            "LOCATIONNO": "15",
+            "_id": "272"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp511",
+            "LOCATIONNO": "16",
+            "_id": "273"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp521",
+            "LOCATIONNO": "17",
+            "_id": "274"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp531",
+            "LOCATIONNO": "18",
+            "_id": "275"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp601",
+            "LOCATIONNO": "19",
+            "_id": "276"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp611",
+            "LOCATIONNO": "20",
+            "_id": "277"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdp641",
+            "LOCATIONNO": "21",
+            "_id": "278"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foprptr701",
+            "LOCATIONNO": "22",
+            "_id": "279"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foprptr702",
+            "LOCATIONNO": "23",
+            "_id": "280"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "foptrdi711",
+            "LOCATIONNO": "24",
+            "_id": "281"
+        },
+        {
+            "PROGRAMGROUPID": "fopcfm",
+            "PROGRAMID": "fopbast812",
+            "LOCATIONNO": "25",
+            "_id": "282"
+        },
+        {
+            "PROGRAMGROUPID": "fopbrk",
+            "PROGRAMID": "fopbast410",
+            "LOCATIONNO": "1",
+            "_id": "283"
+        },
+        {
+            "PROGRAMGROUPID": "fopbrk",
+            "PROGRAMID": "fopbast420",
+            "LOCATIONNO": "2",
+            "_id": "284"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr910",
+            "LOCATIONNO": "1",
+            "_id": "285"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr010",
+            "LOCATIONNO": "2",
+            "_id": "286"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr020",
+            "LOCATIONNO": "3",
+            "_id": "287"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr021",
+            "LOCATIONNO": "4",
+            "_id": "288"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr025",
+            "LOCATIONNO": "5",
+            "_id": "289"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr026",
+            "LOCATIONNO": "6",
+            "_id": "290"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr027",
+            "LOCATIONNO": "7",
+            "_id": "291"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr030",
+            "LOCATIONNO": "8",
+            "_id": "292"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr031",
+            "LOCATIONNO": "9",
+            "_id": "293"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr040",
+            "LOCATIONNO": "10",
+            "_id": "294"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr041",
+            "LOCATIONNO": "11",
+            "_id": "295"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr945",
+            "LOCATIONNO": "12",
+            "_id": "296"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr045",
+            "LOCATIONNO": "13",
+            "_id": "297"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr046",
+            "LOCATIONNO": "14",
+            "_id": "298"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr050",
+            "LOCATIONNO": "15",
+            "_id": "299"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr051",
+            "LOCATIONNO": "16",
+            "_id": "300"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr055",
+            "LOCATIONNO": "17",
+            "_id": "301"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr060",
+            "LOCATIONNO": "18",
+            "_id": "302"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr070",
+            "LOCATIONNO": "19",
+            "_id": "303"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr076",
+            "LOCATIONNO": "20",
+            "_id": "304"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr080",
+            "LOCATIONNO": "21",
+            "_id": "305"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr085",
+            "LOCATIONNO": "22",
+            "_id": "306"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr090",
+            "LOCATIONNO": "23",
+            "_id": "307"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr100",
+            "LOCATIONNO": "24",
+            "_id": "308"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr105",
+            "LOCATIONNO": "25",
+            "_id": "309"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr110",
+            "LOCATIONNO": "26",
+            "_id": "310"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr115",
+            "LOCATIONNO": "27",
+            "_id": "311"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr120",
+            "LOCATIONNO": "28",
+            "_id": "312"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr121",
+            "LOCATIONNO": "29",
+            "_id": "313"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr130",
+            "LOCATIONNO": "30",
+            "_id": "314"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr140",
+            "LOCATIONNO": "31",
+            "_id": "315"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr150",
+            "LOCATIONNO": "32",
+            "_id": "316"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr151",
+            "LOCATIONNO": "33",
+            "_id": "317"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr160",
+            "LOCATIONNO": "34",
+            "_id": "318"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr170",
+            "LOCATIONNO": "35",
+            "_id": "319"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr172",
+            "LOCATIONNO": "36",
+            "_id": "320"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr175",
+            "LOCATIONNO": "37",
+            "_id": "321"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr176",
+            "LOCATIONNO": "38",
+            "_id": "322"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr180",
+            "LOCATIONNO": "39",
+            "_id": "323"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr181",
+            "LOCATIONNO": "40",
+            "_id": "324"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr190",
+            "LOCATIONNO": "41",
+            "_id": "325"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr195",
+            "LOCATIONNO": "42",
+            "_id": "326"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr250",
+            "LOCATIONNO": "43",
+            "_id": "327"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr251",
+            "LOCATIONNO": "44",
+            "_id": "328"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr265",
+            "LOCATIONNO": "45",
+            "_id": "329"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr320",
+            "LOCATIONNO": "46",
+            "_id": "330"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr321",
+            "LOCATIONNO": "47",
+            "_id": "331"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr322",
+            "LOCATIONNO": "48",
+            "_id": "332"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr330",
+            "LOCATIONNO": "49",
+            "_id": "333"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr335",
+            "LOCATIONNO": "50",
+            "_id": "334"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr336",
+            "LOCATIONNO": "51",
+            "_id": "335"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr337",
+            "LOCATIONNO": "52",
+            "_id": "336"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr338",
+            "LOCATIONNO": "53",
+            "_id": "337"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr339",
+            "LOCATIONNO": "54",
+            "_id": "338"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr410",
+            "LOCATIONNO": "55",
+            "_id": "339"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr420",
+            "LOCATIONNO": "56",
+            "_id": "340"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr430",
+            "LOCATIONNO": "57",
+            "_id": "341"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr435",
+            "LOCATIONNO": "58",
+            "_id": "342"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr436",
+            "LOCATIONNO": "59",
+            "_id": "343"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr437",
+            "LOCATIONNO": "60",
+            "_id": "344"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr438",
+            "LOCATIONNO": "61",
+            "_id": "345"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr440",
+            "LOCATIONNO": "62",
+            "_id": "346"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr450",
+            "LOCATIONNO": "63",
+            "_id": "347"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr460",
+            "LOCATIONNO": "64",
+            "_id": "348"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr461",
+            "LOCATIONNO": "65",
+            "_id": "349"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr462",
+            "LOCATIONNO": "66",
+            "_id": "350"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr470",
+            "LOCATIONNO": "67",
+            "_id": "351"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr480",
+            "LOCATIONNO": "68",
+            "_id": "352"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr490",
+            "LOCATIONNO": "69",
+            "_id": "353"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr510",
+            "LOCATIONNO": "70",
+            "_id": "354"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr801",
+            "LOCATIONNO": "71",
+            "_id": "355"
+        },
+        {
+            "PROGRAMGROUPID": "foprpt",
+            "PROGRAMID": "foprptr028",
+            "LOCATIONNO": "28",
+            "_id": "356"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi150",
+            "LOCATIONNO": "150",
+            "_id": "357"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposr010",
+            "LOCATIONNO": "1",
+            "_id": "358"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "foppost010",
+            "LOCATIONNO": "2",
+            "_id": "359"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposr020",
+            "LOCATIONNO": "3",
+            "_id": "360"
+        },
+        {
+            "PROGRAMGROUPID": "fopqfi",
+            "PROGRAMID": "foprptr200",
+            "LOCATIONNO": "1",
+            "_id": "361"
+        },
+        {
+            "PROGRAMGROUPID": "fopqfi",
+            "PROGRAMID": "foprptr210",
+            "LOCATIONNO": "2",
+            "_id": "362"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "foppost020",
+            "LOCATIONNO": "4",
+            "_id": "363"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposr030",
+            "LOCATIONNO": "5",
+            "_id": "364"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposr040",
+            "LOCATIONNO": "6",
+            "_id": "365"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposp100",
+            "LOCATIONNO": "7",
+            "_id": "366"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposp500",
+            "LOCATIONNO": "8",
+            "_id": "367"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposp510",
+            "LOCATIONNO": "9",
+            "_id": "368"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposr011",
+            "LOCATIONNO": "11",
+            "_id": "369"
+        },
+        {
+            "PROGRAMGROUPID": "foppos",
+            "PROGRAMID": "fopposp154",
+            "LOCATIONNO": "154",
+            "_id": "370"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect010",
+            "LOCATIONNO": "1",
+            "_id": "371"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect020",
+            "LOCATIONNO": "2",
+            "_id": "372"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect040",
+            "LOCATIONNO": "3",
+            "_id": "373"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect050",
+            "LOCATIONNO": "4",
+            "_id": "374"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect030",
+            "LOCATIONNO": "5",
+            "_id": "375"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect070",
+            "LOCATIONNO": "6",
+            "_id": "376"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect060",
+            "LOCATIONNO": "7",
+            "_id": "377"
+        },
+        {
+            "PROGRAMGROUPID": "syssec",
+            "PROGRAMID": "syssect080",
+            "LOCATIONNO": "8",
+            "_id": "378"
+        },
+        {
+            "PROGRAMGROUPID": "sysapv2",
+            "PROGRAMID": "sysapvt210",
+            "LOCATIONNO": "1",
+            "_id": "379"
+        },
+        {
+            "PROGRAMGROUPID": "sysapv2",
+            "PROGRAMID": "sysapvt211",
+            "LOCATIONNO": "2",
+            "_id": "380"
+        },
+        {
+            "PROGRAMGROUPID": "fopqfi",
+            "PROGRAMID": "foprptr220",
+            "LOCATIONNO": "3",
+            "_id": "381"
+        },
+        {
+            "PROGRAMGROUPID": "fopspn",
+            "PROGRAMID": "foprptr670",
+            "LOCATIONNO": "1",
+            "_id": "382"
+        },
+        {
+            "PROGRAMGROUPID": "fopspn",
+            "PROGRAMID": "foprptr680",
+            "LOCATIONNO": "2",
+            "_id": "383"
+        },
+        {
+            "PROGRAMGROUPID": "fopspn",
+            "PROGRAMID": "foprptr690",
+            "LOCATIONNO": "3",
+            "_id": "384"
+        },
+        {
+            "PROGRAMGROUPID": "fopspn",
+            "PROGRAMID": "foprptr700",
+            "LOCATIONNO": "4",
+            "_id": "385"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "fopbasp160",
+            "LOCATIONNO": "1",
+            "_id": "386"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "fopposp300",
+            "LOCATIONNO": "2",
+            "_id": "387"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr710",
+            "LOCATIONNO": "3",
+            "_id": "388"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr720",
+            "LOCATIONNO": "4",
+            "_id": "389"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr730",
+            "LOCATIONNO": "5",
+            "_id": "390"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr740",
+            "LOCATIONNO": "6",
+            "_id": "391"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr741",
+            "LOCATIONNO": "7",
+            "_id": "392"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr742",
+            "LOCATIONNO": "8",
+            "_id": "393"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr743",
+            "LOCATIONNO": "9",
+            "_id": "394"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr744",
+            "LOCATIONNO": "10",
+            "_id": "395"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr745",
+            "LOCATIONNO": "11",
+            "_id": "396"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr746",
+            "LOCATIONNO": "12",
+            "_id": "397"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr747",
+            "LOCATIONNO": "13",
+            "_id": "398"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr748",
+            "LOCATIONNO": "14",
+            "_id": "399"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr750",
+            "LOCATIONNO": "15",
+            "_id": "400"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr760",
+            "LOCATIONNO": "16",
+            "_id": "401"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr770",
+            "LOCATIONNO": "17",
+            "_id": "402"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr780",
+            "LOCATIONNO": "18",
+            "_id": "403"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr790",
+            "LOCATIONNO": "19",
+            "_id": "404"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr800",
+            "LOCATIONNO": "20",
+            "_id": "405"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr810",
+            "LOCATIONNO": "21",
+            "_id": "406"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr820",
+            "LOCATIONNO": "22",
+            "_id": "407"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr830",
+            "LOCATIONNO": "23",
+            "_id": "408"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr840",
+            "LOCATIONNO": "24",
+            "_id": "409"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr731",
+            "LOCATIONNO": "25",
+            "_id": "410"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr749",
+            "LOCATIONNO": "26",
+            "_id": "411"
+        },
+        {
+            "PROGRAMGROUPID": "fopmtn",
+            "PROGRAMID": "foprptr732",
+            "LOCATIONNO": "27",
+            "_id": "412"
+        },
+        {
+            "PROGRAMGROUPID": "fopdxg",
+            "PROGRAMID": "foptnsp010",
+            "LOCATIONNO": "1",
+            "_id": "413"
+        },
+        {
+            "PROGRAMGROUPID": "fopdxg",
+            "PROGRAMID": "foptnsp100",
+            "LOCATIONNO": "2",
+            "_id": "414"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasp210",
+            "LOCATIONNO": "1",
+            "_id": "415"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasr200",
+            "LOCATIONNO": "2",
+            "_id": "416"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasp200",
+            "LOCATIONNO": "3",
+            "_id": "417"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbast200",
+            "LOCATIONNO": "4",
+            "_id": "418"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbast210",
+            "LOCATIONNO": "5",
+            "_id": "419"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasr210",
+            "LOCATIONNO": "6",
+            "_id": "420"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasr220",
+            "LOCATIONNO": "7",
+            "_id": "421"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbast230",
+            "LOCATIONNO": "8",
+            "_id": "422"
+        },
+        {
+            "PROGRAMGROUPID": "fopint",
+            "PROGRAMID": "fopbasr230",
+            "LOCATIONNO": "9",
+            "_id": "423"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnd",
+            "PROGRAMID": "fopbast270",
+            "LOCATIONNO": "1",
+            "_id": "424"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnd",
+            "PROGRAMID": "foptrdp690",
+            "LOCATIONNO": "2",
+            "_id": "425"
+        },
+        {
+            "PROGRAMGROUPID": "fopbnd",
+            "PROGRAMID": "foptrdr690",
+            "LOCATIONNO": "3",
+            "_id": "426"
+        },
+        {
+            "PROGRAMGROUPID": "fopstk",
+            "PROGRAMID": "foptrdi033",
+            "LOCATIONNO": "1",
+            "_id": "427"
+        },
+        {
+            "PROGRAMGROUPID": "fopstk",
+            "PROGRAMID": "fopbasi200",
+            "LOCATIONNO": "2",
+            "_id": "428"
+        },
+        {
+            "PROGRAMGROUPID": "fopstk",
+            "PROGRAMID": "fopbasi220",
+            "LOCATIONNO": "3",
+            "_id": "429"
+        },
+        {
+            "PROGRAMGROUPID": "fopstk",
+            "PROGRAMID": "fopbast260",
+            "LOCATIONNO": "4",
+            "_id": "430"
+        },
+        {
+            "PROGRAMGROUPID": "fopstk",
+            "PROGRAMID": "fopbast265",
+            "LOCATIONNO": "5",
+            "_id": "431"
+        },
+        {
+            "PROGRAMGROUPID": "foptrd",
+            "PROGRAMID": "foptrdi710",
+            "LOCATIONNO": "710",
+            "_id": "432"
+        }
+    ]
+}

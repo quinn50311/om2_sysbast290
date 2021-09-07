@@ -1,0 +1,134 @@
+{
+    "button" : [
+        {
+            "name": "inquire",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "查詢"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Query"
+                }
+            ]
+        },
+        {
+            "name": "insert",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "新增"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Insert"
+                }
+            ]
+        },
+        {
+            "name": "update",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "修改"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Update"
+                }
+            ]
+        },
+        {
+            "name": "delete",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "刪除"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Delete"
+                }
+            ]
+        },
+        {
+            "name": "export",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "匯出"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Export"
+                }
+            ]
+        },
+        {
+            "name": "print",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "列印"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Print"
+                }
+            ]
+        },
+        {
+            "name": "confirm1",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "確定"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Confirm"
+                }
+            ]
+        },
+        {
+            "name": "confirm2",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "確定?"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Confirm?"
+                }
+            ]
+        },
+        {
+            "name": "cancel1",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "取消"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Cancel"
+                }
+            ]
+        },
+        {
+            "name": "cancel2",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "取消?"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Cancel?"
+                }
+            ]
+        }
+    ]
+}

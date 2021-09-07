@@ -18,6 +18,28 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    },
+    {
+      path: '/insert',
+      name: 'insert',
+      component: () => import('./views/Insert.vue')
+    },
+    {
+      path: '/sys/sysbas/sysbast290',
+      name: 'Dashboard',
+      component: () => import('./components/Dashboard.vue'),
+      children: [
+        {
+          path: 'programGroup',
+          name: 'programGroup',
+          component: () => import('./views/ProgramGroup.vue')
+        },
+        {
+          path: 'program',
+          name: 'program',
+          component: () => import('./views/Program.vue')
+        }
+      ]
     }
   ]
 })

@@ -1,0 +1,108 @@
+{
+    "formField": [
+        {
+            "name": "systemid",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統資料代碼"
+                },
+                {
+                    "title": "en_US",
+                    "text": "System ID"
+                }
+            ]
+        },
+        {
+            "name": "productcode",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "產品代碼"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Product Code"
+                }
+            ]
+        },
+        {
+            "name": "parmgroup",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數群組"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Group"
+                }
+            ]
+        },
+        {
+            "name": "parmname",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數名稱"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Name"
+                }
+            ]
+        },
+        {
+            "name": "parmdesc",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數描述"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Desc"
+                }
+            ]
+        },
+        {
+            "name": "parmvalue",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "系統參數值"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Parm Value"
+                }
+            ]
+        },
+        {
+            "name": "creator",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "新增時間"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Creator Time"
+                }
+            ]
+        },
+        {
+            "name": "lastupdate",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "修改時間"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Last Update"
+                }
+            ]
+        }
+    ]
+}

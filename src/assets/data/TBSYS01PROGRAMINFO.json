@@ -1,0 +1,3612 @@
+{
+    "row": [
+        {
+            "PROGRAMID": "fopbasp210",
+            "PROGRAMNAMEEN": "Deal of interest recorded",
+            "PROGRAMNAMETW": "利息入帳處理",
+            "PROGRAMDESCEN": "Deal of interest recorded",
+            "PROGRAMDESCTW": "利息入帳處理",
+            "_id": "1"
+        },
+        {
+            "PROGRAMID": "fopbasp310",
+            "PROGRAMNAMEEN": "銀行自動入金放行設定(en)",
+            "PROGRAMNAMETW": "銀行自動入金放行設定",
+            "PROGRAMDESCEN": "fopbasp310",
+            "PROGRAMDESCTW": "銀行自動入金放行設定",
+            "_id": "2"
+        },
+        {
+            "PROGRAMID": "fopbasp530",
+            "PROGRAMNAMEEN": "重算單一客戶手續費(en)",
+            "PROGRAMNAMETW": "重算單一客戶手續費",
+            "PROGRAMDESCEN": "fopbasp530",
+            "PROGRAMDESCTW": "重算單一客戶手續費",
+            "_id": "3"
+        },
+        {
+            "PROGRAMID": "fopbasp800",
+            "PROGRAMNAMEEN": "MTS備援切換(en)",
+            "PROGRAMNAMETW": "MTS備援切換",
+            "PROGRAMDESCEN": "fopbasp800",
+            "PROGRAMDESCTW": "MTS備援切換",
+            "_id": "4"
+        },
+        {
+            "PROGRAMID": "sysssmt240",
+            "PROGRAMNAMEEN": "Fax Server Maintain",
+            "PROGRAMNAMETW": "Fax Server 維護",
+            "PROGRAMDESCEN": "Fax Server Maintain",
+            "PROGRAMDESCTW": "Fax Server 維護",
+            "_id": "5"
+        },
+        {
+            "PROGRAMID": "fopbasp810",
+            "PROGRAMNAMEEN": "開測前資料清除處理(en)",
+            "PROGRAMNAMETW": "開測前資料清除處理",
+            "PROGRAMDESCEN": "fopbasp810",
+            "PROGRAMDESCTW": "開測前資料清除處理",
+            "_id": "6"
+        },
+        {
+            "PROGRAMID": "fopbasr120",
+            "PROGRAMNAMEEN": "契約調整預告表(EN)",
+            "PROGRAMNAMETW": "契約調整預告表",
+            "PROGRAMDESCEN": "fopbasr120",
+            "PROGRAMDESCTW": "契約調整預告表",
+            "_id": "7"
+        },
+        {
+            "PROGRAMID": "fopbasr200",
+            "PROGRAMNAMEEN": "利息應付明細表(en)",
+            "PROGRAMNAMETW": "利息應付明細表",
+            "PROGRAMDESCEN": "fopbasr200",
+            "PROGRAMDESCTW": "利息應付明細表",
+            "_id": "8"
+        },
+        {
+            "PROGRAMID": "fopbasr210",
+            "PROGRAMNAMEEN": "Interest Summary Report",
+            "PROGRAMNAMETW": "客戶利息應付彙總表",
+            "PROGRAMDESCEN": "fopbasr210",
+            "PROGRAMDESCTW": "客戶利息應付彙總表",
+            "_id": "9"
+        },
+        {
+            "PROGRAMID": "fopbasr220",
+            "PROGRAMNAMEEN": "Customer Interest Detail List",
+            "PROGRAMNAMETW": "帳戶別利息明細表",
+            "PROGRAMDESCEN": "fopbasr220",
+            "PROGRAMDESCTW": "帳戶別利息明細表",
+            "_id": "10"
+        },
+        {
+            "PROGRAMID": "fopbasr230",
+            "PROGRAMNAMEEN": "Interest Withholding Tax media file",
+            "PROGRAMNAMETW": "利息扣繳所得檔",
+            "PROGRAMDESCEN": "fopbasr230",
+            "PROGRAMDESCTW": "利息扣繳所得檔",
+            "_id": "11"
+        },
+        {
+            "PROGRAMID": "syslclt030",
+            "PROGRAMNAMEEN": "LimitControlAmountQuery",
+            "PROGRAMNAMETW": "控管額度查詢",
+            "PROGRAMDESCEN": "LimitControlAmountQuery",
+            "PROGRAMDESCTW": "控管額度查詢",
+            "_id": "12"
+        },
+        {
+            "PROGRAMID": "syslclt040",
+            "PROGRAMNAMEEN": "LimitControlOverAmountQuery",
+            "PROGRAMNAMETW": "超額查詢",
+            "PROGRAMDESCEN": "LimitControlOverAmountQuery",
+            "PROGRAMDESCTW": "超額查詢",
+            "_id": "13"
+        },
+        {
+            "PROGRAMID": "sysadtr010",
+            "PROGRAMNAMEEN": "TransactionLogReport",
+            "PROGRAMNAMETW": "交易稽核記錄表",
+            "PROGRAMDESCEN": "TransactionLogReport",
+            "PROGRAMDESCTW": "交易稽核記錄表",
+            "_id": "14"
+        },
+        {
+            "PROGRAMID": "sysadtr020",
+            "PROGRAMNAMEEN": "FunctionLogReport",
+            "PROGRAMNAMETW": "功能按鍵稽核記錄表",
+            "PROGRAMDESCEN": "FunctionLogReport",
+            "PROGRAMDESCTW": "功能按鍵稽核記錄表",
+            "_id": "15"
+        },
+        {
+            "PROGRAMID": "syslogr010",
+            "PROGRAMNAMEEN": "AuditLog Report",
+            "PROGRAMNAMETW": "資料異動記錄表",
+            "PROGRAMDESCEN": "AuditLog Report Desc",
+            "PROGRAMDESCTW": "資料異動記錄表說明",
+            "_id": "16"
+        },
+        {
+            "PROGRAMID": "fopbasr310",
+            "PROGRAMNAMEEN": "Customer Deposit and Withdraw Report",
+            "PROGRAMNAMETW": "客戶存提款明細表",
+            "PROGRAMDESCEN": "fopbasr310",
+            "PROGRAMDESCTW": "客戶存提款明細表",
+            "_id": "17"
+        },
+        {
+            "PROGRAMID": "fopbasr313",
+            "PROGRAMNAMEEN": "主子帳權益核對(en)",
+            "PROGRAMNAMETW": "主子帳權益核對",
+            "PROGRAMDESCEN": "fopbasr313",
+            "PROGRAMDESCTW": "主子帳權益核對",
+            "_id": "18"
+        },
+        {
+            "PROGRAMID": "fopbasr315",
+            "PROGRAMNAMEEN": "主子帳存提款核對(en)",
+            "PROGRAMNAMETW": "主子帳存提款核對",
+            "PROGRAMDESCEN": "fopbasr315",
+            "PROGRAMDESCTW": "主子帳存提款核對",
+            "_id": "19"
+        },
+        {
+            "PROGRAMID": "fopbasr320",
+            "PROGRAMNAMEEN": "Bank Margin Account Balances Report",
+            "PROGRAMNAMETW": "銀行保證金專戶餘額表",
+            "PROGRAMDESCEN": "fopbasr320",
+            "PROGRAMDESCTW": "銀行保證金專戶餘額表",
+            "_id": "20"
+        },
+        {
+            "PROGRAMID": "sysmsgr060",
+            "PROGRAMNAMEEN": "Message History",
+            "PROGRAMNAMETW": "使用者執行交易訊息清單",
+            "PROGRAMDESCEN": "Message History",
+            "PROGRAMDESCTW": "使用者執行交易訊息清單",
+            "_id": "21"
+        },
+        {
+            "PROGRAMID": "sysapvt210",
+            "PROGRAMNAMEEN": "ApprovalElement",
+            "PROGRAMNAMETW": "覆核群組元素維護",
+            "PROGRAMDESCEN": "ApprovalElement",
+            "PROGRAMDESCTW": "覆核群組元素維護",
+            "_id": "22"
+        },
+        {
+            "PROGRAMID": "syssecr010",
+            "PROGRAMNAMEEN": "LoginSuccessReport",
+            "PROGRAMNAMETW": "登入成功明細表",
+            "PROGRAMDESCEN": "LoginSuccess",
+            "PROGRAMDESCTW": "登入成功明細表",
+            "_id": "23"
+        },
+        {
+            "PROGRAMID": "fopbasr520",
+            "PROGRAMNAMEEN": "SPAN Client Account Load File",
+            "PROGRAMNAMETW": "SPAN交易人帳號申報檔",
+            "PROGRAMDESCEN": "fopbasr520",
+            "PROGRAMDESCTW": "SPAN交易人帳號申報檔",
+            "_id": "24"
+        },
+        {
+            "PROGRAMID": "sysprmt210",
+            "PROGRAMNAMEEN": "Sysparameter setting",
+            "PROGRAMNAMETW": "系統參數資料維護",
+            "PROGRAMDESCEN": "Sysparameter setting",
+            "PROGRAMDESCTW": "系統參數資料維護",
+            "_id": "25"
+        },
+        {
+            "PROGRAMID": "sysprmt220",
+            "PROGRAMNAMEEN": "DataMap setting",
+            "PROGRAMNAMETW": "DataMap資料維護",
+            "PROGRAMDESCEN": "DataMap setting",
+            "PROGRAMDESCTW": "DataMap資料維護",
+            "_id": "26"
+        },
+        {
+            "PROGRAMID": "sysprmt240",
+            "PROGRAMNAMEEN": "Holiday",
+            "PROGRAMNAMETW": "假日資料維護",
+            "PROGRAMDESCEN": "Holiday",
+            "PROGRAMDESCTW": "假日資料維護",
+            "_id": "27"
+        },
+        {
+            "PROGRAMID": "sysroct210",
+            "PROGRAMNAMEEN": "Report Output Definition",
+            "PROGRAMNAMETW": "報表輸出定義維護",
+            "PROGRAMDESCEN": "Report Output Definition",
+            "PROGRAMDESCTW": "報表輸出定義維護",
+            "_id": "28"
+        },
+        {
+            "PROGRAMID": "syssecr020",
+            "PROGRAMNAMEEN": "LoginSuccessCountingReport",
+            "PROGRAMNAMETW": "登入成功統計表",
+            "PROGRAMDESCEN": "LoginSuccessCountingReport",
+            "PROGRAMDESCTW": "登入成功統計表",
+            "_id": "29"
+        },
+        {
+            "PROGRAMID": "syssecr030",
+            "PROGRAMNAMEEN": "PwdErrorReport",
+            "PROGRAMNAMETW": "密碼錯誤明細表",
+            "PROGRAMDESCEN": "PwdErrorReport",
+            "PROGRAMDESCTW": "密碼錯誤明細表",
+            "_id": "30"
+        },
+        {
+            "PROGRAMID": "syssecr040",
+            "PROGRAMNAMEEN": "PwdErrorCountingReport",
+            "PROGRAMNAMETW": "密碼錯誤統計表",
+            "PROGRAMDESCEN": "PwdErrorCountingReport",
+            "PROGRAMDESCTW": "密碼錯誤統計表",
+            "_id": "31"
+        },
+        {
+            "PROGRAMID": "syssecr050",
+            "PROGRAMNAMEEN": "Application System UserInfo",
+            "PROGRAMNAMETW": "應用系統使用人員清冊",
+            "PROGRAMDESCEN": "Application System UserInfo List",
+            "PROGRAMDESCTW": "應用系統使用人員清冊",
+            "_id": "32"
+        },
+        {
+            "PROGRAMID": "sysprft010",
+            "PROGRAMNAMEEN": "Toolbar",
+            "PROGRAMNAMETW": "工具列",
+            "PROGRAMDESCEN": "Toolbar",
+            "PROGRAMDESCTW": "工具列",
+            "_id": "33"
+        },
+        {
+            "PROGRAMID": "sysapvt211",
+            "PROGRAMNAMEEN": "ApprovalOrgRole",
+            "PROGRAMNAMETW": "覆核組織角色元素維護",
+            "PROGRAMDESCEN": "ApprovalOrgRole",
+            "PROGRAMDESCTW": "覆核組織角色元素維護",
+            "_id": "34"
+        },
+        {
+            "PROGRAMID": "sysapvt212",
+            "PROGRAMNAMEEN": "AppointRole",
+            "PROGRAMNAMETW": "覆核元素指定角色資料設定",
+            "PROGRAMDESCEN": "AppointRole",
+            "PROGRAMDESCTW": "覆核元素指定角色資料設定",
+            "_id": "35"
+        },
+        {
+            "PROGRAMID": "sysapvt220",
+            "PROGRAMNAMEEN": "ApprovalFlow",
+            "PROGRAMNAMETW": "覆核流程定義資料維護",
+            "PROGRAMDESCEN": "ApprovalFlow",
+            "PROGRAMDESCTW": "覆核流程定義資料維護",
+            "_id": "36"
+        },
+        {
+            "PROGRAMID": "sysapvt230",
+            "PROGRAMNAMEEN": "ApprovalFlowProgram",
+            "PROGRAMNAMETW": "覆核流程關聯維護",
+            "PROGRAMDESCEN": "ApprovalFlowProgram",
+            "PROGRAMDESCTW": "覆核流程關聯維護",
+            "_id": "37"
+        },
+        {
+            "PROGRAMID": "sysapvt240",
+            "PROGRAMNAMEEN": "ApprovalPermit",
+            "PROGRAMNAMETW": "覆核作業管理",
+            "PROGRAMDESCEN": "ApprovalPermit",
+            "PROGRAMDESCTW": "覆核作業管理",
+            "_id": "38"
+        },
+        {
+            "PROGRAMID": "sysbast210",
+            "PROGRAMNAMEEN": "System Info",
+            "PROGRAMNAMETW": "系統定義資料維護",
+            "PROGRAMDESCEN": "SystemInfo",
+            "PROGRAMDESCTW": "系統定義資料維護",
+            "_id": "39"
+        },
+        {
+            "PROGRAMID": "sysbast230",
+            "PROGRAMNAMEEN": "Program Info",
+            "PROGRAMNAMETW": "程式資料維護",
+            "PROGRAMDESCEN": "ProgramInfo",
+            "PROGRAMDESCTW": "程式資料維護",
+            "_id": "40"
+        },
+        {
+            "PROGRAMID": "sysbast250",
+            "PROGRAMNAMEEN": "OrganizationType",
+            "PROGRAMNAMETW": "組織單位類別維護",
+            "PROGRAMDESCEN": "OrganizationType",
+            "PROGRAMDESCTW": "組織單位類別維護",
+            "_id": "41"
+        },
+        {
+            "PROGRAMID": "sysroct230",
+            "PROGRAMNAMEEN": "Report Print Manager",
+            "PROGRAMNAMETW": "報表列印管理",
+            "PROGRAMDESCEN": "Report Print Manager",
+            "PROGRAMDESCTW": "報表列印管理",
+            "_id": "42"
+        },
+        {
+            "PROGRAMID": "sysroct240",
+            "PROGRAMNAMEEN": "Report Group Manager",
+            "PROGRAMNAMETW": "報表群組維護",
+            "PROGRAMDESCEN": "Report Group Manager",
+            "PROGRAMDESCTW": "報表群組維護",
+            "_id": "43"
+        },
+        {
+            "PROGRAMID": "fopbast875",
+            "PROGRAMNAMEEN": "VIP客戶背景警示設定(en)",
+            "PROGRAMNAMETW": "VIP客戶背景警示設定",
+            "PROGRAMDESCEN": "fopbast875",
+            "PROGRAMDESCTW": "VIP客戶背景警示設定",
+            "_id": "44"
+        },
+        {
+            "PROGRAMID": "fopbast880",
+            "PROGRAMNAMEEN": "系统资料更新命令(en)",
+            "PROGRAMNAMETW": "系统资料更新命令",
+            "PROGRAMDESCEN": "fopbast880",
+            "PROGRAMDESCTW": "系统资料更新命令",
+            "_id": "45"
+        },
+        {
+            "PROGRAMID": "fopbast881",
+            "PROGRAMNAMEEN": "系統視圖檢核(en)",
+            "PROGRAMNAMETW": "系統視圖檢核",
+            "PROGRAMDESCEN": "fopbast881",
+            "PROGRAMDESCTW": "系統視圖檢核",
+            "_id": "46"
+        },
+        {
+            "PROGRAMID": "fopbast890",
+            "PROGRAMNAMEEN": "MOM Data Mantain",
+            "PROGRAMNAMETW": "MOM資料維護",
+            "PROGRAMDESCEN": "fopbast890",
+            "PROGRAMDESCTW": "MOM資料維護",
+            "_id": "47"
+        },
+        {
+            "PROGRAMID": "sysbast251",
+            "PROGRAMNAMEEN": "Organization",
+            "PROGRAMNAMETW": "組織單位資料維護",
+            "PROGRAMDESCEN": "Organization",
+            "PROGRAMDESCTW": "組織單位資料維護",
+            "_id": "48"
+        },
+        {
+            "PROGRAMID": "sysroct250",
+            "PROGRAMNAMEEN": "Report Authority Manager",
+            "PROGRAMNAMETW": "報表權限維護",
+            "PROGRAMDESCEN": "Report Authority Manager",
+            "PROGRAMDESCTW": "報表權限維護",
+            "_id": "49"
+        },
+        {
+            "PROGRAMID": "sysroct260",
+            "PROGRAMNAMEEN": "Define Authority",
+            "PROGRAMNAMETW": "報表輸出定義權限維護",
+            "PROGRAMDESCEN": "Define Authority",
+            "PROGRAMDESCTW": "報表輸出定義權限維護",
+            "_id": "50"
+        },
+        {
+            "PROGRAMID": "sysroct270",
+            "PROGRAMNAMEEN": "Server Authority",
+            "PROGRAMNAMETW": "伺服器權限維護",
+            "PROGRAMDESCEN": "Server Authority",
+            "PROGRAMDESCTW": "伺服器權限維護",
+            "_id": "51"
+        },
+        {
+            "PROGRAMID": "sysroct280",
+            "PROGRAMNAMEEN": "Server Authority",
+            "PROGRAMNAMETW": "伺服器報表輸出權限維護",
+            "PROGRAMDESCEN": "Server Authority",
+            "PROGRAMDESCTW": "伺服器報表輸出權限維護",
+            "_id": "52"
+        },
+        {
+            "PROGRAMID": "sysrptt010",
+            "PROGRAMNAMEEN": "ReportGenerator",
+            "PROGRAMNAMETW": "報表程式產生器(ReportGenerator)",
+            "PROGRAMDESCEN": "ReportGenerator",
+            "PROGRAMDESCTW": "報表程式產生器(ReportGenerator)",
+            "_id": "53"
+        },
+        {
+            "PROGRAMID": "sysbast260",
+            "PROGRAMNAMEEN": "User Info",
+            "PROGRAMNAMETW": "使用者基本資料維護",
+            "PROGRAMDESCEN": "User Info",
+            "PROGRAMDESCTW": "使用者基本資料維護",
+            "_id": "54"
+        },
+        {
+            "PROGRAMID": "sysbast261",
+            "PROGRAMNAMEEN": "User Group Data",
+            "PROGRAMNAMETW": "使用者群組資料維護",
+            "PROGRAMDESCEN": "User Group Data",
+            "PROGRAMDESCTW": "使用者群組資料維護",
+            "_id": "55"
+        },
+        {
+            "PROGRAMID": "sysbast270",
+            "PROGRAMNAMEEN": "Marquee Data Info",
+            "PROGRAMNAMETW": "系統跑馬燈資訊維護",
+            "PROGRAMDESCEN": "Marquee Data Info",
+            "PROGRAMDESCTW": "系統跑馬燈資訊維護",
+            "_id": "56"
+        },
+        {
+            "PROGRAMID": "sysbast280",
+            "PROGRAMNAMEEN": "My Favorite",
+            "PROGRAMNAMETW": "我的最愛維護",
+            "PROGRAMDESCEN": "My Favorite",
+            "PROGRAMDESCTW": "我的最愛維護",
+            "_id": "57"
+        },
+        {
+            "PROGRAMID": "sysbast290",
+            "PROGRAMNAMEEN": "Menu System Info",
+            "PROGRAMNAMETW": "系統選單資料維護",
+            "PROGRAMDESCEN": "MenuSystemInfo",
+            "PROGRAMDESCTW": "系統選單資料維護",
+            "_id": "58"
+        },
+        {
+            "PROGRAMID": "sysbast320",
+            "PROGRAMNAMEEN": "Super Manager",
+            "PROGRAMNAMETW": "超級使用者資料維護",
+            "PROGRAMDESCEN": "Super Manager",
+            "PROGRAMDESCTW": "超級使用者資料維護",
+            "_id": "59"
+        },
+        {
+            "PROGRAMID": "sysbast330",
+            "PROGRAMNAMEEN": "User Phrase",
+            "PROGRAMNAMETW": "片語庫資料維護",
+            "PROGRAMDESCEN": "User Phrase",
+            "PROGRAMDESCTW": "片語庫資料維護",
+            "_id": "60"
+        },
+        {
+            "PROGRAMID": "sysbast340",
+            "PROGRAMNAMEEN": "FTP Log Query",
+            "PROGRAMNAMETW": "主機檔案傳送查詢",
+            "PROGRAMDESCEN": "FTP Log Query",
+            "PROGRAMDESCTW": "主機檔案傳送查詢",
+            "_id": "61"
+        },
+        {
+            "PROGRAMID": "syscsnt210",
+            "PROGRAMNAMEEN": "Consignment setting",
+            "PROGRAMNAMETW": "代理人資料維護",
+            "PROGRAMDESCEN": "Consignment setting",
+            "PROGRAMDESCTW": "代理人資料維護",
+            "_id": "62"
+        },
+        {
+            "PROGRAMID": "sysdqmt010",
+            "PROGRAMNAMEEN": "DefineQueryMaker",
+            "PROGRAMNAMETW": "查詢程式產生器(QueryMaker)",
+            "PROGRAMDESCEN": "QueryMaker Definition",
+            "PROGRAMDESCTW": "查詢程式產生器(QueryMaker)",
+            "_id": "63"
+        },
+        {
+            "PROGRAMID": "sysdvct010",
+            "PROGRAMNAMEEN": "Device Tester",
+            "PROGRAMNAMETW": "系統裝置測試",
+            "PROGRAMDESCEN": "Device Tester",
+            "PROGRAMDESCTW": "系統裝置測試",
+            "_id": "64"
+        },
+        {
+            "PROGRAMID": "sysdxgt050",
+            "PROGRAMNAMEEN": "MonitorExpImpTemplate",
+            "PROGRAMNAMETW": "資料交換作業管理",
+            "PROGRAMDESCEN": "MonitorExpImpTemplate",
+            "PROGRAMDESCTW": "資料交換作業管理",
+            "_id": "65"
+        },
+        {
+            "PROGRAMID": "sysdxgt060",
+            "PROGRAMNAMEEN": "Data Delivery Set",
+            "PROGRAMNAMETW": "資料傳送定義維護",
+            "PROGRAMDESCEN": "Data Delivery Set",
+            "PROGRAMDESCTW": "資料傳送定義維護",
+            "_id": "66"
+        },
+        {
+            "PROGRAMID": "syssect010",
+            "PROGRAMNAMEEN": "Security Policy For Login",
+            "PROGRAMNAMETW": "使用者登入條件維護",
+            "PROGRAMDESCEN": "Security Policy For Login",
+            "PROGRAMDESCTW": "使用者登入條件維護",
+            "_id": "67"
+        },
+        {
+            "PROGRAMID": "syssect020",
+            "PROGRAMNAMEEN": "Security Policy For Password",
+            "PROGRAMNAMETW": "使用者密碼條件維護",
+            "PROGRAMDESCEN": "Security Policy For Password",
+            "PROGRAMDESCTW": "使用者密碼條件維護",
+            "_id": "68"
+        },
+        {
+            "PROGRAMID": "syssect030",
+            "PROGRAMNAMEEN": "Password Change",
+            "PROGRAMNAMETW": "密碼變更",
+            "PROGRAMDESCEN": "Password Change",
+            "PROGRAMDESCTW": "密碼變更",
+            "_id": "69"
+        },
+        {
+            "PROGRAMID": "syssect040",
+            "PROGRAMNAMEEN": "Password Change",
+            "PROGRAMNAMETW": "密碼重設",
+            "PROGRAMDESCEN": "Password Reset",
+            "PROGRAMDESCTW": "密碼重設",
+            "_id": "70"
+        },
+        {
+            "PROGRAMID": "syssect050",
+            "PROGRAMNAMEEN": "Compel Logout",
+            "PROGRAMNAMETW": "強制登出",
+            "PROGRAMDESCEN": "Compel Logout",
+            "PROGRAMDESCTW": "強制登出",
+            "_id": "71"
+        },
+        {
+            "PROGRAMID": "syssect060",
+            "PROGRAMNAMEEN": "User Login Log Query",
+            "PROGRAMNAMETW": "線上使用者查詢",
+            "PROGRAMDESCEN": "User Login Log Query",
+            "PROGRAMDESCTW": "線上使用者查詢",
+            "_id": "72"
+        },
+        {
+            "PROGRAMID": "syssect070",
+            "PROGRAMNAMEEN": "PasswordUnlock",
+            "PROGRAMNAMETW": "密碼解鎖",
+            "PROGRAMDESCEN": "Password Unlock",
+            "PROGRAMDESCTW": "密碼解鎖",
+            "_id": "73"
+        },
+        {
+            "PROGRAMID": "syssect080",
+            "PROGRAMNAMEEN": "User IP Login Control",
+            "PROGRAMNAMETW": "工作站登入IP維護",
+            "PROGRAMDESCEN": "User IP Login Control",
+            "PROGRAMDESCTW": "工作站登入IP維護",
+            "_id": "74"
+        },
+        {
+            "PROGRAMID": "sysapvt010",
+            "PROGRAMNAMEEN": "Approval Group Info",
+            "PROGRAMNAMETW": "覆核群組維護",
+            "PROGRAMDESCEN": "Approval Group Info",
+            "PROGRAMDESCTW": "覆核群組維護",
+            "_id": "75"
+        },
+        {
+            "PROGRAMID": "sysapvt011",
+            "PROGRAMNAMEEN": "Approval User Group Info",
+            "PROGRAMNAMETW": "覆核群組關連維護",
+            "PROGRAMDESCEN": "Approval User Group Info",
+            "PROGRAMDESCTW": "覆核群組關連維護",
+            "_id": "76"
+        },
+        {
+            "PROGRAMID": "sysssmt010",
+            "PROGRAMNAMEEN": "ServiceManager",
+            "PROGRAMNAMETW": "服務管理維護",
+            "PROGRAMDESCEN": "ServiceManager",
+            "PROGRAMDESCTW": "服務管理維護",
+            "_id": "77"
+        },
+        {
+            "PROGRAMID": "sysapvt020",
+            "PROGRAMNAMEEN": "Approval Schema",
+            "PROGRAMNAMETW": "覆核流程定義資料維護",
+            "PROGRAMDESCEN": "Approval Schema",
+            "PROGRAMDESCTW": "覆核流程定義資料維護",
+            "_id": "78"
+        },
+        {
+            "PROGRAMID": "sysapvt021",
+            "PROGRAMNAMEEN": "Approval Schema Program Info",
+            "PROGRAMNAMETW": "覆核流程關聯維護",
+            "PROGRAMDESCEN": "Approval Schema Program Info",
+            "PROGRAMDESCTW": "覆核流程關聯維護",
+            "_id": "79"
+        },
+        {
+            "PROGRAMID": "sysapvt030",
+            "PROGRAMNAMEEN": "Approval Master Info",
+            "PROGRAMNAMETW": "覆核作業管理",
+            "PROGRAMDESCEN": "Approval Master Info",
+            "PROGRAMDESCTW": "覆核作業管理",
+            "_id": "80"
+        },
+        {
+            "PROGRAMID": "sysapvt040",
+            "PROGRAMNAMEEN": "Approval Query",
+            "PROGRAMNAMETW": "覆核資料查詢",
+            "PROGRAMDESCEN": "Approval Query",
+            "PROGRAMDESCTW": "覆核資料查詢",
+            "_id": "81"
+        },
+        {
+            "PROGRAMID": "syssvmg210",
+            "PROGRAMNAMEEN": "OMServer Maintain",
+            "PROGRAMNAMETW": "週邊伺服器資料維護",
+            "PROGRAMDESCEN": "OMServer Maintain",
+            "PROGRAMDESCTW": "週邊伺服器資料維護",
+            "_id": "82"
+        },
+        {
+            "PROGRAMID": "sysutlt210",
+            "PROGRAMNAMEEN": "Universal Table",
+            "PROGRAMNAMETW": "萬用系統資料維護",
+            "PROGRAMDESCEN": "Universal Table",
+            "PROGRAMDESCTW": "萬用系統資料維護",
+            "_id": "83"
+        },
+        {
+            "PROGRAMID": "syslclt010",
+            "PROGRAMNAMEEN": "LimitControl",
+            "PROGRAMNAMETW": "控管條件設定",
+            "PROGRAMDESCEN": "LimitControl",
+            "PROGRAMDESCTW": "控管條件設定",
+            "_id": "84"
+        },
+        {
+            "PROGRAMID": "syslclt011",
+            "PROGRAMNAMEEN": "Record",
+            "PROGRAMNAMETW": "控管記錄設定",
+            "PROGRAMDESCEN": "Record",
+            "PROGRAMDESCTW": "控管記錄設定",
+            "_id": "85"
+        },
+        {
+            "PROGRAMID": "syslclt020",
+            "PROGRAMNAMEEN": "AuthorizeLimit",
+            "PROGRAMNAMETW": "覆核主管額度設定",
+            "PROGRAMDESCEN": "AuthorizeLimit",
+            "PROGRAMDESCTW": "覆核主管額度設定",
+            "_id": "86"
+        },
+        {
+            "PROGRAMID": "sysutlt220",
+            "PROGRAMNAMEEN": "Universal Query",
+            "PROGRAMNAMETW": "萬用系統資料查詢",
+            "PROGRAMDESCEN": "Universal Query",
+            "PROGRAMDESCTW": "萬用系統資料查詢",
+            "_id": "87"
+        },
+        {
+            "PROGRAMID": "sysdxgt210",
+            "PROGRAMNAMEEN": "ExportDefine",
+            "PROGRAMNAMETW": "匯出定義資料維護",
+            "PROGRAMDESCEN": "ExportDefine",
+            "PROGRAMDESCTW": "匯出定義資料維護",
+            "_id": "88"
+        },
+        {
+            "PROGRAMID": "sysdxgt220",
+            "PROGRAMNAMEEN": "ImportDefine",
+            "PROGRAMNAMETW": "匯入定義資料維護",
+            "PROGRAMDESCEN": "ImportDefine",
+            "PROGRAMDESCTW": "匯入定義資料維護",
+            "_id": "89"
+        },
+        {
+            "PROGRAMID": "fopbasi300",
+            "PROGRAMNAMEEN": "銀行自動入金查詢(en)",
+            "PROGRAMNAMETW": "銀行自動入金查詢",
+            "PROGRAMDESCEN": "fopbasi300",
+            "PROGRAMDESCTW": "銀行自動入金查詢",
+            "_id": "90"
+        },
+        {
+            "PROGRAMID": "fopbasi200",
+            "PROGRAMNAMEEN": "有價證券抵繳庫存查詢(en)",
+            "PROGRAMNAMETW": "有價證券抵繳庫存查詢",
+            "PROGRAMDESCEN": "fopbasi200",
+            "PROGRAMDESCTW": "有價證券抵繳庫存查詢",
+            "_id": "91"
+        },
+        {
+            "PROGRAMID": "sysmntt010",
+            "PROGRAMNAMEEN": "Monitor Windows",
+            "PROGRAMNAMETW": "監控項目維護",
+            "PROGRAMDESCEN": "Monitor Windows",
+            "PROGRAMDESCTW": "監控項目維護",
+            "_id": "92"
+        },
+        {
+            "PROGRAMID": "sysmntt020",
+            "PROGRAMNAMEEN": "Monitor Set",
+            "PROGRAMNAMETW": "監控作業管理",
+            "PROGRAMDESCEN": "Monitor Set",
+            "PROGRAMDESCTW": "監控作業管理",
+            "_id": "93"
+        },
+        {
+            "PROGRAMID": "sysmsgt010",
+            "PROGRAMNAMEEN": "Message Bar Maintain",
+            "PROGRAMNAMETW": "系統訊息區維護",
+            "PROGRAMDESCEN": "Message Bar Maintain",
+            "PROGRAMDESCTW": "系統訊息區維護",
+            "_id": "94"
+        },
+        {
+            "PROGRAMID": "syspmst210",
+            "PROGRAMNAMEEN": "Program Authen Info",
+            "PROGRAMNAMETW": "程式權限資料維護",
+            "PROGRAMDESCEN": "Program Authen Info",
+            "PROGRAMDESCTW": "程式權限資料維護",
+            "_id": "95"
+        },
+        {
+            "PROGRAMID": "sysutlt230",
+            "PROGRAMNAMEEN": "FTP Data Transfer",
+            "PROGRAMNAMETW": "主機檔案傳送管理",
+            "PROGRAMDESCEN": "FTP Data Transfer",
+            "PROGRAMDESCTW": "主機檔案傳送管理",
+            "_id": "96"
+        },
+        {
+            "PROGRAMID": "syswsct200",
+            "PROGRAMNAMEEN": "JobDefine",
+            "PROGRAMNAMETW": "工作單元資料維護",
+            "PROGRAMDESCEN": "JobDefine",
+            "PROGRAMDESCTW": "工作單元資料維護",
+            "_id": "97"
+        },
+        {
+            "PROGRAMID": "syswsct210",
+            "PROGRAMNAMEEN": "JobFlowDefine",
+            "PROGRAMNAMETW": "工作流程資料維護",
+            "PROGRAMDESCEN": "JobFlowDefine",
+            "PROGRAMDESCTW": "工作流程資料維護",
+            "_id": "98"
+        },
+        {
+            "PROGRAMID": "syswsct220",
+            "PROGRAMNAMEEN": "JobFlowGroupDefine",
+            "PROGRAMNAMETW": "工作流程群組資料維護",
+            "PROGRAMDESCEN": "JobFlowGroupDefine",
+            "PROGRAMDESCTW": "工作流程群組資料維護",
+            "_id": "99"
+        },
+        {
+            "PROGRAMID": "syswsct030",
+            "PROGRAMNAMEEN": "JobSchedulerDefine",
+            "PROGRAMNAMETW": "工作排程資料維護",
+            "PROGRAMDESCEN": "JobSchedulerDefine",
+            "PROGRAMDESCTW": "工作排程資料維護",
+            "_id": "100"
+        },
+        {
+            "PROGRAMID": "syswsct240",
+            "PROGRAMNAMEEN": "JobSchedulerManagement",
+            "PROGRAMNAMETW": "排程作業管理",
+            "PROGRAMDESCEN": "JobSchedulerManagement",
+            "PROGRAMDESCTW": "排程作業管理",
+            "_id": "101"
+        },
+        {
+            "PROGRAMID": "syswsct250",
+            "PROGRAMNAMEEN": "SetupCustomTask",
+            "PROGRAMNAMETW": "排程手動管理",
+            "PROGRAMDESCEN": "SetupCustomTask",
+            "PROGRAMDESCTW": "排程手動管理",
+            "_id": "102"
+        },
+        {
+            "PROGRAMID": "fopbasi220",
+            "PROGRAMNAMEEN": "歷史有價證券抵繳金額查詢(en)",
+            "PROGRAMNAMETW": "歷史有價證券抵繳金額查詢",
+            "PROGRAMDESCEN": "fopbasi220",
+            "PROGRAMDESCTW": "歷史有價證券抵繳金額查詢",
+            "_id": "103"
+        },
+        {
+            "PROGRAMID": "fopbasi510",
+            "PROGRAMNAMEEN": "客戶手續費查詢(en)",
+            "PROGRAMNAMETW": "客戶手續費查詢",
+            "PROGRAMDESCEN": "fopbasi510",
+            "PROGRAMDESCTW": "客戶手續費查詢",
+            "_id": "104"
+        },
+        {
+            "PROGRAMID": "fopbasi810",
+            "PROGRAMNAMEEN": "覆核狀態查詢(en)",
+            "PROGRAMNAMETW": "覆核狀態查詢",
+            "PROGRAMDESCEN": "fopbasi810",
+            "PROGRAMDESCTW": "覆核狀態查詢",
+            "_id": "105"
+        },
+        {
+            "PROGRAMID": "fopbasi820",
+            "PROGRAMNAMEEN": "MOS MOM測試查詢(en)",
+            "PROGRAMNAMETW": "MOS MOM測試查詢",
+            "PROGRAMDESCEN": "fopbasi820",
+            "PROGRAMDESCTW": "MOS MOM測試查詢",
+            "_id": "106"
+        },
+        {
+            "PROGRAMID": "fopbasi850",
+            "PROGRAMNAMEEN": "EMAIL寄出備份查詢(en)",
+            "PROGRAMNAMETW": "EMAIL寄出備份查詢",
+            "PROGRAMDESCEN": "fopbasi850",
+            "PROGRAMDESCTW": "EMAIL寄出備份查詢",
+            "_id": "107"
+        },
+        {
+            "PROGRAMID": "fopbasp030",
+            "PROGRAMNAMEEN": "變更結算會員代碼處理(en)",
+            "PROGRAMNAMETW": "變更結算會員代碼處理",
+            "PROGRAMDESCEN": "fopbasp030",
+            "PROGRAMDESCTW": "變更結算會員代碼處理",
+            "_id": "108"
+        },
+        {
+            "PROGRAMID": "fopbasp120",
+            "PROGRAMNAMEEN": "重算交易所費用處理(en)",
+            "PROGRAMNAMETW": "重算交易所費用處理",
+            "PROGRAMDESCEN": "fopbasp120",
+            "PROGRAMDESCTW": "重算交易所費用處理",
+            "_id": "109"
+        },
+        {
+            "PROGRAMID": "fopbasp140",
+            "PROGRAMNAMEEN": "交易所交易日設定(en)",
+            "PROGRAMNAMETW": "交易所交易日設定",
+            "PROGRAMDESCEN": "fopbasp140",
+            "PROGRAMDESCTW": "交易所交易日設定",
+            "_id": "110"
+        },
+        {
+            "PROGRAMID": "fopbasp150",
+            "PROGRAMNAMEEN": "契約調整商品主檔異動處理(en)",
+            "PROGRAMNAMETW": "契約調整商品主檔異動處理",
+            "PROGRAMDESCEN": "fopbasp150",
+            "PROGRAMDESCTW": "契約調整商品主檔異動處理",
+            "_id": "111"
+        },
+        {
+            "PROGRAMID": "fopbasp200",
+            "PROGRAMNAMEEN": "利息重算處理(en)",
+            "PROGRAMNAMETW": "利息重算處理",
+            "PROGRAMDESCEN": "fopbasp200",
+            "PROGRAMDESCTW": "利息重算處理",
+            "_id": "112"
+        },
+        {
+            "PROGRAMID": "fopbasr530",
+            "PROGRAMNAMEEN": "期交所網路暨電話語音部位查詢申請轉檔(EN)",
+            "PROGRAMNAMETW": "期交所網路暨電話語音部位查詢申請轉檔",
+            "PROGRAMDESCEN": "fopbasr530",
+            "PROGRAMDESCTW": "期交所網路暨電話語音部位查詢申請轉檔",
+            "_id": "113"
+        },
+        {
+            "PROGRAMID": "fopbasr550",
+            "PROGRAMNAMEEN": "Default Account Customer Checklist",
+            "PROGRAMNAMETW": "違約已開戶客戶檢核表",
+            "PROGRAMDESCEN": "fopbasr550",
+            "PROGRAMDESCTW": "違約已開戶客戶檢核表",
+            "_id": "114"
+        },
+        {
+            "PROGRAMID": "fopbasr810",
+            "PROGRAMNAMEEN": "代碼說明資料對照表(en)",
+            "PROGRAMNAMETW": "代碼說明資料對照表",
+            "PROGRAMDESCEN": "fopbasr810",
+            "PROGRAMDESCTW": "代碼說明資料對照表",
+            "_id": "115"
+        },
+        {
+            "PROGRAMID": "fopbasr820",
+            "PROGRAMNAMEEN": "System Parameters List",
+            "PROGRAMNAMETW": "系統控制資料對照表",
+            "PROGRAMDESCEN": "fopbasr820",
+            "PROGRAMDESCTW": "系統控制資料對照表",
+            "_id": "116"
+        },
+        {
+            "PROGRAMID": "fopbast010",
+            "PROGRAMNAMEEN": "商品基本資料設定(en)",
+            "PROGRAMNAMETW": "商品基本資料設定",
+            "PROGRAMDESCEN": "fopbast010",
+            "PROGRAMDESCTW": "商品基本資料設定",
+            "_id": "117"
+        },
+        {
+            "PROGRAMID": "fopbast020",
+            "PROGRAMNAMEEN": "商品合約資料維護(en)",
+            "PROGRAMNAMETW": "商品合約資料維護",
+            "PROGRAMDESCEN": "fopbast020",
+            "PROGRAMDESCTW": "商品合約資料維護",
+            "_id": "118"
+        },
+        {
+            "PROGRAMID": "fopbast030",
+            "PROGRAMNAMEEN": "結算經紀商維護(en)",
+            "PROGRAMNAMETW": "結算經紀商維護",
+            "PROGRAMDESCEN": "fopbast030",
+            "PROGRAMDESCTW": "結算經紀商維護",
+            "_id": "119"
+        },
+        {
+            "PROGRAMID": "fopbast040",
+            "PROGRAMNAMEEN": "交易所維護(en)",
+            "PROGRAMNAMETW": "交易所維護",
+            "PROGRAMDESCEN": "fopbast040",
+            "PROGRAMDESCTW": "交易所維護",
+            "_id": "120"
+        },
+        {
+            "PROGRAMID": "fopbast045",
+            "PROGRAMNAMEEN": "全國期貨商資料設定(en)",
+            "PROGRAMNAMETW": "全國期貨商資料設定",
+            "PROGRAMDESCEN": "fopbast045",
+            "PROGRAMDESCTW": "全國期貨商資料設定",
+            "_id": "121"
+        },
+        {
+            "PROGRAMID": "fopbast050",
+            "PROGRAMNAMEEN": "期貨保證金資料維護(en)",
+            "PROGRAMNAMETW": "期貨保證金資料維護",
+            "PROGRAMDESCEN": "fopbast050",
+            "PROGRAMDESCTW": "期貨保證金資料維護",
+            "_id": "122"
+        },
+        {
+            "PROGRAMID": "fopbast055",
+            "PROGRAMNAMEEN": "代結算保證金規則設定(en)",
+            "PROGRAMNAMETW": "代結算保證金規則設定",
+            "PROGRAMDESCEN": "fopbast055",
+            "PROGRAMDESCTW": "代結算保證金規則設定",
+            "_id": "123"
+        },
+        {
+            "PROGRAMID": "fopbast060",
+            "PROGRAMNAMEEN": "台盤選擇權保證金AB值設定(en)",
+            "PROGRAMNAMETW": "台盤選擇權保證金AB值設定",
+            "PROGRAMDESCEN": "fopbast060",
+            "PROGRAMDESCTW": "台盤選擇權保證金AB值設定",
+            "_id": "124"
+        },
+        {
+            "PROGRAMID": "fopbast080",
+            "PROGRAMNAMEEN": "商品群組參數比例維護(en)",
+            "PROGRAMNAMETW": "商品群組參數比例維護",
+            "PROGRAMDESCEN": "fopbast080",
+            "PROGRAMDESCTW": "商品群組參數比例維護",
+            "_id": "125"
+        },
+        {
+            "PROGRAMID": "fopbast090",
+            "PROGRAMNAMEEN": "幣別資料維護(en)",
+            "PROGRAMNAMETW": "幣別資料維護",
+            "PROGRAMDESCEN": "fopbast090",
+            "PROGRAMDESCTW": "幣別資料維護",
+            "_id": "126"
+        },
+        {
+            "PROGRAMID": "fopbast091",
+            "PROGRAMNAMEEN": "台幣匯率資料維護(en)",
+            "PROGRAMNAMETW": "台幣匯率資料維護",
+            "PROGRAMDESCEN": "fopbast091",
+            "PROGRAMDESCTW": "台幣匯率資料維護",
+            "_id": "127"
+        },
+        {
+            "PROGRAMID": "fopbast092",
+            "PROGRAMNAMEEN": "美元匯率資料維護(en)",
+            "PROGRAMNAMETW": "美元匯率資料維護",
+            "PROGRAMDESCEN": "fopbast092",
+            "PROGRAMDESCTW": "美元匯率資料維護",
+            "_id": "128"
+        },
+        {
+            "PROGRAMID": "fopbast100",
+            "PROGRAMNAMEEN": "部位限制維護(en)",
+            "PROGRAMNAMETW": "部位限制維護",
+            "PROGRAMDESCEN": "fopbast100",
+            "PROGRAMDESCTW": "部位限制維護",
+            "_id": "129"
+        },
+        {
+            "PROGRAMID": "fopbast110",
+            "PROGRAMNAMEEN": "商品群組代碼設定(en)",
+            "PROGRAMNAMETW": "商品群組代碼設定",
+            "PROGRAMDESCEN": "fopbast110",
+            "PROGRAMDESCTW": "商品群組代碼設定",
+            "_id": "130"
+        },
+        {
+            "PROGRAMID": "fopbast120",
+            "PROGRAMNAMEEN": "交易所/結算商/經紀商費用資料(en)",
+            "PROGRAMNAMETW": "交易所/結算商/經紀商費用資料",
+            "PROGRAMDESCEN": "fopbast120",
+            "PROGRAMDESCTW": "交易所/結算商/經紀商費用資料",
+            "_id": "131"
+        },
+        {
+            "PROGRAMID": "fopbast130",
+            "PROGRAMNAMEEN": "交易所/結算商/經紀商費用預設資料(en)",
+            "PROGRAMNAMETW": "交易所/結算商/經紀商費用預設資料",
+            "PROGRAMDESCEN": "fopbast130",
+            "PROGRAMDESCTW": "交易所/結算商/經紀商費用預設資料",
+            "_id": "132"
+        },
+        {
+            "PROGRAMID": "fopbast140",
+            "PROGRAMNAMEEN": "市場部位集中度條件維護(en)",
+            "PROGRAMNAMETW": "市場部位集中度條件維護",
+            "PROGRAMDESCEN": "fopbast140",
+            "PROGRAMDESCTW": "市場部位集中度條件維護",
+            "_id": "133"
+        },
+        {
+            "PROGRAMID": "fopbast150",
+            "PROGRAMNAMEEN": "結算價維護(en)",
+            "PROGRAMNAMETW": "結算價維護",
+            "PROGRAMDESCEN": "fopbast150",
+            "PROGRAMDESCTW": "結算價維護",
+            "_id": "134"
+        },
+        {
+            "PROGRAMID": "fopbast160",
+            "PROGRAMNAMEEN": "台盤委託價跳動單位維護(en)",
+            "PROGRAMNAMETW": "台盤委託價跳動單位維護",
+            "PROGRAMDESCEN": "fopbast160",
+            "PROGRAMDESCTW": "台盤委託價跳動單位維護",
+            "_id": "135"
+        },
+        {
+            "PROGRAMID": "fopbast170",
+            "PROGRAMNAMEEN": "台盤委託市價單控管(en)",
+            "PROGRAMNAMETW": "台盤委託市價單控管",
+            "PROGRAMDESCEN": "fopbast170",
+            "PROGRAMDESCTW": "台盤委託市價單控管",
+            "_id": "136"
+        },
+        {
+            "PROGRAMID": "fopbast180",
+            "PROGRAMNAMEEN": "台盤委託下單參數(en)",
+            "PROGRAMNAMETW": "台盤委託下單參數",
+            "PROGRAMDESCEN": "fopbast180",
+            "PROGRAMDESCTW": "台盤委託下單參數",
+            "_id": "137"
+        },
+        {
+            "PROGRAMID": "fopbast190",
+            "PROGRAMNAMEEN": "台盤漲跌幅度維護(en)",
+            "PROGRAMNAMETW": "台盤漲跌幅度維護",
+            "PROGRAMDESCEN": "fopbast190",
+            "PROGRAMDESCTW": "台盤漲跌幅度維護",
+            "_id": "138"
+        },
+        {
+            "PROGRAMID": "fopbast200",
+            "PROGRAMNAMEEN": "利率維護(en)",
+            "PROGRAMNAMETW": "利率維護",
+            "PROGRAMDESCEN": "fopbast200",
+            "PROGRAMDESCTW": "利率維護",
+            "_id": "139"
+        },
+        {
+            "PROGRAMID": "fopbast210",
+            "PROGRAMNAMEEN": "利息分配金額調整(en)",
+            "PROGRAMNAMETW": "利息分配金額調整",
+            "PROGRAMDESCEN": "fopbast210",
+            "PROGRAMDESCTW": "利息分配金額調整",
+            "_id": "140"
+        },
+        {
+            "PROGRAMID": "fopbast220",
+            "PROGRAMNAMEEN": "契約轉換設定(en)",
+            "PROGRAMNAMETW": "契約轉換設定",
+            "PROGRAMDESCEN": "fopbast220",
+            "PROGRAMDESCTW": "契約轉換設定",
+            "_id": "141"
+        },
+        {
+            "PROGRAMID": "fopbast230",
+            "PROGRAMNAMEEN": "利息扣繳匯率維護(en)",
+            "PROGRAMNAMETW": "利息扣繳匯率維護",
+            "PROGRAMDESCEN": "fopbast230",
+            "PROGRAMDESCTW": "利息扣繳匯率維護",
+            "_id": "142"
+        },
+        {
+            "PROGRAMID": "fopbast240",
+            "PROGRAMNAMEEN": "有價證券折扣比率檔設定(en)",
+            "PROGRAMNAMETW": "有價證券折扣比率檔設定",
+            "PROGRAMDESCEN": "fopbast240",
+            "PROGRAMDESCTW": "有價證券折扣比率檔設定",
+            "_id": "143"
+        },
+        {
+            "PROGRAMID": "fopbast250",
+            "PROGRAMNAMEEN": "有價證券基本資料設定(en)",
+            "PROGRAMNAMETW": "有價證券基本資料設定",
+            "PROGRAMDESCEN": "fopbast250",
+            "PROGRAMDESCTW": "有價證券基本資料設定",
+            "_id": "144"
+        },
+        {
+            "PROGRAMID": "fopbast260",
+            "PROGRAMNAMEEN": "有價證券抵繳費用設定(en)",
+            "PROGRAMNAMETW": "有價證券抵繳費用設定",
+            "PROGRAMDESCEN": "fopbast260",
+            "PROGRAMDESCTW": "有價證券抵繳費用設定",
+            "_id": "145"
+        },
+        {
+            "PROGRAMID": "fopbast265",
+            "PROGRAMNAMEEN": "有價證券抵繳匯入匯出維護(en)",
+            "PROGRAMNAMETW": "有價證券抵繳匯入匯出維護",
+            "PROGRAMDESCEN": "fopbast265",
+            "PROGRAMDESCTW": "有價證券抵繳匯入匯出維護",
+            "_id": "146"
+        },
+        {
+            "PROGRAMID": "fopbast270",
+            "PROGRAMNAMEEN": "可交割債券檔維護(en)",
+            "PROGRAMNAMETW": "可交割債券檔維護",
+            "PROGRAMDESCEN": "fopbast270",
+            "PROGRAMDESCTW": "可交割債券檔維護",
+            "_id": "147"
+        },
+        {
+            "PROGRAMID": "fopbast300",
+            "PROGRAMNAMEEN": "全國銀行分行金資代號維護(en)",
+            "PROGRAMNAMETW": "全國銀行分行金資代號維護",
+            "PROGRAMDESCEN": "fopbast300",
+            "PROGRAMDESCTW": "全國銀行分行金資代號維護",
+            "_id": "148"
+        },
+        {
+            "PROGRAMID": "fopbast310",
+            "PROGRAMNAMEEN": "銀行基本資料維護(en)",
+            "PROGRAMNAMETW": "銀行基本資料維護",
+            "PROGRAMDESCEN": "fopbast310",
+            "PROGRAMDESCTW": "銀行基本資料維護",
+            "_id": "149"
+        },
+        {
+            "PROGRAMID": "fopbast315",
+            "PROGRAMNAMEEN": "銀行連線介面資料維護(en)",
+            "PROGRAMNAMETW": "銀行連線介面資料維護",
+            "PROGRAMDESCEN": "fopbast315",
+            "PROGRAMDESCTW": "銀行連線介面資料維護",
+            "_id": "150"
+        },
+        {
+            "PROGRAMID": "fopbast316",
+            "PROGRAMNAMEEN": "自動入金來源銀行檢查設定(en)",
+            "PROGRAMNAMETW": "自動入金來源銀行檢查設定",
+            "PROGRAMDESCEN": "fopbast316",
+            "PROGRAMDESCTW": "自動入金來源銀行檢查設定",
+            "_id": "151"
+        },
+        {
+            "PROGRAMID": "fopbast320",
+            "PROGRAMNAMEEN": "客戶存提款輸入(en)",
+            "PROGRAMNAMETW": "客戶存提款輸入",
+            "PROGRAMDESCEN": "fopbast320",
+            "PROGRAMDESCTW": "客戶存提款輸入",
+            "_id": "152"
+        },
+        {
+            "PROGRAMID": "fopbast330",
+            "PROGRAMNAMEEN": "客戶款項調整(en)",
+            "PROGRAMNAMETW": "客戶款項調整",
+            "PROGRAMDESCEN": "fopbast330",
+            "PROGRAMDESCTW": "客戶款項調整",
+            "_id": "153"
+        },
+        {
+            "PROGRAMID": "fopbast350",
+            "PROGRAMNAMEEN": "保證金專戶銀行款項調整(en)",
+            "PROGRAMNAMETW": "保證金專戶銀行款項調整",
+            "PROGRAMDESCEN": "fopbast350",
+            "PROGRAMDESCTW": "保證金專戶銀行款項調整",
+            "_id": "154"
+        },
+        {
+            "PROGRAMID": "fopbast360",
+            "PROGRAMNAMEEN": "銀行專戶轉帳記錄(en)",
+            "PROGRAMNAMETW": "銀行專戶轉帳記錄",
+            "PROGRAMDESCEN": "fopbast360",
+            "PROGRAMDESCTW": "銀行專戶轉帳記錄",
+            "_id": "155"
+        },
+        {
+            "PROGRAMID": "fopbast410",
+            "PROGRAMNAMEEN": "結算商往來存提款輸入(en)",
+            "PROGRAMNAMETW": "結算商往來存提款輸入",
+            "PROGRAMDESCEN": "fopbast410",
+            "PROGRAMDESCTW": "結算商往來存提款輸入",
+            "_id": "156"
+        },
+        {
+            "PROGRAMID": "fopbast411",
+            "PROGRAMNAMEEN": "代結算公司往來存提款輸入(en)",
+            "PROGRAMNAMETW": "代結算公司往來存提款輸入",
+            "PROGRAMDESCEN": "fopbast411",
+            "PROGRAMDESCTW": "代結算公司往來存提款輸入",
+            "_id": "157"
+        },
+        {
+            "PROGRAMID": "fopbast420",
+            "PROGRAMNAMEEN": "上手款項調整(en)",
+            "PROGRAMNAMETW": "上手款項調整",
+            "PROGRAMDESCEN": "fopbast420",
+            "PROGRAMDESCTW": "上手款項調整",
+            "_id": "158"
+        },
+        {
+            "PROGRAMID": "fopbast421",
+            "PROGRAMNAMEEN": "代結算公司款項調整(en)",
+            "PROGRAMNAMETW": "代結算公司款項調整",
+            "PROGRAMDESCEN": "fopbast421",
+            "PROGRAMDESCTW": "代結算公司款項調整",
+            "_id": "159"
+        },
+        {
+            "PROGRAMID": "fopbast430",
+            "PROGRAMNAMEEN": "會計處理原則維護(en)",
+            "PROGRAMNAMETW": "會計處理原則維護",
+            "PROGRAMDESCEN": "fopbast430",
+            "PROGRAMDESCTW": "會計處理原則維護",
+            "_id": "160"
+        },
+        {
+            "PROGRAMID": "fopbast440",
+            "PROGRAMNAMEEN": "Accouting Course Mantain",
+            "PROGRAMNAMETW": "會計科目維護",
+            "PROGRAMDESCEN": "fopbast440",
+            "PROGRAMDESCTW": "會計科目維護",
+            "_id": "161"
+        },
+        {
+            "PROGRAMID": "fopbast510",
+            "PROGRAMNAMEEN": "客戶基本資料維護(en)",
+            "PROGRAMNAMETW": "客戶基本資料作業維護",
+            "PROGRAMDESCEN": "fopbast510",
+            "PROGRAMDESCTW": "客戶基本資料作業維護",
+            "_id": "162"
+        },
+        {
+            "PROGRAMID": "fopbast520",
+            "PROGRAMNAMEEN": "客戶銀行帳號維護(en)",
+            "PROGRAMNAMETW": "客戶銀行帳號維護",
+            "PROGRAMDESCEN": "fopbast520",
+            "PROGRAMDESCTW": "客戶銀行帳號維護",
+            "_id": "163"
+        },
+        {
+            "PROGRAMID": "fopbast910",
+            "PROGRAMNAMEEN": "壓力測試價格參數資料(en)",
+            "PROGRAMNAMETW": "壓力測試價格參數資料",
+            "PROGRAMDESCEN": "fopbast910",
+            "PROGRAMDESCTW": "壓力測試價格參數資料",
+            "_id": "164"
+        },
+        {
+            "PROGRAMID": "fopbast925",
+            "PROGRAMNAMEEN": "Data Verify",
+            "PROGRAMNAMETW": "資料驗證",
+            "PROGRAMDESCEN": "Data Verify",
+            "PROGRAMDESCTW": "資料驗證",
+            "_id": "165"
+        },
+        {
+            "PROGRAMID": "foprptr085",
+            "PROGRAMNAMEEN": "Margin Call Mail List",
+            "PROGRAMNAMETW": "保證金追繳函件表",
+            "PROGRAMDESCEN": "foprptr085",
+            "PROGRAMDESCTW": "保證金追繳函件表",
+            "_id": "166"
+        },
+        {
+            "PROGRAMID": "foprptr090",
+            "PROGRAMNAMEEN": "Day Trade Margin Call List",
+            "PROGRAMNAMETW": "當沖保證金追繳彙總表",
+            "PROGRAMDESCEN": "foprptr090",
+            "PROGRAMDESCTW": "當沖保證金追繳彙總表",
+            "_id": "167"
+        },
+        {
+            "PROGRAMID": "foprptr100",
+            "PROGRAMNAMEEN": "Notice of Day Trade Margin Calls",
+            "PROGRAMNAMETW": "當沖保證金追繳通知書",
+            "PROGRAMDESCEN": "foprptr100",
+            "PROGRAMDESCTW": "當沖保證金追繳通知書",
+            "_id": "168"
+        },
+        {
+            "PROGRAMID": "foprptr105",
+            "PROGRAMNAMEEN": "Open Position List of Day Trade Margin Calls",
+            "PROGRAMNAMETW": "當沖追繳未補足強制平倉明細表",
+            "PROGRAMDESCEN": "foprptr105",
+            "PROGRAMDESCTW": "當沖追繳未補足強制平倉明細表",
+            "_id": "169"
+        },
+        {
+            "PROGRAMID": "foprptr110",
+            "PROGRAMNAMEEN": "Daily Trading Tax Report",
+            "PROGRAMNAMETW": "代徵期貨交易稅日明細表",
+            "PROGRAMDESCEN": "foprptr110",
+            "PROGRAMDESCTW": "代徵期貨交易稅日明細表",
+            "_id": "170"
+        },
+        {
+            "PROGRAMID": "foprptr115",
+            "PROGRAMNAMEEN": "Checklist of Trading Tax With MTS",
+            "PROGRAMNAMETW": "期交稅MTS核對表",
+            "PROGRAMDESCEN": "foprptr115",
+            "PROGRAMDESCTW": "期交稅MTS核對表",
+            "_id": "171"
+        },
+        {
+            "PROGRAMID": "foprptr120",
+            "PROGRAMNAMEEN": "Adjusted Net Capital (ANC) Spreadsheet",
+            "PROGRAMNAMETW": "調整後淨資本額(ANC)表",
+            "PROGRAMDESCEN": "foprptr120",
+            "PROGRAMDESCTW": "調整後淨資本額(ANC)表",
+            "_id": "172"
+        },
+        {
+            "PROGRAMID": "foprptr121",
+            "PROGRAMNAMEEN": "ANC日申報轉檔(en)",
+            "PROGRAMNAMETW": "ANC日申報轉檔",
+            "PROGRAMDESCEN": "foprptr121",
+            "PROGRAMDESCTW": "ANC日申報轉檔",
+            "_id": "173"
+        },
+        {
+            "PROGRAMID": "foprptr130",
+            "PROGRAMNAMEEN": "Order Margin Check Record",
+            "PROGRAMNAMETW": "委託保證金檢核記錄",
+            "PROGRAMDESCEN": "foprptr130",
+            "PROGRAMDESCTW": "委託保證金檢核記錄",
+            "_id": "174"
+        },
+        {
+            "PROGRAMID": "foprptr140",
+            "PROGRAMNAMEEN": "Daily Trade Cost List",
+            "PROGRAMNAMETW": "期貨商日交易成本表",
+            "PROGRAMDESCEN": "foprptr140",
+            "PROGRAMDESCTW": "期貨商日交易成本表",
+            "_id": "175"
+        },
+        {
+            "PROGRAMID": "foprptr150",
+            "PROGRAMNAMEEN": "Daily Trading Tax Payment(NTA Form)",
+            "PROGRAMNAMETW": "期交稅代徵稅額繳款書(套表)",
+            "PROGRAMDESCEN": "foprptr150",
+            "PROGRAMDESCTW": "期交稅代徵稅額繳款書(套表)",
+            "_id": "176"
+        },
+        {
+            "PROGRAMID": "foprptr151",
+            "PROGRAMNAMEEN": "期交稅代徵稅額媒體檔(en)",
+            "PROGRAMNAMETW": "期交稅代徵稅額媒體檔",
+            "PROGRAMDESCEN": "foprptr151",
+            "PROGRAMDESCTW": "期交稅代徵稅額媒體檔",
+            "_id": "177"
+        },
+        {
+            "PROGRAMID": "foprptr160",
+            "PROGRAMNAMEEN": "Customer Commision Summary",
+            "PROGRAMNAMETW": "客戶手續費彙總表",
+            "PROGRAMDESCEN": "foprptr160",
+            "PROGRAMDESCTW": "客戶手續費彙總表",
+            "_id": "178"
+        },
+        {
+            "PROGRAMID": "foprptr170",
+            "PROGRAMNAMEEN": "Ambiguous Money Laundering Report",
+            "PROGRAMNAMETW": "疑似洗錢交易表徵表",
+            "PROGRAMDESCEN": "foprptr170",
+            "PROGRAMDESCTW": "疑似洗錢交易表徵表",
+            "_id": "179"
+        },
+        {
+            "PROGRAMID": "fopbasr330",
+            "PROGRAMNAMEEN": "Withdraw Commision Report and E-file",
+            "PROGRAMNAMETW": "手續費銀行扣款明細與轉檔",
+            "PROGRAMDESCEN": "fopbasr330",
+            "PROGRAMDESCTW": "手續費銀行扣款明細與轉檔",
+            "_id": "180"
+        },
+        {
+            "PROGRAMID": "fopbasr340",
+            "PROGRAMNAMEEN": "台幣出金明細與轉檔(en)",
+            "PROGRAMNAMETW": "台幣出金明細與轉檔",
+            "PROGRAMDESCEN": "fopbasr340",
+            "PROGRAMDESCTW": "台幣出金明細與轉檔",
+            "_id": "181"
+        },
+        {
+            "PROGRAMID": "fopbasr350",
+            "PROGRAMNAMEEN": "non-TWD Withdraw Report and E-file",
+            "PROGRAMNAMETW": "外幣出金明細與轉檔",
+            "PROGRAMDESCEN": "fopbasr350",
+            "PROGRAMDESCTW": "外幣出金明細與轉檔",
+            "_id": "182"
+        },
+        {
+            "PROGRAMID": "fopbasr360",
+            "PROGRAMNAMEEN": "Withdraw Commision Report and E-file",
+            "PROGRAMNAMETW": "結算商往來存款明細轉檔",
+            "PROGRAMDESCEN": "fopbasr360",
+            "PROGRAMDESCTW": "結算商往來存款明細轉檔",
+            "_id": "183"
+        },
+        {
+            "PROGRAMID": "fopbasr510",
+            "PROGRAMNAMEEN": "Customer Information Modification History",
+            "PROGRAMNAMETW": "客戶基本資料異動清冊",
+            "PROGRAMDESCEN": "fopbasr510",
+            "PROGRAMDESCTW": "客戶基本資料異動清冊",
+            "_id": "184"
+        },
+        {
+            "PROGRAMID": "foprptr840",
+            "PROGRAMNAMEEN": "Renewal Notice for No Trading and No Balance of Three-year Customer",
+            "PROGRAMNAMETW": "三年久未交易無權益客戶續約通知書",
+            "PROGRAMDESCEN": "foprptr840",
+            "PROGRAMDESCTW": "三年久未交易無權益客戶續約通知書",
+            "_id": "185"
+        },
+        {
+            "PROGRAMID": "foptest999",
+            "PROGRAMNAMEEN": "測試交易(en)",
+            "PROGRAMNAMETW": "測試交易",
+            "PROGRAMDESCEN": "foptest999",
+            "PROGRAMDESCTW": "測試交易",
+            "_id": "186"
+        },
+        {
+            "PROGRAMID": "fophelp010",
+            "PROGRAMNAMEEN": "常見問題(en)",
+            "PROGRAMNAMETW": "常見問題",
+            "PROGRAMDESCEN": "fophelp010",
+            "PROGRAMDESCTW": "常見問題",
+            "_id": "187"
+        },
+        {
+            "PROGRAMID": "fopmtsaj01",
+            "PROGRAMNAMEEN": "MTS Auto Execute Job Setting",
+            "PROGRAMNAMETW": "MTS 自動執行維護",
+            "PROGRAMDESCEN": "fopmtsaj01",
+            "PROGRAMDESCTW": "MTS 自動執行維護",
+            "_id": "188"
+        },
+        {
+            "PROGRAMID": "fopmtsi010",
+            "PROGRAMNAMEEN": "MTS傳送狀況查詢(en)",
+            "PROGRAMNAMETW": "MTS傳送狀況查詢",
+            "PROGRAMDESCEN": "fopmtsi010",
+            "PROGRAMDESCTW": "MTS傳送狀況查詢",
+            "_id": "189"
+        },
+        {
+            "PROGRAMID": "fopmtsp100",
+            "PROGRAMNAMEEN": "MTS了結口數比對修正處理(en)",
+            "PROGRAMNAMETW": "MTS了結口數比對修正處理",
+            "PROGRAMDESCEN": "MTS了結口數比對修正處理(en)",
+            "PROGRAMDESCTW": "MTS了結口數比對修正處理",
+            "_id": "190"
+        },
+        {
+            "PROGRAMID": "fopmtsp110",
+            "PROGRAMNAMEEN": "MTS餘額口數比對修正處理(en)",
+            "PROGRAMNAMETW": "MTS餘額口數比對修正處理",
+            "PROGRAMDESCEN": "MTS餘額口數比對修正處理(en)",
+            "PROGRAMDESCTW": "MTS餘額口數比對修正處理",
+            "_id": "191"
+        },
+        {
+            "PROGRAMID": "fopmtsp120",
+            "PROGRAMNAMEEN": "MTS組合部位全部拆解(en)",
+            "PROGRAMNAMETW": "MTS組合部位全部拆解",
+            "PROGRAMDESCEN": "MTS組合部位全部拆解(en)",
+            "PROGRAMDESCTW": "MTS組合部位全部拆解",
+            "_id": "192"
+        },
+        {
+            "PROGRAMID": "fopmtsp130",
+            "PROGRAMNAMEEN": "MTS組合部位修正處理(en)",
+            "PROGRAMNAMETW": "MTS組合部位修正處理",
+            "PROGRAMDESCEN": "MTS組合部位修正處理(en)",
+            "PROGRAMDESCTW": "MTS組合部位修正處理",
+            "_id": "193"
+        },
+        {
+            "PROGRAMID": "fopmtsp600",
+            "PROGRAMNAMEEN": "綜合帳戶MTS主帳了結口數調整(en)",
+            "PROGRAMNAMETW": "綜合帳戶MTS主帳了結口數調整",
+            "PROGRAMDESCEN": "fopmtsp600",
+            "PROGRAMDESCTW": "綜合帳戶MTS主帳了結口數調整",
+            "_id": "194"
+        },
+        {
+            "PROGRAMID": "fopmtspc10",
+            "PROGRAMNAMEEN": "MTS Trader Profile Upload By Batch",
+            "PROGRAMNAMETW": "MTS 交易人基本資料批次上傳",
+            "PROGRAMDESCEN": "MTS Trader Profile Upload By Batch",
+            "PROGRAMDESCTW": "MTS 交易人基本資料批次上傳",
+            "_id": "195"
+        },
+        {
+            "PROGRAMID": "fopmtst001",
+            "PROGRAMNAMEEN": "MTS Transaction",
+            "PROGRAMNAMETW": "MTS 交易查詢",
+            "PROGRAMDESCEN": "fopmtst001",
+            "PROGRAMDESCTW": "MTS 交易查詢",
+            "_id": "196"
+        },
+        {
+            "PROGRAMID": "fopposp100",
+            "PROGRAMNAMEEN": "關帳處理(en)",
+            "PROGRAMNAMETW": "關帳處理",
+            "PROGRAMDESCEN": "fopposp100",
+            "PROGRAMDESCTW": "關帳處理",
+            "_id": "197"
+        },
+        {
+            "PROGRAMID": "fopposp300",
+            "PROGRAMNAMEEN": "月結處理(en)",
+            "PROGRAMNAMETW": "月結處理",
+            "PROGRAMDESCEN": "fopposp300",
+            "PROGRAMDESCTW": "月結處理",
+            "_id": "198"
+        },
+        {
+            "PROGRAMID": "fopposp500",
+            "PROGRAMNAMEEN": "核帳完成設定處理(en)",
+            "PROGRAMNAMETW": "核帳完成設定處理",
+            "PROGRAMDESCEN": "fopposp500",
+            "PROGRAMDESCTW": "核帳完成設定處理",
+            "_id": "199"
+        },
+        {
+            "PROGRAMID": "fopposp510",
+            "PROGRAMNAMEEN": "核帳完成解除與設定處理(en)",
+            "PROGRAMNAMETW": "核帳完成解除與設定處理",
+            "PROGRAMDESCEN": "fopposp510",
+            "PROGRAMDESCTW": "核帳完成解除與設定處理",
+            "_id": "200"
+        },
+        {
+            "PROGRAMID": "fopposr010",
+            "PROGRAMNAMEEN": "Daily Trading Volume Report",
+            "PROGRAMNAMETW": "本日成交量表",
+            "PROGRAMDESCEN": "fopposr010",
+            "PROGRAMDESCTW": "本日成交量表",
+            "_id": "201"
+        },
+        {
+            "PROGRAMID": "fopposr020",
+            "PROGRAMNAMEEN": "USD Futrues Trading Tax Reference Report",
+            "PROGRAMNAMETW": "美元代徵期貨交易稅參考表",
+            "PROGRAMDESCEN": "fopposr020",
+            "PROGRAMDESCTW": "美元代徵期貨交易稅參考表",
+            "_id": "202"
+        },
+        {
+            "PROGRAMID": "fopposr030",
+            "PROGRAMNAMEEN": "Clearing Broker Volume And Margin Summary",
+            "PROGRAMNAMETW": "交易部位及保證金彙總表",
+            "PROGRAMDESCEN": "fopposr030",
+            "PROGRAMDESCTW": "交易部位及保證金彙總表",
+            "_id": "203"
+        },
+        {
+            "PROGRAMID": "fopposr040",
+            "PROGRAMNAMEEN": "Settlement Price Daily Report",
+            "PROGRAMNAMETW": "結算價日報表",
+            "PROGRAMDESCEN": "fopposr040",
+            "PROGRAMDESCTW": "結算價日報表",
+            "_id": "204"
+        },
+        {
+            "PROGRAMID": "fopposr310",
+            "PROGRAMNAMEEN": "代結算本日成交量表(en)",
+            "PROGRAMNAMETW": "代結算本日成交量表",
+            "PROGRAMDESCEN": "fopposr010",
+            "PROGRAMDESCTW": "代結算本日成交量表",
+            "_id": "205"
+        },
+        {
+            "PROGRAMID": "fopposr330",
+            "PROGRAMNAMEEN": "Clearing Broker Volume And Margin Summary",
+            "PROGRAMNAMETW": "交易部位及保證金彙總表(含代結算)",
+            "PROGRAMDESCEN": "fopposr330",
+            "PROGRAMDESCTW": "交易部位及保證金彙總表(含代結算)",
+            "_id": "206"
+        },
+        {
+            "PROGRAMID": "fopposr331",
+            "PROGRAMNAMEEN": "Clearing Broker Volume And Margin Summary",
+            "PROGRAMNAMETW": "代結算交易部位及保證金彙總表",
+            "PROGRAMDESCEN": "fopposr331",
+            "PROGRAMDESCTW": "代結算交易部位及保證金彙總表",
+            "_id": "207"
+        },
+        {
+            "PROGRAMID": "foppost010",
+            "PROGRAMNAMEEN": "外幣代徵期貨交易稅結匯維護(en)",
+            "PROGRAMNAMETW": "外幣代徵期貨交易稅結匯維護",
+            "PROGRAMDESCEN": "foppost010",
+            "PROGRAMDESCTW": "外幣代徵期貨交易稅結匯維護",
+            "_id": "208"
+        },
+        {
+            "PROGRAMID": "foppost020",
+            "PROGRAMNAMEEN": "ANC資料維護(en)",
+            "PROGRAMNAMETW": "ANC資料維護",
+            "PROGRAMDESCEN": "foppost020",
+            "PROGRAMDESCTW": "ANC資料維護",
+            "_id": "209"
+        },
+        {
+            "PROGRAMID": "fopproc800",
+            "PROGRAMNAMEEN": "PROC紀錄查詢(en)",
+            "PROGRAMNAMETW": "PROC紀錄查詢",
+            "PROGRAMDESCEN": "fopproc800",
+            "PROGRAMDESCTW": "PROC紀錄查詢",
+            "_id": "210"
+        },
+        {
+            "PROGRAMID": "foprptr010",
+            "PROGRAMNAMEEN": "DAILY TRADING REPORT(BY AE)",
+            "PROGRAMNAMETW": "交易日報表(AE別)",
+            "PROGRAMDESCEN": "foprptr010",
+            "PROGRAMDESCTW": "交易日報表(AE別)",
+            "_id": "211"
+        },
+        {
+            "PROGRAMID": "foprptr020",
+            "PROGRAMNAMEEN": "DAILY TRADING REPORT (BY COMMODITY)",
+            "PROGRAMNAMETW": "交易日報表(商品別)",
+            "PROGRAMDESCEN": "foprptr020",
+            "PROGRAMDESCTW": "交易日報表(商品別)",
+            "_id": "212"
+        },
+        {
+            "PROGRAMID": "foprptr021",
+            "PROGRAMNAMEEN": "DAILY TRADING REPORT (BY COMMODITY)",
+            "PROGRAMNAMETW": "商品別營業日報",
+            "PROGRAMDESCEN": "foprptr021",
+            "PROGRAMDESCTW": "商品別營業日報",
+            "_id": "213"
+        },
+        {
+            "PROGRAMID": "foprptr025",
+            "PROGRAMNAMEEN": "平倉明細日報表(en)",
+            "PROGRAMNAMETW": "平倉明細日報表",
+            "PROGRAMDESCEN": "foprptr025",
+            "PROGRAMDESCTW": "平倉明細日報表",
+            "_id": "214"
+        },
+        {
+            "PROGRAMID": "foprptr026",
+            "PROGRAMNAMEEN": "未平倉明細日報表(en)",
+            "PROGRAMNAMETW": "未平倉明細日報表",
+            "PROGRAMDESCEN": "foprptr026",
+            "PROGRAMDESCTW": "未平倉明細日報表",
+            "_id": "215"
+        },
+        {
+            "PROGRAMID": "foprptr027",
+            "PROGRAMNAMEEN": "未平倉均價彙總表(en)",
+            "PROGRAMNAMETW": "未平倉均價彙總表",
+            "PROGRAMDESCEN": "foprptr027",
+            "PROGRAMDESCTW": "未平倉均價彙總表",
+            "_id": "216"
+        },
+        {
+            "PROGRAMID": "foprptr030",
+            "PROGRAMNAMEEN": "ACCOUNT EQUITY DAILY REPORT",
+            "PROGRAMNAMETW": "期貨交易人權益日報表",
+            "PROGRAMDESCEN": "foprptr030",
+            "PROGRAMDESCTW": "期貨交易人權益日報表",
+            "_id": "217"
+        },
+        {
+            "PROGRAMID": "foprptr031",
+            "PROGRAMNAMEEN": "期貨交易人約當台幣權益表(EN)",
+            "PROGRAMNAMETW": "期貨交易人約當台幣權益表",
+            "PROGRAMDESCEN": "foprptr031",
+            "PROGRAMDESCTW": "期貨交易人約當台幣權益表",
+            "_id": "218"
+        },
+        {
+            "PROGRAMID": "foprptr040",
+            "PROGRAMNAMEEN": "Order Transaction Record",
+            "PROGRAMNAMETW": "買賣委託成交記錄表",
+            "PROGRAMDESCEN": "foprptr040",
+            "PROGRAMDESCTW": "買賣委託成交記錄表",
+            "_id": "219"
+        },
+        {
+            "PROGRAMID": "foprptr041",
+            "PROGRAMNAMEEN": "Order Transaction Record",
+            "PROGRAMNAMETW": "買賣委託成交明細記錄表",
+            "PROGRAMDESCEN": "foprptr041",
+            "PROGRAMDESCTW": "買賣委託成交明細記錄表",
+            "_id": "220"
+        },
+        {
+            "PROGRAMID": "foprptr045",
+            "PROGRAMNAMEEN": "Execution Report",
+            "PROGRAMNAMETW": "委託單一覽表",
+            "PROGRAMDESCEN": "foprptr045",
+            "PROGRAMDESCTW": "委託單一覽表",
+            "_id": "221"
+        },
+        {
+            "PROGRAMID": "foprptr046",
+            "PROGRAMNAMEEN": "Execution Report",
+            "PROGRAMNAMETW": "成交單一覽表",
+            "PROGRAMDESCEN": "foprptr046",
+            "PROGRAMDESCTW": "成交單一覽表",
+            "_id": "222"
+        },
+        {
+            "PROGRAMID": "foprptr050",
+            "PROGRAMNAMEEN": "Customer Daily Statement",
+            "PROGRAMNAMETW": "客戶買賣報告書",
+            "PROGRAMDESCEN": "foprptr050",
+            "PROGRAMDESCTW": "客戶買賣報告書",
+            "_id": "223"
+        },
+        {
+            "PROGRAMID": "foprptr051",
+            "PROGRAMNAMEEN": "客戶買賣報告書-外資EXCEL版(en)",
+            "PROGRAMNAMETW": "客戶買賣報告書-外資EXCEL版",
+            "PROGRAMDESCEN": "foprptr051",
+            "PROGRAMDESCTW": "客戶買賣報告書-外資EXCEL版",
+            "_id": "224"
+        },
+        {
+            "PROGRAMID": "foprptr055",
+            "PROGRAMNAMEEN": "Client Daily Statement",
+            "PROGRAMNAMETW": "Client買賣報告書",
+            "PROGRAMDESCEN": "foprptr055",
+            "PROGRAMDESCTW": "Client買賣報告書",
+            "_id": "225"
+        },
+        {
+            "PROGRAMID": "foprptr060",
+            "PROGRAMNAMEEN": "Customer Daily Statement Mail List",
+            "PROGRAMNAMETW": "客戶函件表",
+            "PROGRAMDESCEN": "foprptr060",
+            "PROGRAMDESCTW": "客戶函件表",
+            "_id": "226"
+        },
+        {
+            "PROGRAMID": "foprptr070",
+            "PROGRAMNAMEEN": "Margin Call List",
+            "PROGRAMNAMETW": "保證金追繳彙總表",
+            "PROGRAMDESCEN": "foprptr070",
+            "PROGRAMDESCTW": "保證金追繳彙總表",
+            "_id": "227"
+        },
+        {
+            "PROGRAMID": "foprptr075",
+            "PROGRAMNAMEEN": "Margin Intraday High-Risk Customers List",
+            "PROGRAMNAMETW": "盤中高風險客戶彙總表",
+            "PROGRAMDESCEN": "foprptr075",
+            "PROGRAMDESCTW": "盤中高風險客戶彙總表",
+            "_id": "228"
+        },
+        {
+            "PROGRAMID": "fopbast530",
+            "PROGRAMNAMEEN": "客戶手續費資料設定(en)",
+            "PROGRAMNAMETW": "客戶手續費資料設定",
+            "PROGRAMDESCEN": "fopbast530",
+            "PROGRAMDESCTW": "客戶手續費資料設定",
+            "_id": "229"
+        },
+        {
+            "PROGRAMID": "fopbast540",
+            "PROGRAMNAMEEN": "法定受任人自然人代理人維設(en)",
+            "PROGRAMNAMETW": "法定受任人自然人代理人維設",
+            "PROGRAMDESCEN": "fopbast540",
+            "PROGRAMDESCTW": "法定受任人自然人代理人維設",
+            "_id": "230"
+        },
+        {
+            "PROGRAMID": "fopbast545",
+            "PROGRAMNAMEEN": "客戶徵信資料維護(en)",
+            "PROGRAMNAMETW": "客戶徵信資料維護",
+            "PROGRAMDESCEN": "fopbast545",
+            "PROGRAMDESCTW": "客戶徵信資料維護",
+            "_id": "231"
+        },
+        {
+            "PROGRAMID": "fopbast550",
+            "PROGRAMNAMEEN": "違約客戶資料維護(en)",
+            "PROGRAMNAMETW": "違約客戶資料維護",
+            "PROGRAMDESCEN": "fopbast550",
+            "PROGRAMDESCTW": "違約客戶資料維護",
+            "_id": "232"
+        },
+        {
+            "PROGRAMID": "fopbast560",
+            "PROGRAMNAMEEN": "客戶保證金加收設定(en)",
+            "PROGRAMNAMETW": "客戶保證金加收設定",
+            "PROGRAMDESCEN": "fopbast560",
+            "PROGRAMDESCTW": "客戶保證金加收設定",
+            "_id": "233"
+        },
+        {
+            "PROGRAMID": "fopbast565",
+            "PROGRAMNAMEEN": "客戶加收保證金指標維護(en)",
+            "PROGRAMNAMETW": "客戶加收保證金指標維護",
+            "PROGRAMDESCEN": "fopbast565",
+            "PROGRAMDESCTW": "客戶加收保證金指標維護",
+            "_id": "234"
+        },
+        {
+            "PROGRAMID": "fopbast570",
+            "PROGRAMNAMEEN": "Client帳戶維護(en)",
+            "PROGRAMNAMETW": "Client帳戶維護",
+            "PROGRAMDESCEN": "fopbast570",
+            "PROGRAMDESCTW": "Client帳戶維護",
+            "_id": "235"
+        },
+        {
+            "PROGRAMID": "fopbast580",
+            "PROGRAMNAMEEN": "客戶部位限制設定維護(en)",
+            "PROGRAMNAMETW": "客戶部位限制設定維護",
+            "PROGRAMDESCEN": "fopbast580",
+            "PROGRAMDESCTW": "客戶部位限制設定維護",
+            "_id": "236"
+        },
+        {
+            "PROGRAMID": "fopbast590",
+            "PROGRAMNAMEEN": "IB手續費控制設定檔(en)",
+            "PROGRAMNAMETW": "IB手續費控制設定檔",
+            "PROGRAMDESCEN": "fopbast590",
+            "PROGRAMDESCTW": "IB手續費控制設定檔",
+            "_id": "237"
+        },
+        {
+            "PROGRAMID": "fopbast600",
+            "PROGRAMNAMEEN": "綜合帳戶子帳戶快速維護(en)",
+            "PROGRAMNAMETW": "綜合帳戶子帳戶快速維護",
+            "PROGRAMDESCEN": "fopbast600",
+            "PROGRAMDESCTW": "綜合帳戶子帳戶快速維護",
+            "_id": "238"
+        },
+        {
+            "PROGRAMID": "fopbast610",
+            "PROGRAMNAMEEN": "綜合帳戶每日大額申報標準維護(en)",
+            "PROGRAMNAMETW": "綜合帳戶每日大額申報標準維護",
+            "PROGRAMDESCEN": "fopbast610",
+            "PROGRAMDESCTW": "綜合帳戶每日大額申報標準維護",
+            "_id": "239"
+        },
+        {
+            "PROGRAMID": "fopbast620",
+            "PROGRAMNAMEEN": "期交所網路暨電話語音部位查詢申請維護(en)",
+            "PROGRAMNAMETW": "期交所網路暨電話語音部位查詢申請維護",
+            "PROGRAMDESCEN": "fopbast620",
+            "PROGRAMDESCTW": "期交所網路暨電話語音部位查詢申請維護",
+            "_id": "240"
+        },
+        {
+            "PROGRAMID": "fopbast730",
+            "PROGRAMNAMEEN": "無法送達對帳單暫免寄送輸入名冊(en)",
+            "PROGRAMNAMETW": "無法送達對帳單暫免寄送輸入名冊",
+            "PROGRAMDESCEN": "fopbast730",
+            "PROGRAMDESCTW": "無法送達對帳單暫免寄送輸入名冊",
+            "_id": "241"
+        },
+        {
+            "PROGRAMID": "fopbast740",
+            "PROGRAMNAMEEN": "久未交易無權益客戶續約通知維護(en)",
+            "PROGRAMNAMETW": "久未交易無權益客戶續約通知維護",
+            "PROGRAMDESCEN": "fopbast740",
+            "PROGRAMDESCTW": "久未交易無權益客戶續約通知維護",
+            "_id": "242"
+        },
+        {
+            "PROGRAMID": "fopbast810",
+            "PROGRAMNAMEEN": "公司基本資料設定(en)",
+            "PROGRAMNAMETW": "公司基本資料設定",
+            "PROGRAMDESCEN": "fopbast810",
+            "PROGRAMDESCTW": "公司基本資料設定",
+            "_id": "243"
+        },
+        {
+            "PROGRAMID": "fopbast811",
+            "PROGRAMNAMEEN": "IB群組維護(en)",
+            "PROGRAMNAMETW": "IB群組維護",
+            "PROGRAMDESCEN": "fopbast811",
+            "PROGRAMDESCTW": "IB群組維護",
+            "_id": "244"
+        },
+        {
+            "PROGRAMID": "fopbast812",
+            "PROGRAMNAMEEN": "下手經紀商公司基本資料設定(en)",
+            "PROGRAMNAMETW": "下手經紀商公司基本資料設定",
+            "PROGRAMDESCEN": "fopbast812",
+            "PROGRAMDESCTW": "下手經紀商公司基本資料設定",
+            "_id": "245"
+        },
+        {
+            "PROGRAMID": "fopbast820",
+            "PROGRAMNAMEEN": "使用者設定(en)",
+            "PROGRAMNAMETW": "使用者設定",
+            "PROGRAMDESCEN": "fopbast820",
+            "PROGRAMDESCTW": "使用者設定",
+            "_id": "246"
+        },
+        {
+            "PROGRAMID": "fopbast821",
+            "PROGRAMNAMEEN": "Program Authen Info",
+            "PROGRAMNAMETW": "程式權限設定-BY欄位",
+            "PROGRAMDESCEN": "程式權限設定-BY欄位(en)",
+            "PROGRAMDESCTW": "程式權限設定-BY欄位",
+            "_id": "247"
+        },
+        {
+            "PROGRAMID": "fopbast825",
+            "PROGRAMNAMEEN": "System Parameter Mantain",
+            "PROGRAMNAMETW": "系統參數資料維護",
+            "PROGRAMDESCEN": "System Parameter Mantain",
+            "PROGRAMDESCTW": "系統參數資料維護",
+            "_id": "248"
+        },
+        {
+            "PROGRAMID": "fopbast826",
+            "PROGRAMNAMEEN": "DataMap Mantain",
+            "PROGRAMNAMETW": "DataMap資料維護",
+            "PROGRAMDESCEN": "DataMap Mantain",
+            "PROGRAMDESCTW": "DataMap資料維護",
+            "_id": "249"
+        },
+        {
+            "PROGRAMID": "fopbast827",
+            "PROGRAMNAMEEN": "Maintenance of Custom Field Names",
+            "PROGRAMNAMETW": "自訂欄位名稱維護",
+            "PROGRAMDESCEN": "Maintenance of Custom Field Names",
+            "PROGRAMDESCTW": "自訂欄位名稱維護",
+            "_id": "250"
+        },
+        {
+            "PROGRAMID": "fopbast830",
+            "PROGRAMNAMEEN": "報表表尾說明維護(en)",
+            "PROGRAMNAMETW": "報表表尾說明維護",
+            "PROGRAMDESCEN": "fopbast830",
+            "PROGRAMDESCTW": "報表表尾說明維護",
+            "_id": "251"
+        },
+        {
+            "PROGRAMID": "fopbast840",
+            "PROGRAMNAMEEN": "MOS櫃號設定(en)",
+            "PROGRAMNAMETW": "MOS櫃號設定",
+            "PROGRAMDESCEN": "fopbast840",
+            "PROGRAMDESCTW": "MOS櫃號設定",
+            "_id": "252"
+        },
+        {
+            "PROGRAMID": "fopbast845",
+            "PROGRAMNAMEEN": "下單來源設定維護(en)",
+            "PROGRAMNAMETW": "下單來源設定維護",
+            "PROGRAMDESCEN": "fopbast845",
+            "PROGRAMDESCTW": "下單來源設定維護",
+            "_id": "253"
+        },
+        {
+            "PROGRAMID": "fopbast850",
+            "PROGRAMNAMEEN": "EMAIL相關設定維護(en)",
+            "PROGRAMNAMETW": "EMAIL相關設定維護",
+            "PROGRAMDESCEN": "fopbast850",
+            "PROGRAMDESCTW": "EMAIL相關設定維護",
+            "_id": "254"
+        },
+        {
+            "PROGRAMID": "fopbast851",
+            "PROGRAMNAMEEN": "EMAIL程式資料維護(en)",
+            "PROGRAMNAMETW": "EMAIL程式資料維護",
+            "PROGRAMDESCEN": "fopbast851",
+            "PROGRAMDESCTW": "EMAIL程式資料維護",
+            "_id": "255"
+        },
+        {
+            "PROGRAMID": "fopbast860",
+            "PROGRAMNAMEEN": "風控人員警示設定(en)",
+            "PROGRAMNAMETW": "風控人員警示設定",
+            "PROGRAMDESCEN": "fopbast860",
+            "PROGRAMDESCTW": "風控人員警示設定",
+            "_id": "256"
+        },
+        {
+            "PROGRAMID": "fopbast870",
+            "PROGRAMNAMEEN": "盤中風險監控設定(en)",
+            "PROGRAMNAMETW": "盤中風險監控設定",
+            "PROGRAMDESCEN": "fopbast870",
+            "PROGRAMDESCTW": "盤中風險監控設定",
+            "_id": "257"
+        },
+        {
+            "PROGRAMID": "foprptr440",
+            "PROGRAMNAMEEN": "Daily Commission Balance Report (MSTL)",
+            "PROGRAMNAMETW": "交易手續費累計表(MSTL)",
+            "PROGRAMDESCEN": "foprptr440",
+            "PROGRAMDESCTW": "交易手續費累計表(MSTL)",
+            "_id": "258"
+        },
+        {
+            "PROGRAMID": "foprptr450",
+            "PROGRAMNAMEEN": "Taiwan Futures Position (MSTL)",
+            "PROGRAMNAMETW": "Taiwan Futures Position (MSTL)",
+            "PROGRAMDESCEN": "foprptr450",
+            "PROGRAMDESCTW": "Taiwan Futures Position (MSTL)",
+            "_id": "259"
+        },
+        {
+            "PROGRAMID": "foprptr460",
+            "PROGRAMNAMEEN": "Daily Outstanding Client Contract Value Report",
+            "PROGRAMNAMETW": "未平倉各類契約金額/市值明細表",
+            "PROGRAMDESCEN": "foprptr460",
+            "PROGRAMDESCTW": "未平倉各類契約金額/市值明細表",
+            "_id": "260"
+        },
+        {
+            "PROGRAMID": "foprptr470",
+            "PROGRAMNAMEEN": "匯率轉檔(MSTL)(en)",
+            "PROGRAMNAMETW": "匯率轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr470",
+            "PROGRAMDESCTW": "匯率轉檔(MSTL)",
+            "_id": "261"
+        },
+        {
+            "PROGRAMID": "foprptr480",
+            "PROGRAMNAMEEN": "Requirement on Journals Template in JEMS(MSTL)",
+            "PROGRAMNAMETW": "Requirement on Journals Template in JEMS(MSTL)",
+            "PROGRAMDESCEN": "foprptr480",
+            "PROGRAMDESCTW": "Requirement on Journals Template in JEMS(MSTL)",
+            "_id": "262"
+        },
+        {
+            "PROGRAMID": "foprptr076",
+            "PROGRAMNAMEEN": "前日追繳補足狀況表(en)",
+            "PROGRAMNAMETW": "前日追繳補足狀況表",
+            "PROGRAMDESCEN": "foprptr076",
+            "PROGRAMDESCTW": "前日追繳補足狀況表",
+            "_id": "263"
+        },
+        {
+            "PROGRAMID": "foprptr080",
+            "PROGRAMNAMEEN": "Notice of Margin Calls",
+            "PROGRAMNAMETW": "保證金追繳通知書",
+            "PROGRAMDESCEN": "foprptr080",
+            "PROGRAMDESCTW": "保證金追繳通知書",
+            "_id": "264"
+        },
+        {
+            "PROGRAMID": "foptnsp010",
+            "PROGRAMNAMEEN": "資料轉出處理(en)",
+            "PROGRAMNAMETW": "資料轉出處理",
+            "PROGRAMDESCEN": "foptnsp010",
+            "PROGRAMDESCTW": "資料轉出處理",
+            "_id": "265"
+        },
+        {
+            "PROGRAMID": "foptnsp100",
+            "PROGRAMNAMEEN": "資料轉入處理(en)",
+            "PROGRAMNAMETW": "資料轉入處理",
+            "PROGRAMDESCEN": "foptnsp100",
+            "PROGRAMDESCTW": "資料轉入處理",
+            "_id": "266"
+        },
+        {
+            "PROGRAMID": "foptrdi010",
+            "PROGRAMNAMEEN": "盤中委託單查詢(en)",
+            "PROGRAMNAMETW": "盤中委託單查詢",
+            "PROGRAMDESCEN": "foptrdi010",
+            "PROGRAMDESCTW": "盤中委託單查詢",
+            "_id": "267"
+        },
+        {
+            "PROGRAMID": "foptrdi020",
+            "PROGRAMNAMEEN": "盤中成交查詢(en)",
+            "PROGRAMNAMETW": "盤中成交查詢",
+            "PROGRAMDESCEN": "foptrdi020",
+            "PROGRAMDESCTW": "盤中成交查詢",
+            "_id": "268"
+        },
+        {
+            "PROGRAMID": "foptrdi030",
+            "PROGRAMNAMEEN": "盤中未平倉查詢(en)",
+            "PROGRAMNAMETW": "盤中未平倉查詢",
+            "PROGRAMDESCEN": "foptrdi030",
+            "PROGRAMDESCTW": "盤中未平倉查詢",
+            "_id": "269"
+        },
+        {
+            "PROGRAMID": "foptrdi031",
+            "PROGRAMNAMEEN": "盤中組合部位查詢(en)",
+            "PROGRAMNAMETW": "盤中組合部位查詢",
+            "PROGRAMDESCEN": "foptrdi031",
+            "PROGRAMDESCTW": "盤中組合部位查詢",
+            "_id": "270"
+        },
+        {
+            "PROGRAMID": "foptrdi032",
+            "PROGRAMNAMEEN": "盤中期貨多空部位查詢(en)",
+            "PROGRAMNAMETW": "盤中期貨多空部位查詢",
+            "PROGRAMDESCEN": "foptrdi032",
+            "PROGRAMDESCTW": "盤中期貨多空部位查詢",
+            "_id": "271"
+        },
+        {
+            "PROGRAMID": "foptrdi033",
+            "PROGRAMNAMEEN": "盤中有價證券抵繳庫存查詢(en)",
+            "PROGRAMNAMETW": "盤中有價證券抵繳庫存查詢",
+            "PROGRAMDESCEN": "foptrdi033",
+            "PROGRAMDESCTW": "盤中有價證券抵繳庫存查詢",
+            "_id": "272"
+        },
+        {
+            "PROGRAMID": "foptrdi040",
+            "PROGRAMNAMEEN": "盤中平倉查詢(en)",
+            "PROGRAMNAMETW": "盤中平倉查詢",
+            "PROGRAMDESCEN": "foptrdi040",
+            "PROGRAMDESCTW": "盤中平倉查詢",
+            "_id": "273"
+        },
+        {
+            "PROGRAMID": "foptrdi050",
+            "PROGRAMNAMEEN": "盤中客戶部位彙總查詢(en)",
+            "PROGRAMNAMETW": "盤中客戶部位彙總查詢",
+            "PROGRAMDESCEN": "foptrdi050",
+            "PROGRAMDESCTW": "盤中客戶部位彙總查詢",
+            "_id": "274"
+        },
+        {
+            "PROGRAMID": "foptrdi055",
+            "PROGRAMNAMEEN": "盤中期貨商部位查詢(en)",
+            "PROGRAMNAMETW": "盤中期貨商部位查詢",
+            "PROGRAMDESCEN": "foptrdi055",
+            "PROGRAMDESCTW": "盤中期貨商部位查詢",
+            "_id": "275"
+        },
+        {
+            "PROGRAMID": "foptrdi056",
+            "PROGRAMNAMEEN": "盤中交易人權益合計(en)",
+            "PROGRAMNAMETW": "盤中交易人權益合計",
+            "PROGRAMDESCEN": "foptrdi056",
+            "PROGRAMDESCTW": "盤中交易人權益合計",
+            "_id": "276"
+        },
+        {
+            "PROGRAMID": "foptrdi060",
+            "PROGRAMNAMEEN": "盤中商品部位彙總查詢(en)",
+            "PROGRAMNAMETW": "盤中商品部位彙總查詢",
+            "PROGRAMDESCEN": "foptrdi060",
+            "PROGRAMDESCTW": "盤中商品部位彙總查詢",
+            "_id": "277"
+        },
+        {
+            "PROGRAMID": "foptrdi065",
+            "PROGRAMNAMEEN": "盤中客戶風險監控(en)",
+            "PROGRAMNAMETW": "盤中客戶風險監控",
+            "PROGRAMDESCEN": "foptrdi065",
+            "PROGRAMDESCTW": "盤中客戶風險監控",
+            "_id": "278"
+        },
+        {
+            "PROGRAMID": "foptrdi066",
+            "PROGRAMNAMEEN": "盤中客戶可用保證金查詢(en)",
+            "PROGRAMNAMETW": "盤中客戶可用保證金查詢",
+            "PROGRAMDESCEN": "foptrdi066",
+            "PROGRAMDESCTW": "盤中客戶可用保證金查詢",
+            "_id": "279"
+        },
+        {
+            "PROGRAMID": "foptrdi080",
+            "PROGRAMNAMEEN": "台盤檔案接收狀況查詢(en)",
+            "PROGRAMNAMETW": "台盤檔案接收狀況查詢",
+            "PROGRAMDESCEN": "foptrdi080",
+            "PROGRAMDESCTW": "台盤檔案接收狀況查詢",
+            "_id": "280"
+        },
+        {
+            "PROGRAMID": "foptrdi090",
+            "PROGRAMNAMEEN": "盤中客戶權益查詢(en)",
+            "PROGRAMNAMETW": "盤中客戶權益查詢",
+            "PROGRAMDESCEN": "foptrdi090",
+            "PROGRAMDESCTW": "盤中客戶權益查詢",
+            "_id": "281"
+        },
+        {
+            "PROGRAMID": "foptrdi210",
+            "PROGRAMNAMEEN": "歷史委託單查詢(en)",
+            "PROGRAMNAMETW": "歷史委託單查詢",
+            "PROGRAMDESCEN": "foptrdi210",
+            "PROGRAMDESCTW": "歷史委託單查詢",
+            "_id": "282"
+        },
+        {
+            "PROGRAMID": "foptrdi220",
+            "PROGRAMNAMEEN": "歷史成交單查詢(en)",
+            "PROGRAMNAMETW": "歷史成交單查詢",
+            "PROGRAMDESCEN": "foptrdi220",
+            "PROGRAMDESCTW": "歷史成交單查詢",
+            "_id": "283"
+        },
+        {
+            "PROGRAMID": "foptrdi230",
+            "PROGRAMNAMEEN": "歷史未平倉查詢(en)",
+            "PROGRAMNAMETW": "歷史未平倉查詢",
+            "PROGRAMDESCEN": "foptrdi230",
+            "PROGRAMDESCTW": "歷史未平倉查詢",
+            "_id": "284"
+        },
+        {
+            "PROGRAMID": "foptrdi231",
+            "PROGRAMNAMEEN": "歷史組合部位查詢(en)",
+            "PROGRAMNAMETW": "歷史組合部位查詢",
+            "PROGRAMDESCEN": "foptrdi231",
+            "PROGRAMDESCTW": "歷史組合部位查詢",
+            "_id": "285"
+        },
+        {
+            "PROGRAMID": "foptrdi232",
+            "PROGRAMNAMEEN": "歷史期貨多空部位查詢 (en)",
+            "PROGRAMNAMETW": "歷史期貨多空部位查詢",
+            "PROGRAMDESCEN": "foptrdi232",
+            "PROGRAMDESCTW": "歷史期貨多空部位查詢",
+            "_id": "286"
+        },
+        {
+            "PROGRAMID": "foptrdi240",
+            "PROGRAMNAMEEN": "歷史平倉查詢(en)",
+            "PROGRAMNAMETW": "歷史平倉查詢",
+            "PROGRAMDESCEN": "foptrdi240",
+            "PROGRAMDESCTW": "歷史平倉查詢",
+            "_id": "287"
+        },
+        {
+            "PROGRAMID": "foptrdi250",
+            "PROGRAMNAMEEN": "歷史客戶部位彙總查詢(en)",
+            "PROGRAMNAMETW": "歷史客戶部位彙總查詢",
+            "PROGRAMDESCEN": "foptrdi250",
+            "PROGRAMDESCTW": "歷史客戶部位彙總查詢",
+            "_id": "288"
+        },
+        {
+            "PROGRAMID": "foptrdi255",
+            "PROGRAMNAMEEN": "歷史期貨商部位查詢(en)",
+            "PROGRAMNAMETW": "歷史期貨商部位查詢",
+            "PROGRAMDESCEN": "foptrdi255",
+            "PROGRAMDESCTW": "歷史期貨商部位查詢",
+            "_id": "289"
+        },
+        {
+            "PROGRAMID": "foprptr172",
+            "PROGRAMNAMEEN": "Ambiguous MONEY LAUNDERING DISPOSIT/WITHDRAWAL REPORT",
+            "PROGRAMNAMETW": "疑似洗錢鉅額存提表徵",
+            "PROGRAMDESCEN": "foprptr172",
+            "PROGRAMDESCTW": "疑似洗錢鉅額存提表徵",
+            "_id": "290"
+        },
+        {
+            "PROGRAMID": "foprptr175",
+            "PROGRAMNAMEEN": "Rules of self-regulation - open position",
+            "PROGRAMNAMETW": "未平倉部位自律規則",
+            "PROGRAMDESCEN": "foprptr175",
+            "PROGRAMDESCTW": "未平倉部位自律規則",
+            "_id": "291"
+        },
+        {
+            "PROGRAMID": "foprptr176",
+            "PROGRAMNAMEEN": "Open Positions Market Concentrationt",
+            "PROGRAMNAMETW": "未平倉市場部位集中度",
+            "PROGRAMDESCEN": "foprptr176",
+            "PROGRAMDESCTW": "未平倉市場部位集中度",
+            "_id": "292"
+        },
+        {
+            "PROGRAMID": "foprptr180",
+            "PROGRAMNAMEEN": "Broker Trading Volume Report",
+            "PROGRAMNAMETW": "期貨商交易量市佔排名表",
+            "PROGRAMDESCEN": "foprptr180",
+            "PROGRAMDESCTW": "期貨商交易量市佔排名表",
+            "_id": "293"
+        },
+        {
+            "PROGRAMID": "foprptr181",
+            "PROGRAMNAMEEN": "Broker Trading Volume Period Report",
+            "PROGRAMNAMETW": "期貨商交易量區間排名表",
+            "PROGRAMDESCEN": "foprptr181",
+            "PROGRAMDESCTW": "期貨商交易量區間排名表",
+            "_id": "294"
+        },
+        {
+            "PROGRAMID": "foprptr190",
+            "PROGRAMNAMEEN": "Customer Profit and Loss List",
+            "PROGRAMNAMETW": "客戶損益明細表",
+            "PROGRAMDESCEN": "foprptr190",
+            "PROGRAMDESCTW": "客戶損益明細表",
+            "_id": "295"
+        },
+        {
+            "PROGRAMID": "foprptr195",
+            "PROGRAMNAMEEN": "Profit and Loss List",
+            "PROGRAMNAMETW": "商品損益明細表",
+            "PROGRAMDESCEN": "foprptr195",
+            "PROGRAMDESCTW": "商品損益明細表",
+            "_id": "296"
+        },
+        {
+            "PROGRAMID": "foprptr196",
+            "PROGRAMNAMEEN": "Profit and Loss List",
+            "PROGRAMNAMETW": "代結算商品損益明細表",
+            "PROGRAMDESCEN": "foprptr196",
+            "PROGRAMDESCTW": "代結算商品損益明細表",
+            "_id": "297"
+        },
+        {
+            "PROGRAMID": "foprptr200",
+            "PROGRAMNAMEEN": "An Offshore Foreign Investors of Restricted TWD",
+            "PROGRAMNAMETW": "境外外資台幣權益額度控管報表",
+            "PROGRAMDESCEN": "foprptr200",
+            "PROGRAMDESCTW": "境外外資台幣權益額度控管報表",
+            "_id": "298"
+        },
+        {
+            "PROGRAMID": "foprptr210",
+            "PROGRAMNAMEEN": "An Offshore Foreign Investors of Currency Exchange",
+            "PROGRAMNAMETW": "外資每日資金結匯資料申報",
+            "PROGRAMDESCEN": "foprptr210",
+            "PROGRAMDESCTW": "外資每日資金結匯資料申報",
+            "_id": "299"
+        },
+        {
+            "PROGRAMID": "foprptr220",
+            "PROGRAMNAMEEN": "An Offshore Foreign Investors of Equity",
+            "PROGRAMNAMETW": "外資每日保證金權益資料申報",
+            "PROGRAMDESCEN": "foprptr220",
+            "PROGRAMDESCTW": "外資每日保證金權益資料申報",
+            "_id": "300"
+        },
+        {
+            "PROGRAMID": "foprptr250",
+            "PROGRAMNAMEEN": "保證金專戶權益總值概況申報(en)",
+            "PROGRAMNAMETW": "保證金專戶權益總值概況申報",
+            "PROGRAMDESCEN": "foprptr250",
+            "PROGRAMDESCTW": "保證金專戶權益總值概況申報",
+            "_id": "301"
+        },
+        {
+            "PROGRAMID": "foprptr251",
+            "PROGRAMNAMEEN": "保證金專戶存款餘額申報(en)",
+            "PROGRAMNAMETW": "保證金專戶存款餘額申報",
+            "PROGRAMDESCEN": "foprptr251",
+            "PROGRAMDESCTW": "保證金專戶存款餘額申報",
+            "_id": "302"
+        },
+        {
+            "PROGRAMID": "foprptr265",
+            "PROGRAMNAMEEN": "Stock Collateral Detail List",
+            "PROGRAMNAMETW": "客戶有價證券明細表",
+            "PROGRAMDESCEN": "foprptr265",
+            "PROGRAMDESCTW": "客戶有價證券明細表",
+            "_id": "303"
+        },
+        {
+            "PROGRAMID": "foprptr410",
+            "PROGRAMNAMEEN": "Trade Commission Details and Reports (MSTL)",
+            "PROGRAMNAMETW": "交易手續費明細與報表(MSTL)",
+            "PROGRAMDESCEN": "foprptr410",
+            "PROGRAMDESCTW": "交易手續費明細與報表(MSTL)",
+            "_id": "304"
+        },
+        {
+            "PROGRAMID": "syssecr070",
+            "PROGRAMNAMEEN": "User Business Transactions Authority",
+            "PROGRAMNAMETW": "使用者交易權限明細表",
+            "PROGRAMDESCEN": "User Business Transactions Authority",
+            "PROGRAMDESCTW": "使用者交易權限明細表",
+            "_id": "305"
+        },
+        {
+            "PROGRAMID": "foprptr743",
+            "PROGRAMNAMEEN": "機構費用繳交明細表(en)",
+            "PROGRAMNAMETW": "機構費用繳交明細表",
+            "PROGRAMDESCEN": "foprptr743",
+            "PROGRAMDESCTW": "機構費用繳交明細表",
+            "_id": "306"
+        },
+        {
+            "PROGRAMID": "foprptr750",
+            "PROGRAMNAMEEN": "Customer Monthly Statement",
+            "PROGRAMNAMETW": "期貨交易人月對帳單",
+            "PROGRAMDESCEN": "foprptr750",
+            "PROGRAMDESCTW": "期貨交易人月對帳單",
+            "_id": "307"
+        },
+        {
+            "PROGRAMID": "foprptr760",
+            "PROGRAMNAMEEN": "Customer Monthly Statement Mail List",
+            "PROGRAMNAMETW": "月函件表",
+            "PROGRAMDESCEN": "foprptr760",
+            "PROGRAMDESCTW": "月函件表",
+            "_id": "308"
+        },
+        {
+            "PROGRAMID": "foprptr770",
+            "PROGRAMNAMEEN": "Trading Commission Monthly Report",
+            "PROGRAMNAMETW": "客戶手續費月申報",
+            "PROGRAMDESCEN": "foprptr770",
+            "PROGRAMDESCTW": "客戶手續費月申報",
+            "_id": "309"
+        },
+        {
+            "PROGRAMID": "foprptr780",
+            "PROGRAMNAMEEN": "Onshore Electionic Trading Volume Monthly Report",
+            "PROGRAMNAMETW": "國內商品期貨商電子式月交易量媒體申報",
+            "PROGRAMDESCEN": "foprptr780",
+            "PROGRAMDESCTW": "國內商品期貨商電子式月交易量媒體申報",
+            "_id": "310"
+        },
+        {
+            "PROGRAMID": "foprptr790",
+            "PROGRAMNAMEEN": "Currency Exchange Monthly Report",
+            "PROGRAMNAMETW": "期貨商申報代結匯月報表",
+            "PROGRAMDESCEN": "foprptr790",
+            "PROGRAMDESCTW": "期貨商申報代結匯月報表",
+            "_id": "311"
+        },
+        {
+            "PROGRAMID": "foprptr800",
+            "PROGRAMNAMEEN": "財務月報轉檔(en)",
+            "PROGRAMNAMETW": "財務月報轉檔",
+            "PROGRAMDESCEN": "foprptr800",
+            "PROGRAMDESCTW": "財務月報轉檔",
+            "_id": "312"
+        },
+        {
+            "PROGRAMID": "foprptr801",
+            "PROGRAMNAMEEN": "期貨交易人保證金總額統計表申報(en)",
+            "PROGRAMNAMETW": "期貨交易人保證金總額統計表申報",
+            "PROGRAMDESCEN": "foprptr801",
+            "PROGRAMDESCTW": "期貨交易人保證金總額統計表申報",
+            "_id": "313"
+        },
+        {
+            "PROGRAMID": "foprptr810",
+            "PROGRAMNAMEEN": "Monthly Statement Sending Frequency Adjustment List",
+            "PROGRAMNAMETW": "暫免寄送對帳單之期貨交易人異動清冊",
+            "PROGRAMDESCEN": "foprptr810",
+            "PROGRAMDESCTW": "暫免寄送對帳單之期貨交易人異動清冊",
+            "_id": "314"
+        },
+        {
+            "PROGRAMID": "foprptr820",
+            "PROGRAMNAMEEN": "Undeliverable statement to temporarily blind and inventory-free shipping",
+            "PROGRAMNAMETW": "無法送達對帳單暫免寄送異動清冊",
+            "PROGRAMDESCEN": "foprptr820",
+            "PROGRAMDESCTW": "無法送達對帳單暫免寄送異動清冊",
+            "_id": "315"
+        },
+        {
+            "PROGRAMID": "foprptr830",
+            "PROGRAMNAMEEN": "Monthly Statement Sending Frequency Adjustment List",
+            "PROGRAMNAMETW": "三年久未交易無權益客戶清冊與註銷彙總表",
+            "PROGRAMDESCEN": "foprptr830",
+            "PROGRAMDESCTW": "三年久未交易無權益客戶清冊與註銷彙總表",
+            "_id": "316"
+        },
+        {
+            "PROGRAMID": "fopbast710",
+            "PROGRAMNAMEEN": "營業員資料維護(en)",
+            "PROGRAMNAMETW": "營業員資料維護",
+            "PROGRAMDESCEN": "fopbast710",
+            "PROGRAMDESCTW": "營業員資料維護",
+            "_id": "317"
+        },
+        {
+            "PROGRAMID": "fopbast720",
+            "PROGRAMNAMEEN": "營業員群組(en)",
+            "PROGRAMNAMETW": "營業員群組",
+            "PROGRAMDESCEN": "fopbast720",
+            "PROGRAMDESCTW": "營業員群組",
+            "_id": "318"
+        },
+        {
+            "PROGRAMID": "foprptr320",
+            "PROGRAMNAMEEN": "會計分錄轉檔-芝山(BNPP)(en)",
+            "PROGRAMNAMETW": "會計分錄轉檔-芝山(BNPP)",
+            "PROGRAMDESCEN": "foprptr320",
+            "PROGRAMDESCTW": "會計分錄轉檔-芝山(BNPP)",
+            "_id": "319"
+        },
+        {
+            "PROGRAMID": "foprptr462",
+            "PROGRAMNAMEEN": "選擇權權利金變動日報表(BNPP)(en)",
+            "PROGRAMNAMETW": "選擇權權利金變動日報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr462",
+            "PROGRAMDESCTW": "選擇權權利金變動日報表(BNPP)(en)",
+            "_id": "320"
+        },
+        {
+            "PROGRAMID": "foprptr322",
+            "PROGRAMNAMEEN": "SmartStream Reconciliation(BNPP)",
+            "PROGRAMNAMETW": "SmartStream Reconciliation(BNPP)",
+            "PROGRAMDESCEN": "foprptr322",
+            "PROGRAMDESCTW": "SmartStream Reconciliation(BNPP)",
+            "_id": "321"
+        },
+        {
+            "PROGRAMID": "foprptr336",
+            "PROGRAMNAMEEN": "未平倉明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "未平倉明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr336",
+            "PROGRAMDESCTW": "未平倉明細表(BNPP)",
+            "_id": "322"
+        },
+        {
+            "PROGRAMID": "foprptr338",
+            "PROGRAMNAMEEN": "交割損益明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "交割損益明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr338",
+            "PROGRAMDESCTW": "交割損益明細表(BNPP)",
+            "_id": "323"
+        },
+        {
+            "PROGRAMID": "foprptr420",
+            "PROGRAMNAMEEN": "GL Journals for SUN Accounts System (MSTL)",
+            "PROGRAMNAMETW": "會計分錄轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr420",
+            "PROGRAMDESCTW": "會計分錄轉檔(MSTL)",
+            "_id": "324"
+        },
+        {
+            "PROGRAMID": "foprptr430",
+            "PROGRAMNAMEEN": "Trade Load for MSIL",
+            "PROGRAMNAMETW": "成交轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr430",
+            "PROGRAMDESCTW": "成交轉檔(MSTL)",
+            "_id": "325"
+        },
+        {
+            "PROGRAMID": "foprptr435",
+            "PROGRAMNAMEEN": "部位轉檔(MSTL)(en)",
+            "PROGRAMNAMETW": "部位轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr435",
+            "PROGRAMDESCTW": "部位轉檔(MSTL)",
+            "_id": "326"
+        },
+        {
+            "PROGRAMID": "foprptr436",
+            "PROGRAMNAMEEN": "期交稅轉檔(MSTL)(en)",
+            "PROGRAMNAMETW": "期交稅轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr436",
+            "PROGRAMDESCTW": "期交稅轉檔(MSTL)",
+            "_id": "327"
+        },
+        {
+            "PROGRAMID": "foprptr437",
+            "PROGRAMNAMEEN": "Margin deposit/Margin withdrawal Journals(MSTL)(en)",
+            "PROGRAMNAMETW": "保證金存提款轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr437",
+            "PROGRAMDESCTW": "保證金存提款轉檔(MSTL)",
+            "_id": "328"
+        },
+        {
+            "PROGRAMID": "foprptr438",
+            "PROGRAMNAMEEN": "Inter-Company Commission Journals(MSTL)",
+            "PROGRAMNAMETW": "內部客戶手續費轉檔(MSTL)",
+            "PROGRAMDESCEN": "foprptr438",
+            "PROGRAMDESCTW": "內部客戶手續費轉檔(MSTL)",
+            "_id": "329"
+        },
+        {
+            "PROGRAMID": "foprptr330",
+            "PROGRAMNAMEEN": "Trade File for BNPP",
+            "PROGRAMNAMETW": "成交轉檔(BNPP)",
+            "PROGRAMDESCEN": "foprptr330",
+            "PROGRAMDESCTW": "成交轉檔(BNPP)",
+            "_id": "330"
+        },
+        {
+            "PROGRAMID": "foprptr490",
+            "PROGRAMNAMEEN": "交易人保證金總額申報檢核表(MSTL)(en)",
+            "PROGRAMNAMETW": "交易人保證金總額申報檢核表(MSTL)",
+            "PROGRAMDESCEN": "foprptr490",
+            "PROGRAMDESCTW": "交易人保證金總額申報檢核表(MSTL)(en)",
+            "_id": "331"
+        },
+        {
+            "PROGRAMID": "foprptr335",
+            "PROGRAMNAMEEN": "Position File for BNPP",
+            "PROGRAMNAMETW": "部位轉檔(BNPP)",
+            "PROGRAMDESCEN": "foprptr335",
+            "PROGRAMDESCTW": "部位轉檔(BNPP)",
+            "_id": "332"
+        },
+        {
+            "PROGRAMID": "foprptr745",
+            "PROGRAMNAMEEN": "選擇權成交量統計表(en)",
+            "PROGRAMNAMETW": "選擇權成交量統計表",
+            "PROGRAMDESCEN": "foprptr745",
+            "PROGRAMDESCTW": "選擇權成交量統計表",
+            "_id": "333"
+        },
+        {
+            "PROGRAMID": "foprptr461",
+            "PROGRAMNAMEEN": "契約金額變動日報表(BNPP)(en)",
+            "PROGRAMNAMETW": "契約金額變動日報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr461",
+            "PROGRAMDESCTW": "契約金額變動日報表(BNPP)(en)",
+            "_id": "334"
+        },
+        {
+            "PROGRAMID": "fopbasr331",
+            "PROGRAMNAMEEN": "手續費與期交稅銀行扣款轉檔(BNPP)(en)",
+            "PROGRAMNAMETW": "手續費與期交稅銀行扣款轉檔(BNPP)",
+            "PROGRAMDESCEN": "fopbasr331",
+            "PROGRAMDESCTW": "手續費與期交稅銀行扣款轉檔(BNPP)",
+            "_id": "335"
+        },
+        {
+            "PROGRAMID": "fopbast920",
+            "PROGRAMNAMEEN": "自營交易費用折抵資料維護(en)",
+            "PROGRAMNAMETW": "自營交易費用折抵資料維護",
+            "PROGRAMDESCEN": "fopbast920",
+            "PROGRAMDESCTW": "自營交易費用折抵資料維護",
+            "_id": "336"
+        },
+        {
+            "PROGRAMID": "foprptr510",
+            "PROGRAMNAMEEN": "Customer Addition Margin Detail",
+            "PROGRAMNAMETW": "客戶加收保證金明細表",
+            "PROGRAMDESCEN": "foprptr510",
+            "PROGRAMDESCTW": "客戶加收保證金明細表",
+            "_id": "337"
+        },
+        {
+            "PROGRAMID": "foprptr600",
+            "PROGRAMNAMEEN": "The ID of every individual Client under the Omnibus Account",
+            "PROGRAMNAMETW": "綜合帳戶子帳ID申報",
+            "PROGRAMDESCEN": "foprptr600",
+            "PROGRAMDESCTW": "綜合帳戶子帳ID申報",
+            "_id": "338"
+        },
+        {
+            "PROGRAMID": "foprptr610",
+            "PROGRAMNAMEEN": "The Position of The Omnibus Account",
+            "PROGRAMNAMETW": "綜合帳戶部位申報",
+            "PROGRAMDESCEN": "foprptr610",
+            "PROGRAMDESCTW": "綜合帳戶部位申報",
+            "_id": "339"
+        },
+        {
+            "PROGRAMID": "foprptr620",
+            "PROGRAMNAMEEN": "The Omnibus Account and Sub-Account Detail Checklist",
+            "PROGRAMNAMETW": "綜合帳戶子帳戶部位明細檢核表",
+            "PROGRAMDESCEN": "foprptr620",
+            "PROGRAMDESCTW": "綜合帳戶子帳戶部位明細檢核表",
+            "_id": "340"
+        },
+        {
+            "PROGRAMID": "foprptr670",
+            "PROGRAMNAMEEN": "SINGLE STRATEGIES MARGIN CHECK LIST",
+            "PROGRAMNAMETW": "策略單口保證金核對",
+            "PROGRAMDESCEN": "foprptr670",
+            "PROGRAMDESCTW": "策略單口保證金核對",
+            "_id": "341"
+        },
+        {
+            "PROGRAMID": "foprptr680",
+            "PROGRAMNAMEEN": "SPREAD STRATEGIES MARGIN CHECK LIST",
+            "PROGRAMNAMETW": "策略組合保證金核對",
+            "PROGRAMDESCEN": "foprptr680",
+            "PROGRAMDESCTW": "策略組合保證金核對",
+            "_id": "342"
+        },
+        {
+            "PROGRAMID": "foprptr690",
+            "PROGRAMNAMEEN": "SPAN MARGIN REPORT",
+            "PROGRAMNAMETW": "SPAN保證金明細表",
+            "PROGRAMDESCEN": "foprptr690",
+            "PROGRAMDESCTW": "SPAN保證金明細表",
+            "_id": "343"
+        },
+        {
+            "PROGRAMID": "foprptr700",
+            "PROGRAMNAMEEN": "Span Position File Transfer",
+            "PROGRAMNAMETW": "SPAN部位轉檔",
+            "PROGRAMDESCEN": "foprptr700",
+            "PROGRAMDESCTW": "SPAN部位轉檔",
+            "_id": "344"
+        },
+        {
+            "PROGRAMID": "foprptr701",
+            "PROGRAMNAMEEN": "Span Position File Transfer",
+            "PROGRAMNAMETW": "SPAN部位轉檔(含代結算)",
+            "PROGRAMDESCEN": "foprptr701",
+            "PROGRAMDESCTW": "SPAN部位轉檔(含代結算)",
+            "_id": "345"
+        },
+        {
+            "PROGRAMID": "foprptr702",
+            "PROGRAMNAMEEN": "SPAN MARGIN REPORT",
+            "PROGRAMNAMETW": "代結算SPAN保證金明細表",
+            "PROGRAMDESCEN": "foprptr702",
+            "PROGRAMDESCTW": "代結算SPAN保證金明細表",
+            "_id": "346"
+        },
+        {
+            "PROGRAMID": "foprptr710",
+            "PROGRAMNAMEEN": "期貨商代徵期貨交易稅明細表與媒體檔(en)",
+            "PROGRAMNAMETW": "期貨商代徵期貨交易稅明細表與媒體檔",
+            "PROGRAMDESCEN": "foprptr710",
+            "PROGRAMDESCTW": "期貨商代徵期貨交易稅明細表與媒體檔",
+            "_id": "347"
+        },
+        {
+            "PROGRAMID": "foprptr720",
+            "PROGRAMNAMEEN": "期貨商代徵期貨交易稅申报表(en)",
+            "PROGRAMNAMETW": "期貨商代徵期貨交易稅申報表",
+            "PROGRAMDESCEN": "foprptr720",
+            "PROGRAMDESCTW": "期貨商代徵期貨交易稅申報表",
+            "_id": "348"
+        },
+        {
+            "PROGRAMID": "foprptr730",
+            "PROGRAMNAMEEN": "Onshore Trading Volume Monthly Report",
+            "PROGRAMNAMETW": "國內商品期貨商月交易量媒體申報",
+            "PROGRAMDESCEN": "foprptr730",
+            "PROGRAMDESCTW": "國內商品期貨商月交易量媒體申報",
+            "_id": "349"
+        },
+        {
+            "PROGRAMID": "foprptr740",
+            "PROGRAMNAMEEN": "Monthly Trade Cost List",
+            "PROGRAMNAMETW": "期貨商月交易成本表",
+            "PROGRAMDESCEN": "foprptr740",
+            "PROGRAMDESCTW": "期貨商月交易成本表",
+            "_id": "350"
+        },
+        {
+            "PROGRAMID": "foprptr741",
+            "PROGRAMNAMEEN": "Monthly Business Cost List",
+            "PROGRAMNAMETW": "期貨商月營業成本表",
+            "PROGRAMDESCEN": "foprptr741",
+            "PROGRAMDESCTW": "期貨商月營業成本表",
+            "_id": "351"
+        },
+        {
+            "PROGRAMID": "foprptr742",
+            "PROGRAMNAMEEN": "自營期貨交易費用月報表(en)",
+            "PROGRAMNAMETW": "自營期貨交易費用月報表",
+            "PROGRAMDESCEN": "foprptr742",
+            "PROGRAMDESCTW": "自營期貨交易費用月報表",
+            "_id": "352"
+        },
+        {
+            "PROGRAMID": "foptrdi260",
+            "PROGRAMNAMEEN": "歷史商品部位彙總查詢(en)",
+            "PROGRAMNAMETW": "歷史商品部位彙總查詢",
+            "PROGRAMDESCEN": "foptrdi260",
+            "PROGRAMDESCTW": "歷史商品部位彙總查詢",
+            "_id": "353"
+        },
+        {
+            "PROGRAMID": "foptrdi290",
+            "PROGRAMNAMEEN": "歷史客戶權益查詢(en)",
+            "PROGRAMNAMETW": "歷史客戶權益查詢",
+            "PROGRAMDESCEN": "foptrdi290",
+            "PROGRAMDESCTW": "歷史客戶權益查詢",
+            "_id": "354"
+        },
+        {
+            "PROGRAMID": "foptrdi310",
+            "PROGRAMNAMEEN": "SPAN保證金計算過程(en)",
+            "PROGRAMNAMETW": "SPAN保證金計算過程",
+            "PROGRAMDESCEN": "foptrdi310",
+            "PROGRAMDESCTW": "SPAN保證金計算過程",
+            "_id": "355"
+        },
+        {
+            "PROGRAMID": "foptrdi320",
+            "PROGRAMNAMEEN": "代結算盤中成交查詢(en)",
+            "PROGRAMNAMETW": "代結算盤中成交查詢",
+            "PROGRAMDESCEN": "foptrdi320",
+            "PROGRAMDESCTW": "代結算盤中成交查詢",
+            "_id": "356"
+        },
+        {
+            "PROGRAMID": "foptrdi330",
+            "PROGRAMNAMEEN": "代結算盤中未平倉查詢(en)",
+            "PROGRAMNAMETW": "代結算盤中未平倉查詢",
+            "PROGRAMDESCEN": "foptrdi330",
+            "PROGRAMDESCTW": "代結算盤中未平倉查詢",
+            "_id": "357"
+        },
+        {
+            "PROGRAMID": "foptrdi340",
+            "PROGRAMNAMEEN": "盤中代結算平倉查詢(en)",
+            "PROGRAMNAMETW": "盤中代結算平倉查詢",
+            "PROGRAMDESCEN": "foptrdi340",
+            "PROGRAMDESCTW": "盤中代結算平倉查詢",
+            "_id": "358"
+        },
+        {
+            "PROGRAMID": "foptrdi355",
+            "PROGRAMNAMEEN": "盤中代結算期貨商部位查詢(en)",
+            "PROGRAMNAMETW": "盤中代結算期貨商部位查詢",
+            "PROGRAMDESCEN": "foptrdi355",
+            "PROGRAMDESCTW": "盤中代結算期貨商部位查詢",
+            "_id": "359"
+        },
+        {
+            "PROGRAMID": "foptrdi356",
+            "PROGRAMNAMEEN": "盤中代結算交易人權益合計查詢(en)",
+            "PROGRAMNAMETW": "盤中代結算交易人權益合計查詢",
+            "PROGRAMDESCEN": "foptrdi356",
+            "PROGRAMDESCTW": "盤中代結算交易人權益合計查詢",
+            "_id": "360"
+        },
+        {
+            "PROGRAMID": "foptrdi420",
+            "PROGRAMNAMEEN": "歷史代結算成交單查詢(en)",
+            "PROGRAMNAMETW": "歷史代結算成交單查詢",
+            "PROGRAMDESCEN": "foptrdi420",
+            "PROGRAMDESCTW": "歷史代結算成交單查詢",
+            "_id": "361"
+        },
+        {
+            "PROGRAMID": "foptrdi430",
+            "PROGRAMNAMEEN": "歷史代結算未平倉查詢(en)",
+            "PROGRAMNAMETW": "歷史代結算未平倉查詢",
+            "PROGRAMDESCEN": "foptrdi430",
+            "PROGRAMDESCTW": "歷史代結算未平倉查詢",
+            "_id": "362"
+        },
+        {
+            "PROGRAMID": "foptrdi440",
+            "PROGRAMNAMEEN": "歷史代結算平倉查詢(en)",
+            "PROGRAMNAMETW": "歷史代結算平倉查詢",
+            "PROGRAMDESCEN": "foptrdi440",
+            "PROGRAMDESCTW": "歷史代結算平倉查詢",
+            "_id": "363"
+        },
+        {
+            "PROGRAMID": "foptrdi455",
+            "PROGRAMNAMEEN": "歷史代結算期貨商部位查詢(en)",
+            "PROGRAMNAMETW": "歷史代結算期貨商部位查詢",
+            "PROGRAMDESCEN": "foptrdi455",
+            "PROGRAMDESCTW": "歷史代結算期貨商部位查詢",
+            "_id": "364"
+        },
+        {
+            "PROGRAMID": "foptrdi711",
+            "PROGRAMNAMEEN": "期交所回報轉入狀況檢查(代結算)(en)",
+            "PROGRAMNAMETW": "期交所回報轉入狀況檢查(代結算)",
+            "PROGRAMDESCEN": "foptrdi711",
+            "PROGRAMDESCTW": "期交所回報轉入狀況檢查(代結算)",
+            "_id": "365"
+        },
+        {
+            "PROGRAMID": "foptrdp500",
+            "PROGRAMNAMEEN": "釋放委託保證金(en)",
+            "PROGRAMNAMETW": "釋放委託保證金",
+            "PROGRAMDESCEN": "foptrdp500",
+            "PROGRAMDESCTW": "釋放委託保證金",
+            "_id": "366"
+        },
+        {
+            "PROGRAMID": "foptrdp510",
+            "PROGRAMNAMEEN": "部位移轉作業(en)",
+            "PROGRAMNAMETW": "部位移轉作業",
+            "PROGRAMDESCEN": "foptrdp510",
+            "PROGRAMDESCTW": "部位移轉作業",
+            "_id": "367"
+        },
+        {
+            "PROGRAMID": "foptrdp511",
+            "PROGRAMNAMEEN": "代結算MTS部位調整口數轉入修正處理(en)",
+            "PROGRAMNAMETW": "代結算MTS部位調整口數轉入修正處理",
+            "PROGRAMDESCEN": "foptrdp511",
+            "PROGRAMDESCTW": "代結算MTS部位調整口數轉入修正處理",
+            "_id": "368"
+        },
+        {
+            "PROGRAMID": "foptrdp520",
+            "PROGRAMNAMEEN": "大小台指定沖銷作業(en)",
+            "PROGRAMNAMETW": "大小台指定沖銷作業",
+            "PROGRAMDESCEN": "foptrdp520",
+            "PROGRAMDESCTW": "大小台指定沖銷作業",
+            "_id": "369"
+        },
+        {
+            "PROGRAMID": "foptrdp521",
+            "PROGRAMNAMEEN": "代結算MTS大小台指沖口數轉入修正處理(en)",
+            "PROGRAMNAMETW": "代結算MTS大小台指沖口數轉入修正處理",
+            "PROGRAMDESCEN": "foptrdp521",
+            "PROGRAMDESCTW": "代結算MTS大小台指沖口數轉入修正處理",
+            "_id": "370"
+        },
+        {
+            "PROGRAMID": "foptrdp530",
+            "PROGRAMNAMEEN": "指定沖銷作業(en)",
+            "PROGRAMNAMETW": "指定沖銷作業",
+            "PROGRAMDESCEN": "foptrdp530",
+            "PROGRAMDESCTW": "指定沖銷作業",
+            "_id": "371"
+        },
+        {
+            "PROGRAMID": "foptrdp531",
+            "PROGRAMNAMEEN": "代結算MTS指沖口數轉入修正處理(en)",
+            "PROGRAMNAMETW": "代結算MTS指沖口數轉入修正處理",
+            "PROGRAMDESCEN": "foptrdp531",
+            "PROGRAMDESCTW": "代結算MTS指沖口數轉入修正處理",
+            "_id": "372"
+        },
+        {
+            "PROGRAMID": "foptrdp540",
+            "PROGRAMNAMEEN": "選擇權組拆作業(en)",
+            "PROGRAMNAMETW": "選擇權組拆作業",
+            "PROGRAMDESCEN": "foptrdp540",
+            "PROGRAMDESCTW": "選擇權組拆作業",
+            "_id": "373"
+        },
+        {
+            "PROGRAMID": "foptrdp600",
+            "PROGRAMNAMEEN": "期貨現金結算處理(en)",
+            "PROGRAMNAMETW": "期貨現金結算處理",
+            "PROGRAMDESCEN": "foptrdp600",
+            "PROGRAMDESCTW": "期貨現金結算處理",
+            "_id": "374"
+        },
+        {
+            "PROGRAMID": "foptrdp601",
+            "PROGRAMNAMEEN": "代結算期貨現金結算處理(en)",
+            "PROGRAMNAMETW": "代結算期貨現金結算處理",
+            "PROGRAMDESCEN": "foptrdp601",
+            "PROGRAMDESCTW": "代結算期貨現金結算處理",
+            "_id": "375"
+        },
+        {
+            "PROGRAMID": "foptrdp610",
+            "PROGRAMNAMEEN": "選擇權現金結算處理(en)",
+            "PROGRAMNAMETW": "選擇權現金結算處理",
+            "PROGRAMDESCEN": "foptrdp610",
+            "PROGRAMDESCTW": "選擇權現金結算處理",
+            "_id": "376"
+        },
+        {
+            "PROGRAMID": "foptrdp611",
+            "PROGRAMNAMEEN": "代結算選擇權現金結算處理(en)",
+            "PROGRAMNAMETW": "代結算選擇權現金結算處理",
+            "PROGRAMDESCEN": "foptrdp611",
+            "PROGRAMDESCTW": "代結算選擇權現金結算處理",
+            "_id": "377"
+        },
+        {
+            "PROGRAMID": "foptrdp630",
+            "PROGRAMNAMEEN": "選擇權放棄作業(en)",
+            "PROGRAMNAMETW": "選擇權放棄作業",
+            "PROGRAMDESCEN": "foptrdp630",
+            "PROGRAMDESCTW": "選擇權放棄作業",
+            "_id": "378"
+        },
+        {
+            "PROGRAMID": "foptrdp640",
+            "PROGRAMNAMEEN": "選擇權交割名冊確認修正處理(en)",
+            "PROGRAMNAMETW": "選擇權交割名冊確認修正處理",
+            "PROGRAMDESCEN": "foptrdp640",
+            "PROGRAMDESCTW": "選擇權交割名冊確認修正處理",
+            "_id": "379"
+        },
+        {
+            "PROGRAMID": "foptrdp641",
+            "PROGRAMNAMEEN": "代結算選擇權交割名冊確認修正處理(en)",
+            "PROGRAMNAMETW": "代結算選擇權交割名冊確認修正處理",
+            "PROGRAMDESCEN": "foptrdp641",
+            "PROGRAMDESCTW": "代結算選擇權交割名冊確認修正處理",
+            "_id": "380"
+        },
+        {
+            "PROGRAMID": "foptrdp690",
+            "PROGRAMNAMEEN": "公債到期結算處理(en)",
+            "PROGRAMNAMETW": "公債到期結算處理",
+            "PROGRAMDESCEN": "foptrdp690",
+            "PROGRAMDESCTW": "公債到期結算處理",
+            "_id": "381"
+        },
+        {
+            "PROGRAMID": "foptrdp700",
+            "PROGRAMNAMEEN": "現場委託單來源變更(en)",
+            "PROGRAMNAMETW": "現場委託單來源變更",
+            "PROGRAMDESCEN": "foptrdp700",
+            "PROGRAMDESCTW": "現場委託單來源變更",
+            "_id": "382"
+        },
+        {
+            "PROGRAMID": "foptrdp710",
+            "PROGRAMNAMEEN": "股票期貨現金股利調整權益數處理(en)",
+            "PROGRAMNAMETW": "股票期貨現金股利調整權益數處理",
+            "PROGRAMDESCEN": "foptrdp710",
+            "PROGRAMDESCTW": "股票期貨現金股利調整權益數處理",
+            "_id": "383"
+        },
+        {
+            "PROGRAMID": "foptrdr010",
+            "PROGRAMNAMEEN": "Open Position List of Day Trade Before Close Trading Time",
+            "PROGRAMNAMETW": "當沖收盤前沖銷建議表",
+            "PROGRAMDESCEN": "foptrdr010",
+            "PROGRAMDESCTW": "當沖收盤前沖銷建議表",
+            "_id": "384"
+        },
+        {
+            "PROGRAMID": "foptrdr020",
+            "PROGRAMNAMEEN": "Day Trade Force Offset before Close Market",
+            "PROGRAMNAMETW": "當沖收盤前強制平倉狀況表",
+            "PROGRAMDESCEN": "foptrdr020",
+            "PROGRAMDESCTW": "當沖收盤前強制平倉狀況表",
+            "_id": "385"
+        },
+        {
+            "PROGRAMID": "foptrdr510",
+            "PROGRAMNAMEEN": "部位調整申報書",
+            "PROGRAMNAMETW": "部位調整申報書",
+            "PROGRAMDESCEN": "部位調整申報書",
+            "PROGRAMDESCTW": "部位調整申報書",
+            "_id": "386"
+        },
+        {
+            "PROGRAMID": "foptrdr511",
+            "PROGRAMNAMEEN": "Cancel and Correct List",
+            "PROGRAMNAMETW": "部位調整記錄表",
+            "PROGRAMDESCEN": "foptrdr511",
+            "PROGRAMDESCTW": "部位調整記錄表",
+            "_id": "387"
+        },
+        {
+            "PROGRAMID": "foptrdr512",
+            "PROGRAMNAMEEN": "錯帳申報表",
+            "PROGRAMNAMETW": "錯帳申報表",
+            "PROGRAMDESCEN": "foptrdr512",
+            "PROGRAMDESCTW": "錯帳申報表",
+            "_id": "388"
+        },
+        {
+            "PROGRAMID": "foptrdr515",
+            "PROGRAMNAMEEN": "Error Trade Reporting File",
+            "PROGRAMNAMETW": "錯帳電子申報轉檔",
+            "PROGRAMDESCEN": "foptrdr515",
+            "PROGRAMDESCTW": "錯帳電子申報轉檔",
+            "_id": "389"
+        },
+        {
+            "PROGRAMID": "foptrdr520",
+            "PROGRAMNAMEEN": "TX and mini-TX Offset List",
+            "PROGRAMNAMETW": "大小台指指定沖銷記錄表",
+            "PROGRAMDESCEN": "foptrdr520",
+            "PROGRAMDESCTW": "大小台指指定沖銷記錄表",
+            "_id": "390"
+        },
+        {
+            "PROGRAMID": "foptrdr530",
+            "PROGRAMNAMEEN": "Specify Offset List",
+            "PROGRAMNAMETW": "指定沖銷記錄表",
+            "PROGRAMDESCEN": "foptrdr530",
+            "PROGRAMDESCTW": "指定沖銷記錄表",
+            "_id": "391"
+        },
+        {
+            "PROGRAMID": "foptrdr540",
+            "PROGRAMNAMEEN": "Specify Offset List",
+            "PROGRAMNAMETW": "選擇權組拆記錄表",
+            "PROGRAMDESCEN": "foptrdr540",
+            "PROGRAMDESCTW": "選擇權組拆記錄表",
+            "_id": "392"
+        },
+        {
+            "PROGRAMID": "foptrdr600",
+            "PROGRAMNAMEEN": "Cash Expiry Results Report",
+            "PROGRAMNAMETW": "現金結算表",
+            "PROGRAMDESCEN": "foptrdr600",
+            "PROGRAMDESCTW": "現金結算表",
+            "_id": "393"
+        },
+        {
+            "PROGRAMID": "foptrdr690",
+            "PROGRAMNAMEEN": "Bond Futures Expiry Report",
+            "PROGRAMNAMETW": "公債期貨到期交割明細表",
+            "PROGRAMDESCEN": "foptrdr690",
+            "PROGRAMDESCTW": "公債期貨到期交割明細表",
+            "_id": "394"
+        },
+        {
+            "PROGRAMID": "foptrdr710",
+            "PROGRAMNAMEEN": "Stock Futures Cash Dividends List",
+            "PROGRAMNAMETW": "股票期貨現金股利調整表",
+            "PROGRAMDESCEN": "foptrdr710",
+            "PROGRAMDESCTW": "股票期貨現金股利調整表",
+            "_id": "395"
+        },
+        {
+            "PROGRAMID": "foptrdt010",
+            "PROGRAMNAMEEN": "委託與成交單輸入(en)",
+            "PROGRAMNAMETW": "委託與成交單輸入",
+            "PROGRAMDESCEN": "foptrdt010",
+            "PROGRAMDESCTW": "委託與成交單輸入",
+            "_id": "396"
+        },
+        {
+            "PROGRAMID": "foptrdt020",
+            "PROGRAMNAMEEN": "鉅額委託與成交單輸入(en)",
+            "PROGRAMNAMETW": "鉅額委託與成交單輸入",
+            "PROGRAMDESCEN": "foptrdt020",
+            "PROGRAMDESCTW": "鉅額委託與成交單輸入",
+            "_id": "397"
+        },
+        {
+            "PROGRAMID": "foptrdt515",
+            "PROGRAMNAMEEN": "錯帳電子申報維護(en)",
+            "PROGRAMNAMETW": "錯帳電子申報維護",
+            "PROGRAMDESCEN": "foptrdt515",
+            "PROGRAMDESCTW": "錯帳電子申報維護",
+            "_id": "398"
+        },
+        {
+            "PROGRAMID": "fopbast093",
+            "PROGRAMNAMEEN": "月底台幣匯率資料維護(en)",
+            "PROGRAMNAMETW": "月底台幣匯率資料維護",
+            "PROGRAMDESCEN": "fopbast093",
+            "PROGRAMDESCTW": "月底台幣匯率資料維護",
+            "_id": "399"
+        },
+        {
+            "PROGRAMID": "foprptr744",
+            "PROGRAMNAMEEN": "自營期貨交易費用月報表(折抵)(en)",
+            "PROGRAMNAMETW": "自營期貨交易費用月報表(折抵)",
+            "PROGRAMDESCEN": "foprptr744",
+            "PROGRAMDESCTW": "自營期貨交易費用月報表(折抵)",
+            "_id": "400"
+        },
+        {
+            "PROGRAMID": "fopbasp160",
+            "PROGRAMNAMEEN": "自營期貨交易費用折抵處理(en)",
+            "PROGRAMNAMETW": "自營期貨交易費用折抵處理",
+            "PROGRAMDESCEN": "fopbasp160",
+            "PROGRAMDESCTW": "自營期貨交易費用折抵處理",
+            "_id": "401"
+        },
+        {
+            "PROGRAMID": "foprptr910",
+            "PROGRAMNAMEEN": "DAILY TRADING REPORT(BY HISTORY)",
+            "PROGRAMNAMETW": "交易日報表(區間)",
+            "PROGRAMDESCEN": "foprptr910",
+            "PROGRAMDESCTW": "交易日報表(區間)",
+            "_id": "402"
+        },
+        {
+            "PROGRAMID": "foptrdr513",
+            "PROGRAMNAMEEN": "Sub Account Cancel and Correct List",
+            "PROGRAMNAMETW": "子帳部位調整記錄表",
+            "PROGRAMDESCEN": "foptrdr513",
+            "PROGRAMDESCTW": "子帳部位調整記錄表",
+            "_id": "403"
+        },
+        {
+            "PROGRAMID": "foprptr323",
+            "PROGRAMNAMEEN": "Futures Daily Figures Report",
+            "PROGRAMNAMETW": "Futures Daily Figures Report",
+            "PROGRAMDESCEN": "foprptr323",
+            "PROGRAMDESCTW": "Futures Daily Figures Report",
+            "_id": "404"
+        },
+        {
+            "PROGRAMID": "foprptr747",
+            "PROGRAMNAMEEN": "契約金額變動月報表(BNPP)(en)",
+            "PROGRAMNAMETW": "契約金額變動月報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr747",
+            "PROGRAMDESCTW": "契約金額變動月報表(BNPP)(en)",
+            "_id": "405"
+        },
+        {
+            "PROGRAMID": "foprptr731",
+            "PROGRAMNAMEEN": "資本適足率轉檔(en)",
+            "PROGRAMNAMETW": "資本適足率轉檔",
+            "PROGRAMDESCEN": "foprptr731",
+            "PROGRAMDESCTW": "資本適足率轉檔",
+            "_id": "406"
+        },
+        {
+            "PROGRAMID": "foprptr748",
+            "PROGRAMNAMEEN": "選擇權權利金變動月報表(BNPP)(en)",
+            "PROGRAMNAMETW": "選擇權權利金變動月報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr748",
+            "PROGRAMDESCTW": "選擇權權利金變動月報表(BNPP)(en)",
+            "_id": "407"
+        },
+        {
+            "PROGRAMID": "foprptr746",
+            "PROGRAMNAMEEN": "每日國內外期貨市場交易金額比率申報表(en)",
+            "PROGRAMNAMETW": "每日國內外期貨市場交易金額比率申報表",
+            "PROGRAMDESCEN": "foprptr746",
+            "PROGRAMDESCTW": "每日國內外期貨市場交易金額比率申報表(en)",
+            "_id": "408"
+        },
+        {
+            "PROGRAMID": "foprptr732",
+            "PROGRAMNAMEEN": "商品別交易費用月報表(en)",
+            "PROGRAMNAMETW": "商品別交易費用月報表",
+            "PROGRAMDESCEN": "foprptr732",
+            "PROGRAMDESCTW": "商品別交易費用月報表(en)",
+            "_id": "409"
+        },
+        {
+            "PROGRAMID": "foptrdi110",
+            "PROGRAMNAMEEN": "主機指令查詢(en)",
+            "PROGRAMNAMETW": "主機指令查詢",
+            "PROGRAMDESCEN": "foptrdi110",
+            "PROGRAMDESCTW": "主機指令查詢",
+            "_id": "410"
+        },
+        {
+            "PROGRAMID": "foprptr337",
+            "PROGRAMNAMEEN": "平倉明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "平倉明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr337",
+            "PROGRAMDESCTW": "平倉明細表(BNPP)",
+            "_id": "411"
+        },
+        {
+            "PROGRAMID": "foprptr321",
+            "PROGRAMNAMEEN": "會計分錄轉檔-BNPP Global(en)",
+            "PROGRAMNAMETW": "會計分錄轉檔-BNPP Global",
+            "PROGRAMDESCEN": "foprptr321",
+            "PROGRAMDESCTW": "會計分錄轉檔-BNPP Global",
+            "_id": "412"
+        },
+        {
+            "PROGRAMID": "foprptr945",
+            "PROGRAMNAMEEN": "Execution Report",
+            "PROGRAMNAMETW": "委託單一覽表(區間)",
+            "PROGRAMDESCEN": "foprptr945",
+            "PROGRAMDESCTW": "委託單一覽表(區間)",
+            "_id": "413"
+        },
+        {
+            "PROGRAMID": "foprptr749",
+            "PROGRAMNAMEEN": "留倉部位月報轉檔(BNPP)(en)",
+            "PROGRAMNAMETW": "留倉部位月報轉檔(BNPP)",
+            "PROGRAMDESCEN": "foprptr749",
+            "PROGRAMDESCTW": "留倉部位月報轉檔(BNPP)",
+            "_id": "414"
+        },
+        {
+            "PROGRAMID": "foprptr339",
+            "PROGRAMNAMEEN": "損益彙總明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "損益彙總明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr339",
+            "PROGRAMDESCTW": "損益彙總明細表(BNPP)",
+            "_id": "415"
+        },
+        {
+            "PROGRAMID": "syslogr020",
+            "PROGRAMNAMEEN": "AuditLog Report(Second generation)",
+            "PROGRAMNAMETW": "資料異動記錄表(二代)",
+            "PROGRAMDESCEN": "AuditLog Report Desc(Second generation)",
+            "PROGRAMDESCTW": "資料異動記錄表說明(二代)",
+            "_id": "416"
+        },
+        {
+            "PROGRAMID": "sysssmt011",
+            "PROGRAMNAMEEN": "ServerExecuteLog",
+            "PROGRAMNAMETW": "服務執行記錄查詢",
+            "PROGRAMDESCEN": "ServerExecuteLog",
+            "PROGRAMDESCTW": "服務執行記錄查詢r",
+            "_id": "417"
+        },
+        {
+            "PROGRAMID": "sysapvt250",
+            "PROGRAMNAMEEN": "ApprovalQuery",
+            "PROGRAMNAMETW": "覆核作業查詢",
+            "PROGRAMDESCEN": "ApprovalQuery",
+            "PROGRAMDESCTW": "覆核作業查詢",
+            "_id": "418"
+        },
+        {
+            "PROGRAMID": "fopbasp199",
+            "PROGRAMNAMEEN": "颱風天作業處理(en)",
+            "PROGRAMNAMETW": "颱風天作業處理",
+            "PROGRAMDESCEN": "fopbasp120",
+            "PROGRAMDESCTW": "颱風天作業處理",
+            "_id": "419"
+        },
+        {
+            "PROGRAMID": "foptrdp512",
+            "PROGRAMNAMEEN": "部位調整口數轉入修正處理(BNPP)(en)",
+            "PROGRAMNAMETW": "部位調整口數轉入修正處理(BNPP)",
+            "PROGRAMDESCEN": "foptrdp512",
+            "PROGRAMDESCTW": "部位調整口數轉入修正處理(BNPP)",
+            "_id": "420"
+        },
+        {
+            "PROGRAMID": "foptrdi120",
+            "PROGRAMNAMEEN": "暫停交易狀況查詢(en)",
+            "PROGRAMNAMETW": "暫停交易狀況查詢",
+            "PROGRAMDESCEN": "foptrdi120",
+            "PROGRAMDESCTW": "暫停交易狀況查詢",
+            "_id": "421"
+        },
+        {
+            "PROGRAMID": "foprptr324",
+            "PROGRAMNAMEEN": "Position and Margin Reconciliation Report(en)",
+            "PROGRAMNAMETW": "Position and Margin Reconciliation Report",
+            "PROGRAMDESCEN": "foprptr324",
+            "PROGRAMDESCTW": "Position and Margin Reconciliation Report(en)",
+            "_id": "422"
+        },
+        {
+            "PROGRAMID": "foptrdi840",
+            "PROGRAMNAMEEN": "盤中平倉查詢(en)",
+            "PROGRAMNAMETW": "盤中平倉查詢",
+            "PROGRAMDESCEN": "foptrdi840",
+            "PROGRAMDESCTW": "盤中平倉查詢",
+            "_id": "423"
+        },
+        {
+            "PROGRAMID": "foprptr325",
+            "PROGRAMNAMEEN": "Margin and SPAN Report",
+            "PROGRAMNAMETW": "Margin and SPAN Report",
+            "PROGRAMDESCEN": "foprptr325",
+            "PROGRAMDESCTW": "Margin and SPAN Report",
+            "_id": "424"
+        },
+        {
+            "PROGRAMID": "foprptr028",
+            "PROGRAMNAMEEN": "未平倉流動性報表(en)",
+            "PROGRAMNAMETW": "未平倉流動性報表",
+            "PROGRAMDESCEN": "foprptr028",
+            "PROGRAMDESCTW": "未平倉流動性報表",
+            "_id": "425"
+        },
+        {
+            "PROGRAMID": "foptrdi150",
+            "PROGRAMNAMEEN": "委託單流動性查詢(en)",
+            "PROGRAMNAMETW": "委託單流動性查詢",
+            "PROGRAMDESCEN": "foptrdi150",
+            "PROGRAMDESCTW": "委託單流動性查詢",
+            "_id": "426"
+        },
+        {
+            "PROGRAMID": "fopbast280",
+            "PROGRAMNAMEEN": "交易人期貨轉現貨維護(en)",
+            "PROGRAMNAMETW": "交易人期貨轉現貨維護",
+            "PROGRAMDESCEN": "fopbast280",
+            "PROGRAMDESCTW": "交易人期貨轉現貨維護",
+            "_id": "427"
+        },
+        {
+            "PROGRAMID": "foptrdr601",
+            "PROGRAMNAMEEN": "Cash Expiry Results Report",
+            "PROGRAMNAMETW": "結算商品一覽表",
+            "PROGRAMDESCEN": "foptrdr601",
+            "PROGRAMDESCTW": "結算商品一覽表",
+            "_id": "428"
+        },
+        {
+            "PROGRAMID": "foptrdp650",
+            "PROGRAMNAMEEN": "期貨轉現貨價款處理(en)",
+            "PROGRAMNAMETW": "期貨轉現貨價款處理",
+            "PROGRAMDESCEN": "foptrdp650",
+            "PROGRAMDESCTW": "期貨轉現貨價款處理",
+            "_id": "429"
+        },
+        {
+            "PROGRAMID": "foprptr343",
+            "PROGRAMNAMEEN": "Security Log Report(en)",
+            "PROGRAMNAMETW": "Security Log Report",
+            "PROGRAMDESCEN": "foprptr343",
+            "PROGRAMDESCTW": "Security Log Report",
+            "_id": "430"
+        },
+        {
+            "PROGRAMID": "foprptr340",
+            "PROGRAMNAMEEN": "商品別損益彙總明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "商品別損益彙總明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr340",
+            "PROGRAMDESCTW": "商品別損益彙總明細表(BNPP)",
+            "_id": "431"
+        },
+        {
+            "PROGRAMID": "fopposp154",
+            "PROGRAMNAMEEN": "商品金額變動統計夜盤處理(en)",
+            "PROGRAMNAMETW": "商品金額變動統計夜盤處理",
+            "PROGRAMDESCEN": "fopposp154",
+            "PROGRAMDESCTW": "商品金額變動統計夜盤處理",
+            "_id": "432"
+        },
+        {
+            "PROGRAMID": "fopposr011",
+            "PROGRAMNAMEEN": "Night Trading Volume Report",
+            "PROGRAMNAMETW": "盤後成交量表",
+            "PROGRAMDESCEN": "fopposr011",
+            "PROGRAMDESCTW": "盤後成交量表",
+            "_id": "433"
+        },
+        {
+            "PROGRAMID": "foprptr329",
+            "PROGRAMNAMEEN": "盤後損益彙總明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後損益彙總明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr329",
+            "PROGRAMDESCTW": "盤後損益彙總明細表(BNPP)",
+            "_id": "434"
+        },
+        {
+            "PROGRAMID": "foprptr332",
+            "PROGRAMNAMEEN": "Night Position File for BNPP",
+            "PROGRAMNAMETW": "盤後部位轉檔(BNPP)",
+            "PROGRAMDESCEN": "foprptr332",
+            "PROGRAMDESCTW": "盤後部位轉檔(BNPP)",
+            "_id": "435"
+        },
+        {
+            "PROGRAMID": "foprptr333",
+            "PROGRAMNAMEEN": "Night Trading Volume Comparison Report",
+            "PROGRAMNAMETW": "盤後成交比對表",
+            "PROGRAMDESCEN": "foprptr333",
+            "PROGRAMDESCTW": "盤後成交比對表",
+            "_id": "436"
+        },
+        {
+            "PROGRAMID": "foprptr334",
+            "PROGRAMNAMEEN": "Night Trading Position Comparison Report",
+            "PROGRAMNAMETW": "盤後留倉比對表",
+            "PROGRAMDESCEN": "foprptr334",
+            "PROGRAMDESCTW": "盤後留倉比對表",
+            "_id": "437"
+        },
+        {
+            "PROGRAMID": "foprptr464",
+            "PROGRAMNAMEEN": "盤後選擇權權利金變動日報表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後選擇權權利金變動日報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr464",
+            "PROGRAMDESCTW": "盤後選擇權權利金變動日報表(BNPP)(en)",
+            "_id": "438"
+        },
+        {
+            "PROGRAMID": "foptrdi140",
+            "PROGRAMNAMEEN": "交易人部位額度警示通報查詢(en)",
+            "PROGRAMNAMETW": "交易人部位額度警示通報查詢",
+            "PROGRAMDESCEN": "foptrdi140",
+            "PROGRAMDESCTW": "交易人部位額度警示通報查詢",
+            "_id": "439"
+        },
+        {
+            "PROGRAMID": "foprptr326",
+            "PROGRAMNAMEEN": "盤後未平倉明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後未平倉明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr336",
+            "PROGRAMDESCTW": "盤後未平倉明細表(BNPP)",
+            "_id": "440"
+        },
+        {
+            "PROGRAMID": "fopbast525",
+            "PROGRAMNAMEEN": "跨期商撥轉帳號維護(en)",
+            "PROGRAMNAMETW": "跨期商撥轉帳號維護",
+            "PROGRAMDESCEN": "fopbast525",
+            "PROGRAMDESCTW": "跨期商撥轉帳號維護",
+            "_id": "441"
+        },
+        {
+            "PROGRAMID": "foprptr327",
+            "PROGRAMNAMEEN": "盤後平倉明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後平倉明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr327",
+            "PROGRAMDESCTW": "盤後平倉明細表(BNPP)",
+            "_id": "442"
+        },
+        {
+            "PROGRAMID": "foprptr463",
+            "PROGRAMNAMEEN": "盤後契約金額變動日報表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後契約金額變動日報表(BNPP)",
+            "PROGRAMDESCEN": "foprptr463",
+            "PROGRAMDESCTW": "盤後契約金額變動日報表(BNPP)(en)",
+            "_id": "443"
+        },
+        {
+            "PROGRAMID": "foprptr331",
+            "PROGRAMNAMEEN": "Night Trade File for BNPP",
+            "PROGRAMNAMETW": "盤後成交轉檔(BNPP)",
+            "PROGRAMDESCEN": "foprptr331",
+            "PROGRAMDESCTW": "盤後成交轉檔(BNPP)",
+            "_id": "444"
+        },
+        {
+            "PROGRAMID": "foptrdi130",
+            "PROGRAMNAMEEN": "結算會員超額保證金使用成數之預警通知查詢(en)",
+            "PROGRAMNAMETW": "結算會員超額保證金使用成數之預警通知查詢",
+            "PROGRAMDESCEN": "foptrdi130",
+            "PROGRAMDESCTW": "結算會員超額保證金使用成數之預警通知查詢",
+            "_id": "445"
+        },
+        {
+            "PROGRAMID": "fopmtstg36",
+            "PROGRAMNAMEEN": "MTS傳送狀況查詢(en)",
+            "PROGRAMNAMETW": "MTS傳送狀況查詢(",
+            "PROGRAMDESCEN": "fopmtsg36",
+            "PROGRAMDESCTW": "MTS傳送狀況查詢(en)",
+            "_id": "446"
+        },
+        {
+            "PROGRAMID": "fopbast285",
+            "PROGRAMNAMEEN": "實物交割價款維護(en)",
+            "PROGRAMNAMETW": "實物交割價款維護",
+            "PROGRAMDESCEN": "fopbast285",
+            "PROGRAMDESCTW": "實物交割價款維護",
+            "_id": "447"
+        },
+        {
+            "PROGRAMID": "foprptr341",
+            "PROGRAMNAMEEN": "盤後商品別損益彙總明細表(BNPP)(en)",
+            "PROGRAMNAMETW": "盤後商品別損益彙總明細表(BNPP)",
+            "PROGRAMDESCEN": "foprptr341",
+            "PROGRAMDESCTW": "盤後商品別損益彙總明細表(BNPP)",
+            "_id": "448"
+        },
+        {
+            "PROGRAMID": "foprptr032",
+            "PROGRAMNAMEEN": "ACCOUNT EQUITY NIGHTLY REPORT",
+            "PROGRAMNAMETW": "期貨交易人權益夜盤報表",
+            "PROGRAMDESCEN": "foprptr032",
+            "PROGRAMDESCTW": "期貨交易人權益夜盤報表",
+            "_id": "449"
+        },
+        {
+            "PROGRAMID": "foprptr342",
+            "PROGRAMNAMEEN": "theo-price adjustment (BNPP)",
+            "PROGRAMNAMETW": "理論價格調整表(BNPP)",
+            "PROGRAMDESCEN": "foprptr342",
+            "PROGRAMDESCTW": "theo-price adjustment (BNPP)",
+            "_id": "450"
+        },
+        {
+            "PROGRAMID": "foptrdi710",
+            "PROGRAMNAMEEN": "期交所回報轉入狀況檢查(en)",
+            "PROGRAMNAMETW": "期交所回報轉入狀況檢查",
+            "PROGRAMDESCEN": "foptrdi710",
+            "PROGRAMDESCTW": "期交所回報轉入狀況檢查",
+            "_id": "451"
+        }
+    ]
+}

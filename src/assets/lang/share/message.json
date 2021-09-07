@@ -1,0 +1,95 @@
+{
+    "message" : [
+        {
+            "name": "noData",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "查無資料"
+                },
+                {
+                    "title": "en_US",
+                    "text": "No Data"
+                }
+            ]
+        },
+        {
+            "name": "insertSuccess",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "新增成功"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Insert Success"
+                }
+            ]
+        },
+        {
+            "name": "insertFail",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "新增失敗"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Insert Fail"
+                }
+            ]
+        },
+        {
+            "name": "updateSuccess",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "修改成功"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Update Success"
+                }
+            ]
+        },
+        {
+            "name": "updateFail",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "修改失敗"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Update Fail"
+                }
+            ]
+        },
+        {
+            "name": "deleteSuccess",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "刪除成功"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Delete Success"
+                }
+            ]
+        },
+        {
+            "name": "deleteFail",
+            "locale": [
+                {
+                    "title": "zh_TW",
+                    "text": "刪除失敗"
+                },
+                {
+                    "title": "en_US",
+                    "text": "Delete Fail"
+                }
+            ]
+        }
+    ]
+}
