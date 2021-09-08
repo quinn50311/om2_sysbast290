@@ -5,7 +5,7 @@
             <div class="row">
                 <Sidebar />
                 <main class="col-md-9 ms-sm-auto col-lg-12 px-md-0">
-                    <router-view></router-view>
+                    <router-view v-if="isShow"></router-view>
                 </main>
             </div>
         </div>
@@ -25,11 +25,23 @@ export default {
     },
     data() {
         return {
-
+            isShow: true
+        }
+    },
+    provide() {
+        return {
+            reload: this.reload
         }
     },
     methods: {
-        
+        reload() {
+            const vm = this;
+
+            vm.isShow = false;
+            vm.$nextTick(() => {
+                vm.isShow = true;
+            });
+        }
     },
     mounted() {
         

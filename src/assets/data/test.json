@@ -1,22 +1,28 @@
 {
   "row": [
     {
-      "name": "Menu",
-      "locationNo": "1",
+      "nameTW": "Menu",
+      "nameEN": "Menu",
+      "locationNo": 1,
+      "id": 1,
       "root": true,
       "group": false,
       "node": [
         {
-          "name": "期貨帳務後台管理系統",
+          "nameTW": "期貨帳務後台管理系統",
+          "nameEN": "期貨帳務後台管理系統",
           "locationNo": "1",
+          "id": "1",
           "root": false,
           "group": true,
           "node": [
             {
-              "name": "基本資料維護",
+              "nameTW": "基本資料維護",
+              "nameEN": "基本資料維護(en)",
               "systemId": "fop",
               "programGroupId": "fopbas",
               "locationNo": "1",
+              "id": "1",
               "root": false,
               "group": false,
               "node": [
@@ -356,10 +362,12 @@
               ]
             },
             {
-              "name": "客戶管理作業",
+              "nameTW": "客戶管理作業",
+              "nameEN": "客戶管理作業(en)",
               "systemId": "fop",
               "programGroupId": "fopcus",
               "locationNo": "2",
+              "id": "2",
               "root": false,
               "group": false,
               "node": [
@@ -573,10 +581,12 @@
               ]
             },
             {
-              "name": "銀行管理作業",
+              "nameTW": "銀行管理作業",
+              "nameEN": "銀行管理作業(en)",
               "systemId": "fop",
               "programGroupId": "fopbnk",
               "locationNo": "3",
+              "id": "3",
               "root": false,
               "group": false,
               "node": [
@@ -745,10 +755,12 @@
               ]
             },
             {
-              "name": "綜合帳戶作業",
+              "nameTW": "綜合帳戶作業",
+              "nameEN": "綜合帳戶作業(en)",
               "systemId": "fop",
               "programGroupId": "fopomn",
               "locationNo": "4",
+              "id": "4",
               "root": false,
               "group": false,
               "node": [
@@ -809,10 +821,12 @@
               ]
             },
             {
-              "name": "營業員管理",
+              "nameTW": "營業員管理",
+              "nameEN": "營業員管理(en)",
               "systemId": "fop",
               "programGroupId": "fopaeo",
               "locationNo": "5",
+              "id": "5",
               "root": false,
               "group": false,
               "node": [
@@ -837,10 +851,12 @@
               ]
             },
             {
-              "name": "交易管理",
+              "nameTW": "交易管理",
+              "nameEN": "交易管理(en)",
               "systemId": "fop",
               "programGroupId": "foptrd",
               "locationNo": "6",
+              "id": "6",
               "root": false,
               "group": false,
               "node": [
@@ -1207,10 +1223,12 @@
               ]
             },
             {
-              "name": "盤中異動",
+              "nameTW": "盤中異動",
+              "nameEN": "盤中異動(en)",
               "systemId": "fop",
               "programGroupId": "fopmos",
               "locationNo": "7",
+              "id": "7",
               "root": false,
               "group": false,
               "node": [
@@ -1343,19 +1361,23 @@
               ]
             },
             {
-              "name": "盤後查詢作業",
+              "nameTW": "盤後查詢作業",
+              "nameEN": "盤後查詢作業(en)",
               "systemId": "fop",
               "programGroupId": "fopinq",
               "locationNo": "8",
+              "id": "8",
               "root": false,
               "group": false,
               "node": []
             },
             {
-              "name": "MTS作業",
+              "nameTW": "MTS作業",
+              "nameEN": "MTS作業(en)",
               "systemId": "fop",
               "programGroupId": "fopmts",
               "locationNo": "9",
+              "id": "9",
               "root": false,
               "group": false,
               "node": [
@@ -1443,10 +1465,12 @@
               ]
             },
             {
-              "name": "代結算作業",
+              "nameTW": "代結算作業",
+              "nameEN": "代結算作業(en)",
               "systemId": "fop",
               "programGroupId": "fopcfm",
               "locationNo": "10",
+              "id": "10",
               "root": false,
               "group": false,
               "node": [
@@ -1678,10 +1702,12 @@
               ]
             },
             {
-              "name": "上手管理作業",
+              "nameTW": "上手管理作業",
+              "nameEN": "上手管理作業(en)",
               "systemId": "fop",
               "programGroupId": "fopbrk",
               "locationNo": "11",
+              "id": "11",
               "root": false,
               "group": false,
               "node": [
@@ -1706,19 +1732,23 @@
               ]
             },
             {
-              "name": "RTMC,轉檔相關作業",
+              "nameTW": "RTMC,轉檔相關作業",
+              "nameEN": "RTMC,轉檔相關作業(en)",
               "systemId": "fop",
               "programGroupId": "foptns",
               "locationNo": "12",
+              "id": "12",
               "root": false,
               "group": false,
               "node": []
             },
             {
-              "name": "報表查詢作業",
+              "nameTW": "報表查詢作業",
+              "nameEN": "報表查詢作業(en)",
               "systemId": "fop",
               "programGroupId": "foprpt",
               "locationNo": "13",
+              "id": "13",
               "root": false,
               "group": false,
               "node": [
@@ -2526,10 +2556,12 @@
               ]
             },
             {
-              "name": "到期交割作業",
+              "nameTW": "到期交割作業",
+              "nameEN": "到期交割作業(en)",
               "systemId": "fop",
               "programGroupId": "fopset",
               "locationNo": "14",
+              "id": "14",
               "root": false,
               "group": false,
               "node": [
@@ -2608,10 +2640,12 @@
               ]
             },
             {
-              "name": "台盤外資作業",
+              "nameTW": "台盤外資作業",
+              "nameEN": "台盤外資作業(en)",
               "systemId": "fop",
               "programGroupId": "fopqfi",
               "locationNo": "15",
+              "id": "15",
               "root": false,
               "group": false,
               "node": [
@@ -2645,10 +2679,12 @@
               ]
             },
             {
-              "name": "台盤SPAN",
+              "nameTW": "台盤SPAN",
+              "nameEN": "台盤SPAN(en)",
               "systemId": "fop",
               "programGroupId": "fopspn",
               "locationNo": "16",
+              "id": "16",
               "root": false,
               "group": false,
               "node": [
@@ -2691,10 +2727,12 @@
               ]
             },
             {
-              "name": "核帳作業",
+              "nameTW": "核帳作業",
+              "nameEN": "核帳作業(en)",
               "systemId": "fop",
               "programGroupId": "foppos",
               "locationNo": "17",
+              "id": "17",
               "root": false,
               "group": false,
               "node": [
@@ -2800,10 +2838,12 @@
               ]
             },
             {
-              "name": "月結作業",
+              "nameTW": "月結作業",
+              "nameEN": "月結作業(en)",
               "systemId": "fop",
               "programGroupId": "fopmtn",
               "locationNo": "18",
+              "id": "18",
               "root": false,
               "group": false,
               "node": [
@@ -3053,10 +3093,12 @@
               ]
             },
             {
-              "name": "界面傳輸作業",
+              "nameTW": "界面傳輸作業",
+              "nameEN": "界面傳輸作業(en)",
               "systemId": "fop",
               "programGroupId": "fopdxg",
               "locationNo": "19",
+              "id": "19",
               "root": false,
               "group": false,
               "node": [
@@ -3081,10 +3123,12 @@
               ]
             },
             {
-              "name": "利息作業",
+              "nameTW": "利息作業",
+              "nameEN": "利息作業(en)",
               "systemId": "fop",
               "programGroupId": "fopint",
               "locationNo": "20",
+              "id": "20",
               "root": false,
               "group": false,
               "node": [
@@ -3172,10 +3216,12 @@
               ]
             },
             {
-              "name": "公債作業",
+              "nameTW": "公債作業",
+              "nameEN": "公債作業(en)",
               "systemId": "fop",
               "programGroupId": "fopbnd",
               "locationNo": "21",
+              "id": "21",
               "root": false,
               "group": false,
               "node": [
@@ -3209,10 +3255,12 @@
               ]
             },
             {
-              "name": "有價證券抵繳",
+              "nameTW": "有價證券抵繳",
+              "nameEN": "有價證券抵繳(en)",
               "systemId": "fop",
               "programGroupId": "fopstk",
               "locationNo": "22",
+              "id": "22",
               "root": false,
               "group": false,
               "node": [
@@ -3264,10 +3312,12 @@
               ]
             },
             {
-              "name": "系統管理",
+              "nameTW": "系統管理",
+              "nameEN": "系統管理(en)",
               "systemId": "fop",
               "programGroupId": "fopsys",
               "locationNo": "23",
+              "id": "23",
               "root": false,
               "group": false,
               "node": [
@@ -3490,10 +3540,12 @@
               ]
             },
             {
-              "name": "開發測試",
+              "nameTW": "開發測試",
+              "nameEN": "開發測試(en)",
               "systemId": "fop",
               "programGroupId": "foptmp",
               "locationNo": "24",
+              "id": "24",
               "root": false,
               "group": false,
               "node": [
@@ -3511,16 +3563,20 @@
           ]
         },
         {
-          "name": "系統資料",
+          "nameTW": "系統資料",
+          "nameEN": "SYS",
           "locationNo": "2",
+          "id": "2",
           "root": false,
           "group": true,
           "node": [
             {
-              "name": "系統基本維護",
+              "nameTW": "系統基本維護",
+              "nameEN": "BasicData",
               "systemId": "sys",
               "programGroupId": "sysstm",
               "locationNo": "1",
+              "id": "25",
               "root": false,
               "group": false,
               "node": [
@@ -3581,10 +3637,12 @@
               ]
             },
             {
-              "name": "基本資料維護",
+              "nameTW": "基本資料維護",
+              "nameEN": "BasicData",
               "systemId": "sys",
               "programGroupId": "sysbas",
               "locationNo": "2",
+              "id": "26",
               "root": false,
               "group": false,
               "node": [
@@ -3717,10 +3775,12 @@
               ]
             },
             {
-              "name": "系統安控維護",
+              "nameTW": "系統安控維護",
+              "nameEN": "Security",
               "systemId": "sys",
               "programGroupId": "syssec",
               "locationNo": "3",
+              "id": "27",
               "root": false,
               "group": false,
               "node": [
@@ -3799,10 +3859,12 @@
               ]
             },
             {
-              "name": "覆核管理二代",
+              "nameTW": "覆核管理二代",
+              "nameEN": "ApprovalBeta",
               "systemId": "sys",
               "programGroupId": "sysapv2",
               "locationNo": "4",
+              "id": "28",
               "root": false,
               "group": false,
               "node": [
@@ -3854,10 +3916,12 @@
               ]
             },
             {
-              "name": "報表輸出中心",
+              "nameTW": "報表輸出中心",
+              "nameEN": "ReportOutputCenter",
               "systemId": "sys",
               "programGroupId": "sysroc",
               "locationNo": "5",
+              "id": "29",
               "root": false,
               "group": false,
               "node": [
@@ -3927,10 +3991,12 @@
               ]
             },
             {
-              "name": "系統管理工具",
+              "nameTW": "系統管理工具",
+              "nameEN": "Tool",
               "systemId": "sys",
               "programGroupId": "sysutl",
               "locationNo": "6",
+              "id": "30",
               "root": false,
               "group": false,
               "node": [
@@ -4000,10 +4066,12 @@
               ]
             },
             {
-              "name": "資料交換中心",
+              "nameTW": "資料交換中心",
+              "nameEN": "DataExchange",
               "systemId": "sys",
               "programGroupId": "sysdxg",
               "locationNo": "7",
+              "id": "31",
               "root": false,
               "group": false,
               "node": [
@@ -4046,10 +4114,12 @@
               ]
             },
             {
-              "name": "工作排程中心",
+              "nameTW": "工作排程中心",
+              "nameEN": "JobFlow",
               "systemId": "sys",
               "programGroupId": "syswsc",
               "locationNo": "8",
+              "id": "32",
               "root": false,
               "group": false,
               "node": [
@@ -4110,10 +4180,12 @@
               ]
             },
             {
-              "name": "系統監控管理",
+              "nameTW": "系統監控管理",
+              "nameEN": "Monitor",
               "systemId": "sys",
               "programGroupId": "sysmnt",
               "locationNo": "9",
+              "id": "33",
               "root": false,
               "group": false,
               "node": [
@@ -4138,10 +4210,12 @@
               ]
             },
             {
-              "name": "IT報表",
+              "nameTW": "IT報表",
+              "nameEN": "IT Report",
               "systemId": "sys",
               "programGroupId": "sysitr",
               "locationNo": "10",
+              "id": "34",
               "root": false,
               "group": false,
               "node": [
