@@ -117,6 +117,12 @@
                         {{ '刷新測試' }}
                     </button>
                 </div>
+                <!-- <div class="p-2">
+                    <button @click="test1()">
+                        {{ '測試' }}
+                    </button>
+                </div> -->
+                123
             </div>
     </div>
 </template>
