@@ -5,12 +5,21 @@
                 v-if="tree.group === true">
             </i>
             <i class="fas fa-folder" v-else @click="toggle"></i>
-            <router-link to="/sys/sysbas/sysbast290/programGroup"
+            <router-link to="/sys/sysbas/sysbast290/programGroup" v-if="nowLang === true"
                 :id="tree.id" @click.prevent.stop.native="doClick(tree)">
-                {{ ' ' }}{{ tree.name }}
+                {{ ' ' }}{{ tree.nameTW }}
+            </router-link>
+            <router-link to="/sys/sysbas/sysbast290/programGroup" v-else
+                :id="tree.id" @click.prevent.stop.native="doClick(tree)">
+                {{ ' ' }}{{ tree.nameEN }}
             </router-link>
             <ul v-show="open" v-if="tree.node && tree.node.length > 0" id="item">
-                <item v-for="(node, index) in tree.node" :tree="node" :key="index">{{ node.name }}</item>
+                <template v-if="nowLang === true">
+                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">{{ node.nameTW }}</item>
+                </template>
+                <template v-else>
+                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">{{ node.nameEN }}</item>
+                </template>
             </ul>
         </li>
     </div>
@@ -74,6 +83,9 @@ export default {
         }
     },
     computed: {
+        nowLang() {
+            return this.$store.state.nowLang;
+        },
         programGroup() {
             return this.$store.state.programGroup;
         },

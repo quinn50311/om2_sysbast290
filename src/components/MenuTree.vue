@@ -18,8 +18,10 @@ export default {
   data() {
     return {
       treeData: {
-        name: 'Menu',
+        nameTW: 'Menu',
+        nameEN: 'Menu',
         locationNo: 1,
+        id: 1,
         root: true,
         group: false,
         node: []
@@ -38,8 +40,10 @@ export default {
         .then(res => {
           res.data.forEach((item, index) => {
             vm.treeData.node.push({
-              name: item.MODULENAMETW,
+              nameTW: item.MODULENAMETW,
+              nameEN: item.MODULENAMEEN,
               locationNo: item.LOCATIONNO,
+              id: item._id,
               root: false,
               group: true,
               node: [],
@@ -47,19 +51,23 @@ export default {
             if (item.PROGRAMHEAD.length > 0) {
               item.PROGRAMHEAD.forEach(it => {
                 vm.treeData.node[index].node.push({
-                  name: it.PROGRAMGROUPNAMETW,
+                  nameTW: it.PROGRAMGROUPNAMETW,
+                  nameEN: it.PROGRAMGROUPNAMEEN,
                   systemId: it.SYSTEMID,
                   programGroupId: it.PROGRAMGROUPID,
                   locationNo: it.LOCATIONNO,
+                  id: it._id,
                   root: false,
                   group: false,
                   node: [],
                 });
                 vm.$store.commit('SETPROGRAMGROUP', {
-                  name: it.PROGRAMGROUPNAMETW,
+                  nameTW: it.PROGRAMGROUPNAMETW,
+                  nameEN: it.PROGRAMGROUPNAMEEN,
                   programGroupId: it.PROGRAMGROUPID,
                   locationGroupHead: index,
                   locationNo: it.LOCATIONNO,
+                  id: it._id,
                   root: false,
                   group: false,
                   node: [],
