@@ -13,6 +13,13 @@ export default new Vuex.Store({
     //儲存下次登入系統時的語系
     lang: false,
     login: false,
+    treeData: {},
+
+
+
+
+
+
     programGroup: [],
     program: [],
     programLang: [],
@@ -32,133 +39,105 @@ export default new Vuex.Store({
     LOGIN(state, payload) {
       state.login = payload;
     },
-    //初始programGroup
-    CLEARPROGRAMGROUP(state, payload) {
-      if (payload === undefined)
-        state.programGroup = [];
-      else {
-        let index = 0;
-        let find = state.programGroup.find((item, i) => {
-          if (item.name === payload.node[0].name) {
-            index = i;
-            return true;
-          }
-        });
-
-        if (find)
-          state.programGroup.splice(index, payload.node.length);
-      }
-    },
-    //初始program
-    CLEARPROGRAM(state) {
-      state.program = [];
-    },
-    //初始programLang
-    CLEARPROGRAMLANG(state) {
-      state.programLang = [];
-    },
-    //初始treeProgram
-    CLEARTREEPROGRAM(state) {
-      state.treeProgram = [];
-    },
-    /*
-      設定menu tree的 programGroup
-      {
-        name: ''
-        programGroupId: ''
-        locationGroupHead: 0、1...
-        locationNo: 0、1...
-        root: true / false
-        group: true / false
-        node: []
-      }
-    */
-    SETPROGRAMGROUP(state, payload) {
-      state.programGroup.push(payload);
-    },
-    //設定所有群組中的program
-    SETPROGRAM(state, payload) {
-      state.program.push({
-        programGroupId: payload.PROGRAMGROUPID,
-        programId: payload.PROGRAMID,
-        locationNo: payload.LOCATIONNO
-      });
-    },
-    //設定所有programLang
-    SETPROGRAMLANG(state, payload) {
-      state.programLang.push({
-        systemId: payload.SYSID,
-        programId: payload.PRGID,
-        programNameTW: payload.PRGNAMETW,
-        programNameEN: payload.PRGNAMEEN
-      })
-    },
-    //設定第二層顯示的程式
-    SETTREEPROGRAM(state, payload) {
-      state.treeProgram.push(payload);
-    },
-    //設定游標點擊到的名稱
-    SETNAME(state, payload) {
+    NOWNAME(state, payload) {
       state.nowName = payload;
     },
-    //刪除一筆tree program
-    DELETETREEPROGRAMELE(state, payload) {
-      state.treeProgram.splice(payload, 1);
+    TREEDATA(state, payload) {
+      state.treeData = payload;
     },
-    //刪除一筆programGroup
-    DELETEPROGRAMGROUPELE(state, payload) {
-      let index = 0;
-      let find = state.programGroup.find((item, i) => {
-        if (item.name === payload.name && item.locationNo === payload.locationNo) {
-          index = i;
-          return true;
+    PROGRAM(state, payload) {
+      state.program = payload;
+    },
+    DELETEITEM(state, payload) {
+      if (payload.tree.node && payload.tree.node.length > 0) {
+        for (let i = 0; i < payload.tree.node.length; i++) {
+          if (payload.tree.node[i] === payload.picked)
+            payload.tree.node.splice(i, 1);
+          else {
+            if (payload.tree.node[i].node && payload.tree.node[i].node.length > 0)
+              this.commit('DELETEITEM', {
+                tree: payload.tree.node[i],
+                picked: payload.picked
+              });
+          }
         }
-      });
+        state.treeData = payload.tree;
+      }
+    },
+    CHANGELOCATION(state, payload) {
+      if (payload.tree.node && payload.tree.node.length > 0) {
+        for (let i = 0; i < payload.tree.node.length; i++) {
+          if (payload.tree.node[i] === payload.picked && payload.status === 'up' && i !== 0) {
+            //交換位置
+            let temp = payload.tree.node[i - 1];
+            Vue.set(payload.tree.node, i - 1, payload.tree.node[i]);
+            Vue.set(payload.tree.node, i, temp);
 
-      if (find)
-        state.programGroup.splice(index, 1);
-      else
-        console.log('not find');
-    },
-    //交換程式的上下位置(第二層)
-    REPLACEPGELE(state, payload) {
-      if (payload.upOrdown === 'up' && payload.tab === 'pg') {
-        let temp = state.treeProgram[payload.index - 1];
-        Vue.set(state.treeProgram, payload.index - 1, state.treeProgram[payload.index]);
-        Vue.set(state.treeProgram, payload.index, temp);
-        state.treeProgram[payload.index].locationNo++;
-        state.treeProgram[payload.index - 1].locationNo--;
-      } else if (payload.upOrdown === 'down' && payload.tab === 'pg') {
-        let temp = state.treeProgram[payload.index + 1];
-        Vue.set(state.treeProgram, payload.index + 1, state.treeProgram[payload.index]);
-        Vue.set(state.treeProgram, payload.index, temp);
-        state.treeProgram[payload.index].locationNo--;
-        state.treeProgram[payload.index + 1].locationNo++;
+            //將id及location number的值隨著位置變更
+            payload.tree.node[i - 1].locationNo = String(Number(payload.tree.node[i - 1].locationNo) - 1);
+            payload.tree.node[i].locationNo = String(Number(payload.tree.node[i].locationNo) + 1);
+            payload.tree.node[i - 1].id = String(Number(payload.tree.node[i - 1].id) - 1);
+            payload.tree.node[i].id = String(Number(payload.tree.node[i].id) + 1);
+            break;
+          } else if (payload.tree.node[i] === payload.picked && payload.status === 'down' &&
+                    i !== payload.tree.node.length - 1) {
+            //交換位置
+            let temp = payload.tree.node[i + 1];
+            Vue.set(payload.tree.node, i + 1, payload.tree.node[i]);
+            Vue.set(payload.tree.node, i, temp);
+
+            //將id及location number的值隨著位置變更
+            payload.tree.node[i + 1].locationNo = String(Number(payload.tree.node[i + 1].locationNo) + 1);
+            payload.tree.node[i].locationNo = String(Number(payload.tree.node[i].locationNo) - 1);
+            payload.tree.node[i + 1].id = String(Number(payload.tree.node[i + 1].id) + 1);
+            payload.tree.node[i].id = String(Number(payload.tree.node[i].id) - 1);
+            break;
+          } else {
+            if (payload.tree.node[i].node && payload.tree.node[i].node.length > 0)
+              this.commit('CHANGELOCATION', {
+                tree: payload.tree.node[i],
+                picked: payload.picked,
+                status: payload.status
+              });
+          }
+        }
       }
-    },
-    //交換群組的上下位置(第二層)
-    REPLACEGPELE(state, payload) {
-      if (payload.upOrdown === 'up' && payload.tab === 'gp') {
-        let temp = state.programGroup[payload.index - 1];
-        Vue.set(state.programGroup, payload.index - 1, state.programGroup[payload.index]);
-        Vue.set(state.programGroup, payload.index, temp);
-        state.programGroup[payload.index].locationNo++;
-        state.programGroup[payload.index - 1].locationNo--;
-      } else if (payload.upOrdown === 'down' && payload.tab === 'gp') {
-        let temp = state.programGroup[payload.index + 1];
-        Vue.set(state.programGroup, payload.index + 1, state.programGroup[payload.index]);
-        Vue.set(state.programGroup, payload.index, temp);
-        state.programGroup[payload.index].locationNo--;
-        state.programGroup[payload.index + 1].locationNo++;
-      }
+      state.treeData = payload.tree;
     },
     //新增群組到第二層
     ADDGROUP(state, payload) {
-      state.programGroup.splice(payload.index, 0, payload.object);
+      state.treeData.node[payload.index].node.push(payload.object);
     },
     //新增程式到第二層
     ADDPROGRAM(state, payload) {
-      state.treeProgram.push(payload);
+      state.program.push(payload.object);
+      this.commit('UPDATETREEDATA', {
+        object: state.program,
+        groupName: payload.groupName,
+        tree: state.treeData
+      });
+    },
+    UPDATETREEDATA(state, payload) {
+      const vm = this;
+
+      if (payload.tree.node && payload.tree.node.length > 0) {
+        for (let i = 0; i < payload.tree.node.length; i++) {
+          if (payload.tree.node[i].nameTW === payload.groupName ||
+              payload.tree.node[i].nameEN === payload.groupName) {
+            payload.tree.node[i].node = payload.object;
+            break;
+          } else {
+            if (payload.tree.node[i].node && payload.tree.node[i].node.length > 0) {
+              vm.commit('UPDATETREEDATA', {
+                object: payload.object,
+                groupName: payload.groupName,
+                tree: payload.tree.node[i]
+              });
+            }
+              
+          }
+        }
+      }
     }
   },
   actions: {
@@ -175,94 +154,53 @@ export default new Vuex.Store({
         context.commit('LOGIN', true);
       }
     },
-    // updateLoginCount(context) {
-    //   context.commit('LOGINCOUNT', context.state.loginCount);
-    // },
-    //將所有群組中的程式透過api抓進來
+    setNowName(context, payload) {
+      context.commit('NOWNAME', payload);
+    },
+    setTreeData(context, payload) {
+        context.commit('TREEDATA', payload[0]);
+    },
     setProgram(context, payload) {
-      payload.forEach(item => {
-        context.commit('SETPROGRAM', item);
-      });
+      if (payload && payload.length > 0)
+        context.commit('PROGRAM', payload);
+      else
+        context.commit('PROGRAM', []);
     },
-    //透過api抓所有程式的語系資料
-    getProgramLang(context) {
-      const url = 'http://localhost:3002/row';
-
-      context.commit('CLEARPROGRAMLANG');
-      axios.get(url)
-        .then(res => {
-          //context.commit('SETPROGRAMLANG', res.data);
-          res.data.forEach(item => {
-            context.commit('SETPROGRAMLANG', item);
-          });
-        })
-        .catch(err => {
-            console.log(err);
-        });
+    deleteItem(context, payload) {
+      context.commit('DELETEITEM', payload);
     },
-    //交換程式的上下位置(第二層)
-    replacePGEle(context, payload) {
-      if (payload.upOrdown === 'up' && payload.index !== 0 || 
-          payload.upOrdown === 'down' && payload.index !== context.state.treeProgram.length - 1) {
-            context.commit('REPLACEPGELE', payload);
-      }
-    },
-    //交換群組的上下位置(第二層)
-    replaceGPEle(context, payload) {
-      if (payload.upOrdown === 'up' && context.state.programGroup[payload.index].locationNo - 1 !== 0 || 
-          payload.upOrdown === 'down' && payload.index !== context.state.programGroup.length - 1) {
-            if (payload.upOrdown === 'down' && 
-                context.state.programGroup[payload.index + 1].locationNo - 1 !== 0)
-              context.commit('REPLACEGPELE', payload);
-            else if (payload.upOrdown === 'up')
-              context.commit('REPLACEGPELE', payload);
-          }
+    changeLocation(context, payload) {
+      context.commit('CHANGELOCATION', payload);
     },
     //新增群組
     addGroup(context, payload) {
-      let TW = payload.TWName;
-      let EN = payload.ENName;
+      let TW = payload.nameTW;
+      let EN = payload.nameEN;
+      let grpid = payload.grpid;
       let index = payload.index;
-      let programGroupIndex = 0;
+      let len = payload.length;
+      let treeNode = context.state.treeData.node[index].node;
       let obj = {};
 
-      let find = context.state.programGroup.find(item => {
-        if (item.locationGroupHead === index + 1)
-          return true;
-      });
+      obj = {
+        nameTW: TW,
+        nameEN: EN,
+        systemId: treeNode[0].systemId,
+        programGroupId: grpid,
+        locationNo: String(Number(treeNode[len - 1].locationNo) + 1),
+        id: String(Number(treeNode[len - 1].id) + 1),
+        root: false,
+        group: false,
+        node: []
+      };
 
-      if (find)
-        programGroupIndex = context.state.programGroup.indexOf(find);
-      else
-        programGroupIndex = context.state.programGroup.length;
-
-      if (context.state.nowLang === true) {
-        obj = {
-          name: TW,
-          locationGroupHead: index,
-          locationNo: String(Number(context.state.programGroup[programGroupIndex - 1].locationNo) + 1),
-          root: false,
-          group: false,
-          node: []
-        };
-      } else {
-        obj = {
-          name: EN,
-          locationGroupHead: index,
-          locationNo: String(Number(context.state.programGroup[programGroupIndex - 1].locationNo) + 1),
-          root: false,
-          group: false,
-          node: []
-        };
-      }
       context.commit('ADDGROUP', {
-        index: programGroupIndex,
+        index: index,
         object: obj
       });
     },
     //新增程式到第二層
     addProgram(context, payload) {
-      console.log(payload);
       context.commit('ADDPROGRAM', payload);
     }
   }

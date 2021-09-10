@@ -26,39 +26,45 @@
                 <div class="d-flex flex-column col-7" id="box">
                     <!-- 群組(第二層) -->
                     <perfect-scrollbar class="ps" v-if="gp && groupIndex !== undefined">
-                        <template v-for="(item, index) in programGroup">
-                            <div class="p-2 d-flex ml-auto" 
-                                v-if="item.locationGroupHead === groupIndex && nowLang === true" :key="index">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameTW }}</label>
-                            </div>
-                            <div class="p-2 d-flex ml-auto" 
-                                v-if="item.locationGroupHead === groupIndex && nowLang === false" :key="index">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameEN }}</label>
+                        <template v-for="(item, index) in treeData.node[groupIndex].node">
+                            <div class="p-2 d-flex ml-auto" :key="index">
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item.nameTW" v-if="nowLang === true">
+                                    {{ item.nameTW }}
+                                </label>
+                                <label class="ml-1" :for="item.nameEN" v-else-if="nowLang === false">
+                                    {{ item.nameEN }}
+                                </label>
                             </div>
                         </template>
                     </perfect-scrollbar>
                     <!-- 根群組(第二層) -->
                     <perfect-scrollbar class="ps" v-else-if="gp && groupIndex === undefined">
                         <template v-for="(item, index) in treeData.node">
-                            <div class="p-2 d-flex ml-auto" :key="index" v-if="nowLang === true">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameTW }}</label>
-                            </div>
-                            <div class="p-2 d-flex ml-auto" :key="index" v-else>
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameEN }}</label>
+                            <div class="p-2 d-flex ml-auto" :key="index">
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item.nameTW" v-if="nowLang === true">
+                                    {{ item.nameTW }}
+                                </label>
+                                <label class="ml-1" :for="item.nameEN" v-else-if="nowLang === false">
+                                    {{ item.nameEN }}
+                                </label>
                             </div>
                         </template>
                     </perfect-scrollbar>
                     <!-- 程式(第二層) -->
                     <perfect-scrollbar class="ps" v-else-if="pg">
                         <template>
-                            <div class="p-2 d-flex ml-auto" v-for="(item, index) in treeProgram" :key="index">
+                            <div class="p-2 d-flex ml-auto" v-for="(item, index) in program" :key="index">
                                 <input class="el-radio" type="radio" :value="item" v-model="picked">
-                                <label class="ml-1" :for="item" v-if="nowLang === true">{{ item.nameTW }}{{' '}}{{ item.programId }}</label>
-                                <label class="ml-1" :for="item" v-else-if="nowLang === false">{{ item.nameEN }}{{' '}}{{ item.programId }}</label>
+                                <label class="ml-1" :for="item"
+                                    v-if="nowLang === true">
+                                    {{ item.nameTW }}{{' ('}}{{ item.programId }}{{ ')' }}
+                                </label>
+                                <label class="ml-1" :for="item"
+                                    v-else-if="nowLang === false">
+                                    {{ item.nameEN }}{{' ('}}{{ item.programId }}{{ ')' }}
+                                </label>
                             </div>
                         </template>
                     </perfect-scrollbar>
@@ -67,8 +73,12 @@
                     <!-- 群組(第三層) -->
                     <template v-if="gp && insertFlag === false && groupIndex !== undefined">
                         <div class="row mt-1 px-4 d-flex justify-content-start">
-                            <label for="groupName" class="mt-5">{{'群組名稱'}}</label>
-                            <br>
+                            <label for="groupName" class="mt-3" v-if="nowLang === true">
+                                {{'群組名稱'}}
+                            </label>
+                            <label for="groupName" class="mt-3" v-else-if="nowLang === false">
+                                {{'Group Name'}}
+                            </label>
                             <div class="col-12 mt-1 d-flex justify-content-start">
                                 <label for="tw" style="width: 50px">{{'(TW)'}}</label>
                                 <input type="text" class="ml-3" v-model="groupNameTW">
@@ -76,6 +86,10 @@
                             <div class="col-12 mt-3 d-flex justify-content-start">
                                 <label for="en" style="width: 50px">{{'(EN)'}}</label>
                                 <input type="text" class="ml-3" v-model="groupNameEN">
+                            </div>
+                            <div class="col-12 mt-3 d-flex justify-content-start">
+                                <label for="en" style="width: 50px">{{'(GRPID)'}}</label>
+                                <input type="text" class="ml-3" v-model="programGroupId">
                             </div>
                         </div>
                     </template>
@@ -85,10 +99,10 @@
                             :key="index">
                             <input class="allPG-radio" type="radio" :value="item" v-model="picked">
                             <label class="ml-1" :for="item" v-if="nowLang === true">
-                                {{ item.PROGRAMNAMETW }}{{' '}}{{ item.PROGRAMID }}
+                                {{ item.PROGRAMNAMETW }}{{' ('}}{{ item.PROGRAMID }}{{ ')' }}
                             </label>
                             <label class="ml-1" :for="item" v-else-if="nowLang === false">
-                                {{ item.PROGRAMNAMEEN }}{{' '}}{{ item.PROGRAMID }}
+                                {{ item.PROGRAMNAMEEN }}{{' ('}}{{ item.PROGRAMID }}{{ ')' }}
                             </label>
                         </div>
                     </perfect-scrollbar>
@@ -100,7 +114,7 @@
                     <button @click="insertFlag ? newProgram() : newGroup()">新增</button>
                 </div>
                 <div class="p-2">
-                    <button @click="deleteTreeNode(treeData)">刪除</button>
+                    <button @click="deleteTreeNode()">刪除</button>
                 </div>
                 <div class="p-2">
                     <button @click="changeLocation('up')">
@@ -117,12 +131,6 @@
                         {{ '刷新測試' }}
                     </button>
                 </div>
-                <!-- <div class="p-2">
-                    <button @click="test1()">
-                        {{ '測試' }}
-                    </button>
-                </div> -->
-                123
             </div>
     </div>
 </template>
@@ -134,7 +142,6 @@ export default {
     inject: ['reload'],
     data() {
         return {
-            treeData: {},
             picked: '',
             groupIndex: -1,
             gp: true,
@@ -143,161 +150,52 @@ export default {
             insertFlag: true,
             groupNameTW: '',
             groupNameEN: '',
+            programGroupId: '',
             allTree: []
         };
     },
     methods: {
-        //要求treeData資料
-        getTreeData() {
-            bus.$emit('sendTreeData');
-        },
-        //透過api先抓取程式的program id 之後須額外抓中英文顯示
-        getProgramList() {
-            const vm = this;
-            const url = 'http://localhost:3001/row';
-
-            vm.$store.commit('CLEARPROGRAM');
-
-            vm.$http.get(url)
-                .then(res => {
-                    // console.log(res.data);
-                    vm.$store.dispatch('setProgram', res.data);
-                })
-                .catch(err => {
-                    console.log(err);
-                });
-        },
         //刪除treeData資料(遞迴)
-        deleteTreeNode(tree) {
-            const vm = this;
-
-            if (vm.gp === true) {
-                //刪除群組
-                if (tree.node && tree.node.length > 0) {
-                    for (let i = 0; i < tree.node.length; i++) {
-                        if (tree.node[i].name === vm.picked) {
-                            //刪除整個根群組
-                            if (tree.node[i].group === true)
-                                vm.$store.commit('CLEARPROGRAMGROUP', tree.node[i]);
-                            //刪除單一小群組
-                            else
-                                vm.$store.commit('DELETEPROGRAMGROUPELE', tree.node[i]);
-                            tree.node.splice(i, 1);
-                            break;
-                        }
-                        else {
-                            if (tree.node[i].node && tree.node[i].node.length > 0)
-                                vm.deleteTreeNode(tree.node[i]);
-                        }
-                    }
-                }
-            } else {
-                //刪除程式
-                if (tree.node && tree.node.length > 0 && vm.picked !== '') {
-                    let index = 0;
-                    let find = vm.treeProgram.find((item, i) => {
-                        if (item.programId === vm.picked.programId) {
-                            index = i;
-                            return true;
-                        }
-                    });
-                    if (find)
-                        vm.$store.commit('DELETETREEPROGRAMELE', index);
-                    
-                }
-            }
-
-            vm.picked = '';
+        deleteTreeNode() {
+            this.$store.dispatch('deleteItem', {
+                tree: this.treeData,
+                picked: this.picked
+            });
         },
         //交換第二層選取的資料的上下位置
         changeLocation(status) {
-            const vm = this;
-
-            //交換程式位置
-            if (vm.pg === true) {
-                for(let i = 0; i < vm.treeProgram.length; i++) {
-                    if (vm.treeProgram[i] === vm.picked) {
-                        vm.$store.dispatch('replacePGEle', {
-                            index: i,
-                            upOrdown: status,
-                            tab: 'pg'
-                        });
-                        break;
-                    }
-                }
-
-                let index = 0;
-                vm.allTree[0].node.forEach(item => {
-                    if (item.node && item.node.length > 0) {
-                        let find = item.node.find((it, i) => {
-                            if (it.systemId === vm.picked.systemId &&
-                                it.programGroupId === vm.picked.programGroupId) {
-                                    index = i;
-                                    return true;
-                                }
-                        });
-                        item.node[index] = vm.treeProgram;
-                    }
-                });
-                console.log(vm.allTree);
-              //交換根群組位置
-            } else if (vm.gp === true && vm.groupIndex === undefined) {
-                let index = 0;
-                let find = vm.treeData.node.find((item, i) => {
-                    if (item.name === vm.picked) {
-                        index = i;
-                        return true;
-                    }
-                });
-
-                if (status === 'down' && find && find !== vm.treeData.node[vm.treeData.node.length - 1]) {
-                    let temp = vm.treeData.node[index + 1];
-                    vm.$set(vm.treeData.node, index + 1, find);
-                    vm.$set(vm.treeData.node, index, temp);
-                    vm.treeData.node[index + 1].locationNo++;
-                    vm.treeData.node[index].locationNo--;
-                } else if (status === 'up' && find && find !== vm.treeData.node[0]) {
-                    let temp = vm.treeData.node[index - 1];
-                    vm.$set(vm.treeData.node, index - 1, find);
-                    vm.$set(vm.treeData.node, index, temp);
-                    vm.treeData.node[index - 1].locationNo--;
-                    vm.treeData.node[index].locationNo++;
-                }
-              //交換小群組位置
-            } else {
-                for(let i = 0; i < vm.programGroup.length; i++) {
-                    if (vm.programGroup[i].name === vm.picked) {
-                        vm.$store.dispatch('replaceGPEle', {
-                            index: i,
-                            upOrdown: status,
-                            tab: 'gp'
-                        });
-                        //傳送至root層刷新排序
-                        bus.$emit('sendSortTree', vm.programGroup, vm.programGroup[i].locationGroupHead);
-                        break;
-                    }
-                }
-            }
+            this.$store.dispatch('changeLocation', {
+                tree: this.treeData,
+                picked: this.picked,
+                status: status
+            });
         },
         //Tab切換
         //pg = program
         //gp = group
         changeTab(id) {
             this.picked = '';
+            this.groupNameTW = '';
+            this.groupNameEN = '';
+            this.programGroupId = '';
             if (id === 'gp' && this.gp === false) {
                 this.gp = true;
                 this.pg = false;
+                this.insertFlag = false;
             }
             else if (id === 'pg' && this.pg === false) {
                 this.pg = true;
                 this.gp = false;
+                this.insertFlag = true;
             }
             else if (id === 'none') {
                 this.pg = true;
                 this.gp = false;
+                this.insertFlag = true;
             } else if (id === 'root') {
                 this.gp = true;
                 this.pg = false;
+                this.insertFlag = false;
             }
         },
         //設定新增程式或群組flag
@@ -319,154 +217,90 @@ export default {
         },
         //新增群組到第二層
         newGroup() {
-            let obj = {};
-            let name = '';
-            let len = this.treeData.node[this.groupIndex].node.length;
+            if (this.groupNameTW !== '' && this.groupNameEN !== '' && this.programGroupId !== '') {
+                let len = this.treeData.node[this.groupIndex].node.length;
 
-            // console.log(this.groupNameTW, this.groupNameEN);
-            this.$store.dispatch('addGroup', {
-                TWName: this.groupNameTW,
-                ENName: this.groupNameEN,
-                index: this.groupIndex
-            });
-
-            if (this.nowLang === true)
-                name = this.groupNameTW;
-            else
-                name = this.groupNameEN;
-            obj = {
-                name: name,
-                systemId: this.treeData.node[this.groupIndex].node[0].systemId,
-                programGroupId: '',
-                locationNo: String(Number(this.treeData.node[this.groupIndex].node[len - 1].locationNo) + 1),
-                root: false,
-                group: false,
-                node: [],
+                this.$store.dispatch('addGroup', {
+                    nameTW: this.groupNameTW,
+                    nameEN: this.groupNameEN,
+                    grpid: this.programGroupId,
+                    index: this.groupIndex,
+                    length: len
+                });
             }
-
-            this.treeData.node[this.groupIndex].node.push(obj);
-
-            this.insertFlag = true;
             this.groupNameTW = '';
             this.groupNameEN = '';
+            this.programGroupId = ''
         },
         //新增程式到第二層
         newProgram() {
-            const vm = this;
+            let len = this.program.length;
             let obj = {};
-            let len = vm.treeProgram.length;
             
             //第二層有程式
-            if (vm.picked && vm.pg === true && vm.allProgramFilter && vm.allProgramFilter.length > 0 && 
-                vm.treeProgram && vm.treeProgram.length > 0) {
-                // console.log(vm.picked);
+            if (this.picked && this.pg === true && this.allProgramFilter && this.allProgramFilter.length > 0 && 
+                this.program.length > 0) {
                 obj = {
-                    nameTW: vm.picked.PROGRAMNAMETW,
-                    nameEN: vm.picked.PROGRAMNAMEEN,
-                    systemId: vm.treeProgram[0].systemId,
-                    programId: vm.picked.PROGRAMID,
-                    programGroupId: vm.treeProgram[0].programGroupId,
-                    locationNo: String(Number(vm.treeProgram[len - 1].locationNo) + 1)
+                    systemId: this.program[0].systemId,
+                    programGroupId: this.picked.PROGRAMID.substr(0, 6),
+                    programId: this.picked.PROGRAMID,
+                    locationNo: String(Number(this.program[len - 1].locationNo) + 1),
+                    nameTW: this.picked.PROGRAMNAMETW,
+                    nameEN: this.picked.PROGRAMNAMEEN,
+                    node: []
                 }
-                vm.$store.dispatch('addProgram', obj);
+                this.$store.dispatch('addProgram', {
+                    object: obj,
+                    groupName: this.nowName
+                });
               //第二層沒有程式(直接新增)
-            } else if (vm.picked && vm.pg === true && vm.allProgramFilter && vm.allProgramFilter.length > 0 &&
-                        vm.treeProgram && vm.treeProgram.length === 0) {
-                // console.log(vm.picked);
+            } else if (this.picked && this.pg === true && this.allProgramFilter && this.allProgramFilter.length > 0 &&
+                        this.program.length === 0) {
                 obj = {
-                    nameTW: vm.picked.PROGRAMNAMETW,
-                    nameEN: vm.picked.PROGRAMNAMEEN,
-                    systemId: vm.picked.PROGRAMID.substr(0, 3),
-                    programId: vm.picked.PROGRAMID,
-                    programGroupId: vm.picked.PROGRAMID.substr(0, 6),
-                    locationNo: '1'
+                    systemId: this.picked.PROGRAMID.substr(0, 3),
+                    programGroupId: this.picked.PROGRAMID.substr(0, 6),
+                    programId: this.picked.PROGRAMID,
+                    locationNo: '1',
+                    nameTW: this.picked.PROGRAMNAMETW,
+                    nameEN: this.picked.PROGRAMNAMEEN,
+                    node: []
                 }
-                vm.$store.dispatch('addProgram', obj);
+                this.$store.dispatch('addProgram', {
+                    object: obj,
+                    groupName: this.nowName
+                });
             }
+
+            this.picked = '';
         },
         refreshPage() {
-            this.reload();
             this.resetAllTree();
+            this.reload();
         },
         resetAllTree() {
-            const url = 'http://localhost:3005/row';
+            const url = 'http://localhost:3005/row/1';
             const vm = this;
 
-            // this.$http.get(url)
-            //     .then(res => {
-            //         console.log(res);
-            //         vm.test = res.data;
-            //     })
-            //     .catch(err => {
-            //         console.log(err);
-            //     });
-        },
-        getAllTree() {
-            const url = 'http://localhost:3005/row';
-            const vm = this;
-
-            this.$http.get(url)
+            this.$http.put(url, this.treeData)
                 .then(res => {
                     console.log(res);
-                    vm.allTree = res.data;
+                    vm.test = res.data;
                 })
                 .catch(err => {
                     console.log(err);
                 });
-        },
-        // test1() {
-        //     const url = 'http://localhost:3005/row/1';
-        //     let data = this.treeData;
-        //     const vm = this;
-
-        //     data._id = "1";
-
-        //     data.node.forEach(groupHead => {
-        //         groupHead.node.forEach(program => {
-        //             vm.program.forEach(item => {
-        //                 if (item.programGroupId === program.programGroupId) {
-        //                     let find = vm.programLang.find(it => {
-        //                         if (it.programId === item.programId)
-        //                             return true;
-        //                     });
-        //                     if (find) {
-        //                         program.node.push({
-        //                             systemId: find.systemId,
-        //                             programGroupId: item.programGroupId,
-        //                             programId: item.programId,
-        //                             locationNo: item.locationNo,
-        //                             nameTW: find.programNameTW,
-        //                             nameEN: find.programNameEN,
-        //                             node: []
-        //                         });
-        //                     }
-        //                 }
-        //             });
-        //         });
-        //     });
-
-        //     vm.$http.put(url, data)
-        //         .then(res => {
-        //             console.log(res.data);
-        //         })
-        // }
+        }
     },
     computed: {
         //從store.js取得
-        programGroup() {
-            return this.$store.state.programGroup;
-        },
         nowName() {
             return this.$store.state.nowName;
-        },
-        treeProgram() {
-            return this.$store.state.treeProgram;
         },
         nowLang() {
             return this.$store.state.nowLang;
         },
-        programLang() {
-            return this.$store.state.programLang;
+        treeData() {
+            return this.$store.state.treeData;
         },
         program() {
             return this.$store.state.program;
@@ -476,16 +310,16 @@ export default {
             const vm = this;
 
             //如果該群組有程式則需先過濾 否則直接顯示全部程式內容
-            if (vm.treeProgram && vm.treeProgram.length > 0) {
+            if (vm.program && vm.program.length > 0) {
                 //先過濾出相同群組的程式
                 let filters = vm.allProgram.filter(item => {
-                    return item.PROGRAMID.substr(0, 3) === vm.treeProgram[0].systemId;
+                    return item.PROGRAMID.substr(0, 3) === vm.program[0].systemId;
                 });
                 //再過濾掉已經在群組中的程式
                 let sameFilters = filters.filter(item => {
                     let flag = false;
-                    for (let i = 0; i < vm.treeProgram.length; i++) {
-                        if (item.PROGRAMID === vm.treeProgram[i].programId) {
+                    for (let i = 0; i < vm.program.length; i++) {
+                        if (item.PROGRAMID === vm.program[i].programId) {
                             flag = false;
                             break;
                         } else
@@ -501,8 +335,6 @@ export default {
         }
     },
     created() {
-        //訂閱getTree並在收到emit值後assign到treeData
-        bus.$on('getTree', tree => { this.treeData = Object.assign({}, tree); });
         bus.$on('changeToProgramTab', (id, index) => {
             this.changeTab(id);
             //傳進來的index從1開始
@@ -511,14 +343,10 @@ export default {
             else
                 this.groupIndex = index;
         });
-        this.getTreeData();
-        this.getProgramList();
         //頁面reload之後nowLang會變為false 需再讀一次語系設定
         this.$store.dispatch('getNowLang');
-        this.getAllTree();
     },
     beforeDestroy() {
-        bus.$off('getTree');
         bus.$off('changeToProgramTab');
     }
 }

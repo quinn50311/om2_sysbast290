@@ -16,6 +16,7 @@
     "vee-validate": "^3.4.11",
     "vue": "^2.6.10",
     "vue-axios": "^3.2.4",
+    "vue-loading-overlay": "3.0",
     "vue-router": "^3.0.3",
     "vue2-perfect-scrollbar": "^1.5.0",
     "vuex": "^3.0.1",

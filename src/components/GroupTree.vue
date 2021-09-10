@@ -13,12 +13,18 @@
                 :id="tree.id" @click.prevent.stop.native="doClick(tree)">
                 {{ ' ' }}{{ tree.nameEN }}
             </router-link>
-            <ul v-show="open" v-if="tree.node && tree.node.length > 0" id="item">
+            <ul v-show="open" id="item"
+                v-if="tree.node && tree.node.length > 0 &&
+                tree.node[0].group !== undefined && tree.node[0].root !== undefined">
                 <template v-if="nowLang === true">
-                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">{{ node.nameTW }}</item>
+                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">
+                        {{ node.nameTW }}
+                    </item>
                 </template>
                 <template v-else>
-                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">{{ node.nameEN }}</item>
+                    <item v-for="(node, index) in tree.node" :tree="node" :key="index">
+                        {{ node.nameEN }}
+                    </item>
                 </template>
             </ul>
         </li>
@@ -35,7 +41,7 @@ export default {
     },
     data() {
         return {
-            open: false
+            open: false,
         }
     },
     methods: {
@@ -48,9 +54,11 @@ export default {
         doClick(tree) {
             const vm = this;
 
-            vm.$store.commit('CLEARTREEPROGRAM');
-            vm.$store.commit('SETNAME', tree.name);
-            
+            if (vm.nowLang === true)
+                vm.$store.dispatch('setNowName', tree.nameTW);
+            else
+                vm.$store.dispatch('setNowName', tree.nameEN);
+                
             //發出切換Tab訊號
             if (tree.root === false && tree.group === false)
                 bus.$emit('changeToProgramTab', 'pg', undefined);
@@ -59,41 +67,14 @@ export default {
             else if (tree.root === true && tree.group === false)
                 bus.$emit('changeToProgramTab', 'root', undefined);
 
-            window.setTimeout(() => {
-                //設定第二層程式
-                vm.program.forEach(item => {
-                    if (item.programGroupId !== undefined && item.programGroupId === tree.programGroupId) {
-                        // console.log(item.programId);
-                        vm.programLang.forEach(it => {
-                            if (it.programId === item.programId) {
-                                // console.log(it.programNameTW);
-                                vm.$store.commit('SETTREEPROGRAM', {
-                                    nameTW: it.programNameTW,
-                                    nameEN: it.programNameEN,
-                                    systemId: it.systemId,
-                                    programId: it.programId,
-                                    programGroupId: item.programGroupId,
-                                    locationNo: item.locationNo
-                                });
-                            }  
-                        });
-                    }
-                });
-            }, 500);
+            //設定第二層程式
+            if (tree.group === false && tree.root === false)
+                vm.$store.dispatch('setProgram', tree.node);
         }
     },
     computed: {
         nowLang() {
             return this.$store.state.nowLang;
-        },
-        programGroup() {
-            return this.$store.state.programGroup;
-        },
-        program() {
-            return this.$store.state.program;
-        },
-        programLang() {
-            return this.$store.state.programLang;
         }
     },
 }
