@@ -211,7 +211,7 @@ export default {
         //交換第二層選取的資料的上下位置
         changeLocation(status) {
             const vm = this;
-
+            測試
             //交換程式位置
             if (vm.pg === true) {
                 for(let i = 0; i < vm.treeProgram.length; i++) {
