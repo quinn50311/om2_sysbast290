@@ -9,7 +9,7 @@ module.exports = {
     devServer: {
         open: process.platform === 'chrome',
         host: '127.0.0.1',
-        port: 8087,
+        port: 8088,
         open: true,
         https: false,
         hotOnly: false,
