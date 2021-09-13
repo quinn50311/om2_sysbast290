@@ -23,7 +23,7 @@ export default {
   methods: {
     //取得menu tree資料
     getTree() {
-      const url = 'http://localhost:3005/row';
+      const url = 'http://localhost:3006/row';
       const vm = this;
 
       vm.$http.get(url)

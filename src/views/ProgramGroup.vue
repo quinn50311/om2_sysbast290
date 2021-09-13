@@ -278,7 +278,7 @@ export default {
             this.reload();
         },
         resetAllTree() {
-            const url = 'http://localhost:3005/row/1';
+            const url = 'http://localhost:3006/row/1';
             const vm = this;
 
             this.$http.put(url, this.treeData)
