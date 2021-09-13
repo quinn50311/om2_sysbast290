@@ -4,6 +4,8 @@ import router from './router'
 import store from './store/store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import VueLoading from 'vue-loading-overlay'
+import 'vue-loading-overlay/dist/vue-loading.css'
 
 import PerfectScrollbar from 'vue2-perfect-scrollbar'
 import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css'
@@ -22,6 +24,8 @@ Vue.use(IconsPlugin)
 Vue.use(VueAxios, axios)
 Vue.use(BootstrapVueTreeview)
 Vue.use(PerfectScrollbar)
+
+Vue.component('Loading', VueLoading)
 
 new Vue({
   router,

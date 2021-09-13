@@ -12,7 +12,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-1" aria-current="page" :class="{ active : pg }"
-                                @click.prevent="changeTab('pg'), searchAllProgram()">
+                                @click.prevent="changeTab('pg')">
                                 {{ '程式' }}
                             </a>
                         </li>
@@ -29,13 +29,13 @@
                         <template v-for="(item, index) in programGroup">
                             <div class="p-2 d-flex ml-auto" 
                                 v-if="item.locationGroupHead === groupIndex && nowLang === true" :key="index">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameTW }}</label>
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item">{{ item.nameTW }}</label>
                             </div>
                             <div class="p-2 d-flex ml-auto" 
                                 v-if="item.locationGroupHead === groupIndex && nowLang === false" :key="index">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameEN }}</label>
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item">{{ item.nameEN }}</label>
                             </div>
                         </template>
                     </perfect-scrollbar>
@@ -43,22 +43,22 @@
                     <perfect-scrollbar class="ps" v-else-if="gp && groupIndex === undefined">
                         <template v-for="(item, index) in treeData.node">
                             <div class="p-2 d-flex ml-auto" :key="index" v-if="nowLang === true">
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameTW }}</label>
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item">{{ item.nameTW }}</label>
                             </div>
                             <div class="p-2 d-flex ml-auto" :key="index" v-else>
-                                <input class="el-radio" type="radio" :value="item.name" v-model="picked">
-                                <label class="ml-1" :for="item.name">{{ item.nameEN }}</label>
+                                <input class="el-radio" type="radio" :value="item" v-model="picked">
+                                <label class="ml-1" :for="item">{{ item.nameEN }}</label>
                             </div>
                         </template>
                     </perfect-scrollbar>
                     <!-- 程式(第二層) -->
                     <perfect-scrollbar class="ps" v-else-if="pg">
                         <template>
-                            <div class="p-2 d-flex ml-auto" v-for="(item, index) in treeProgram" :key="index">
+                            <div class="p-2 d-flex ml-auto" v-for="(item, index) in programFilter" :key="index">
                                 <input class="el-radio" type="radio" :value="item" v-model="picked">
-                                <label class="ml-1" :for="item" v-if="nowLang === true">{{ item.nameTW }}{{' '}}{{ item.programId }}</label>
-                                <label class="ml-1" :for="item" v-else-if="nowLang === false">{{ item.nameEN }}{{' '}}{{ item.programId }}</label>
+                                <label class="ml-1" :for="item" v-if="nowLang === true">{{ item.PRGNAMETW }}{{' '}}{{ item.programId }}</label>
+                                <label class="ml-1" :for="item" v-else-if="nowLang === false">{{ item.PRGNAMEEN }}{{' '}}{{ item.programId }}</label>
                             </div>
                         </template>
                     </perfect-scrollbar>
@@ -117,11 +117,6 @@
                         {{ '刷新測試' }}
                     </button>
                 </div>
-                <!-- <div class="p-2">
-                    <button @click="test1()">
-                        {{ '測試' }}
-                    </button>
-                </div> -->
             </div>
     </div>
 </template>
@@ -133,39 +128,17 @@ export default {
     inject: ['reload'],
     data() {
         return {
-            treeData: {},
             picked: '',
             groupIndex: -1,
+            pickedGroup: {},
             gp: true,
             pg: false,
-            allProgram: [],
             insertFlag: true,
             groupNameTW: '',
-            groupNameEN: '',
-            allTree: []
+            groupNameEN: ''
         };
     },
     methods: {
-        //要求treeData資料
-        getTreeData() {
-            bus.$emit('sendTreeData');
-        },
-        //透過api先抓取程式的program id 之後須額外抓中英文顯示
-        getProgramList() {
-            const vm = this;
-            const url = 'http://localhost:3001/row';
-
-            vm.$store.commit('CLEARPROGRAM');
-
-            vm.$http.get(url)
-                .then(res => {
-                    // console.log(res.data);
-                    vm.$store.dispatch('setProgram', res.data);
-                })
-                .catch(err => {
-                    console.log(err);
-                });
-        },
         //刪除treeData資料(遞迴)
         deleteTreeNode(tree) {
             const vm = this;
@@ -174,14 +147,14 @@ export default {
                 //刪除群組
                 if (tree.node && tree.node.length > 0) {
                     for (let i = 0; i < tree.node.length; i++) {
-                        if (tree.node[i].name === vm.picked) {
+                        if (tree.node[i] === vm.picked) {
                             //刪除整個根群組
-                            if (tree.node[i].group === true)
-                                vm.$store.commit('CLEARPROGRAMGROUP', tree.node[i]);
+                            if (tree.node[i].system === true)
+                                vm.$store.dispatch('deleteSystemGroup', tree.node[i]);
                             //刪除單一小群組
                             else
-                                vm.$store.commit('DELETEPROGRAMGROUPELE', tree.node[i]);
-                            tree.node.splice(i, 1);
+                                vm.$store.dispatch('deleteProgramGroup', tree.node[i]);
+                            // tree.node.splice(i, 1);
                             break;
                         }
                         else {
@@ -194,15 +167,14 @@ export default {
                 //刪除程式
                 if (tree.node && tree.node.length > 0 && vm.picked !== '') {
                     let index = 0;
-                    let find = vm.treeProgram.find((item, i) => {
-                        if (item.programId === vm.picked.programId) {
+                    let find = vm.programFilter.find((item, i) => {
+                        if (item.PRGID === vm.picked.PRGID) {
                             index = i;
                             return true;
                         }
                     });
                     if (find)
-                        vm.$store.commit('DELETETREEPROGRAMELE', index);
-                    
+                        this.programFilter.splice(index, 1);
                 }
             }
 
@@ -303,19 +275,6 @@ export default {
         showThirdGroup() {
             this.insertFlag = false;
         },
-        //設定新增程式或群組flag並抓取所有的程式
-        searchAllProgram() {
-            const url = 'http://localhost:3003/row';
-            this.insertFlag = true;
-
-            this.$http.get(url)
-                .then(res => {
-                    this.allProgram = res.data;
-                })
-                .catch(err => {
-                    console.log(err);
-                });
-        },
         //新增群組到第二層
         newGroup() {
             let obj = {};
@@ -384,8 +343,8 @@ export default {
             }
         },
         refreshPage() {
-            this.reload();
             this.resetAllTree();
+            this.reload();
         },
         resetAllTree() {
             const url = 'http://localhost:3005/row';
@@ -399,92 +358,58 @@ export default {
             //     .catch(err => {
             //         console.log(err);
             //     });
-        },
-        getAllTree() {
-            const url = 'http://localhost:3005/row';
-            const vm = this;
-
-            this.$http.get(url)
-                .then(res => {
-                    console.log(res);
-                    vm.allTree = res.data;
-                })
-                .catch(err => {
-                    console.log(err);
-                });
-        },
-        // test1() {
-        //     const url = 'http://localhost:3005/row/1';
-        //     let data = this.treeData;
-        //     const vm = this;
-
-        //     data._id = "1";
-
-        //     data.node.forEach(groupHead => {
-        //         groupHead.node.forEach(program => {
-        //             vm.program.forEach(item => {
-        //                 if (item.programGroupId === program.programGroupId) {
-        //                     let find = vm.programLang.find(it => {
-        //                         if (it.programId === item.programId)
-        //                             return true;
-        //                     });
-        //                     if (find) {
-        //                         program.node.push({
-        //                             systemId: find.systemId,
-        //                             programGroupId: item.programGroupId,
-        //                             programId: item.programId,
-        //                             locationNo: item.locationNo,
-        //                             nameTW: find.programNameTW,
-        //                             nameEN: find.programNameEN,
-        //                             node: []
-        //                         });
-        //                     }
-        //                 }
-        //             });
-        //         });
-        //     });
-
-        //     vm.$http.put(url, data)
-        //         .then(res => {
-        //             console.log(res.data);
-        //         })
-        // }
+        }
     },
     computed: {
         //從store.js取得
+        treeData() {
+            return this.$store.state.treeData;
+        },
+        systemGroup() {
+            return this.$store.state.systemGroup;
+        },
         programGroup() {
             return this.$store.state.programGroup;
         },
-        nowName() {
-            return this.$store.state.nowName;
-        },
-        treeProgram() {
-            return this.$store.state.treeProgram;
-        },
-        nowLang() {
-            return this.$store.state.nowLang;
+        program() {
+            return this.$store.state.program;
         },
         programLang() {
             return this.$store.state.programLang;
         },
-        program() {
-            return this.$store.state.program;
+        programAll() {
+            return this.$store.state.programAll;
+        },
+        nowName() {
+            return this.$store.state.nowName;
+        },
+        nowLang() {
+            return this.$store.state.nowLang;
+        },
+        programFilter() {
+            const vm = this;
+
+            let filter = vm.programLang.filter(item => {
+                return item.GRPID === vm.pickedGroup.PROGRAMGROUPID;
+            });
+            
+            return filter;
         },
         //第三層程式顯示過濾(依照system id)
         allProgramFilter() {
             const vm = this;
 
             //如果該群組有程式則需先過濾 否則直接顯示全部程式內容
-            if (vm.treeProgram && vm.treeProgram.length > 0) {
+            if (vm.programFilter && vm.programFilter.length > 0) {
                 //先過濾出相同群組的程式
-                let filters = vm.allProgram.filter(item => {
-                    return item.PROGRAMID.substr(0, 3) === vm.treeProgram[0].systemId;
+                let filters = vm.programAll.filter(item => {
+                    return item.PROGRAMID.substr(0, 3) === vm.programFilter[0].SYSID;
                 });
                 //再過濾掉已經在群組中的程式
                 let sameFilters = filters.filter(item => {
                     let flag = false;
-                    for (let i = 0; i < vm.treeProgram.length; i++) {
-                        if (item.PROGRAMID === vm.treeProgram[i].programId) {
+                    for (let i = 0; i < vm.programFilter.length; i++) {
+                        if (item.PROGRAMID === vm.programFilter[i].PRGID) {
                             flag = false;
                             break;
                         } else
@@ -495,29 +420,24 @@ export default {
                 });
                 return sameFilters;
             } else {
-                return vm.allProgram;
+                return vm.programAll;
             }
         }
     },
     created() {
-        //訂閱getTree並在收到emit值後assign到treeData
-        bus.$on('getTree', tree => { this.treeData = Object.assign({}, tree); });
-        bus.$on('changeToProgramTab', (id, index) => {
+        bus.$on('changeToProgramTab', (id, index, picked) => {
             this.changeTab(id);
             //傳進來的index從1開始
             if (index !== undefined)
-                this.groupIndex = index - 1;
+                this.groupIndex = index;
             else
                 this.groupIndex = index;
+            this.pickedGroup = picked;
         });
-        this.getTreeData();
-        this.getProgramList();
         //頁面reload之後nowLang會變為false 需再讀一次語系設定
         this.$store.dispatch('getNowLang');
-        this.getAllTree();
     },
     beforeDestroy() {
-        bus.$off('getTree');
         bus.$off('changeToProgramTab');
     }
 }

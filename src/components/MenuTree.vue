@@ -8,7 +8,6 @@
 
 <script>
 import GroupTree from './GroupTree.vue';
-import { bus } from '../common/bus';
 
 export default {
   name: 'MenuTree',
@@ -17,104 +16,125 @@ export default {
   },
   data() {
     return {
-      treeData: {
-        nameTW: 'Menu',
-        nameEN: 'Menu',
-        locationNo: 1,
-        id: 1,
-        root: true,
-        group: false,
-        node: []
-      },
+
     };
   },
   methods: {
-    //取得menu tree資料
-    getTree() {
+    //清除所有陣列內容
+    clearArray() {
+      this.$store.dispatch('clearArray');
+    },
+    //取得system資料
+    getSystemGroup() {
       const vm = this;
-      let api = 'http://localhost:3000/row';
+      const url = 'http://localhost:3000/row';
 
-      vm.$store.commit('CLEARPROGRAMGROUP');
-
-      vm.$http.get(api)
+      vm.$http.get(url)
         .then(res => {
-          res.data.forEach((item, index) => {
-            vm.treeData.node.push({
-              nameTW: item.MODULENAMETW,
-              nameEN: item.MODULENAMEEN,
-              locationNo: item.LOCATIONNO,
-              id: item._id,
-              root: false,
-              group: true,
-              node: [],
-            });
-            if (item.PROGRAMHEAD.length > 0) {
-              item.PROGRAMHEAD.forEach(it => {
-                vm.treeData.node[index].node.push({
-                  nameTW: it.PROGRAMGROUPNAMETW,
-                  nameEN: it.PROGRAMGROUPNAMEEN,
-                  systemId: it.SYSTEMID,
-                  programGroupId: it.PROGRAMGROUPID,
-                  locationNo: it.LOCATIONNO,
-                  id: it._id,
-                  root: false,
-                  group: false,
-                  node: [],
-                });
-                vm.$store.commit('SETPROGRAMGROUP', {
-                  nameTW: it.PROGRAMGROUPNAMETW,
-                  nameEN: it.PROGRAMGROUPNAMEEN,
-                  programGroupId: it.PROGRAMGROUPID,
-                  locationGroupHead: index,
-                  locationNo: it.LOCATIONNO,
-                  id: it._id,
-                  root: false,
-                  group: false,
-                  node: [],
-                });
-              });
-            }
-          });
+          vm.$store.dispatch('setSystemGroup', res.data);
         })
         .catch(err => {
           console.log(err);
         });
     },
-    //傳送menu tree資料到第二層畫面
-    sendTreeData() {
-      bus.$emit('getTree', this.treeData);
-    },
-    //menu tree群組位置更新
-    updateTreeData(programGroup, programGroupHead) {
+    //取得group資料
+    getProgramGroup() {
       const vm = this;
-      let headId = 0;
+      const url = 'http://localhost:3001/row';
 
-      let find = vm.treeData.node.find((item, index) => {
-        if (index === programGroupHead) {
-          headId = index;
-          return true;
-        }
-      });
-
-      if (find) {
-        var filter = programGroup.filter(item => {
-          return item.locationGroupHead === headId;
+      vm.$http.get(url)
+        .then(res => {
+          vm.$store.dispatch('setProgramGroup', res.data);
+        })
+        .catch(err => {
+          console.log(err);
         });
 
-        vm.treeData.node[headId].node = filter;
+    },
+    //取得program資料
+    getProgram() {
+      const vm = this;
+      const url = 'http://localhost:3002/row';
+
+      vm.$http.get(url)
+        .then(res => {
+          vm.$store.dispatch('setProgram', res.data);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
+    //取得programLang資料
+    getProgramLang() {
+      const vm = this;
+      const url = 'http://localhost:3003/row';
+
+      vm.$http.get(url)
+        .then(res => {
+          vm.$store.dispatch('setProgramLang', res.data);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
+    //取得programAll資料
+    getProgramAll() {
+      const vm = this;
+      const url = 'http://localhost:3005/row';
+
+      vm.$http.get(url)
+        .then(res => {
+          vm.$store.dispatch('setProgramAll', res.data);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
+    //組成menu tree
+    setTreeData() {
+      const vm = this;
+
+      if (this.systemGroup && this.systemGroup.length > 0 &&
+            this.programGroup && this.programGroup.length > 0 &&
+            this.program && this.program.length > 0 &&
+            this.programLang && this.programLang.length > 0 &&
+            this.programAll && this.programAll.length > 0) {
+        this.$store.dispatch('setTreeData');
       } else {
-        console.log('Not find (NenuTree.vue => updateTreeData)');
+        window.setTimeout(() => {
+          vm.setTreeData();
+        }, 100);
       }
     }
   },
-  created() {
-    this.getTree();
-    bus.$on('sendTreeData', this.sendTreeData);
-    this.$store.dispatch('getProgramLang');
-    bus.$on('sendSortTree', (programGroup, programGroupHead) => { this.updateTreeData(programGroup, programGroupHead); })
+  computed: {
+    treeData() {
+      return this.$store.state.treeData;
+    },
+    systemGroup() {
+      return this.$store.state.systemGroup;
+    },
+    programGroup() {
+      return this.$store.state.programGroup;
+    },
+    program() {
+      return this.$store.state.program;
+    },
+    programLang() {
+      return this.$store.state.programLang;
+    },
+    programAll() {
+      return this.$store.state.programAll;
+    },
   },
-  beforeDestroy() {
-    bus.$off('sendTreeData');
+  created() {
+    this.clearArray();
+    this.getSystemGroup();
+    this.getProgramGroup();
+    this.getProgram();
+    this.getProgramLang();
+    this.getProgramAll();
+    this.setTreeData();
   }
 }
 </script>
